@@ -188,7 +188,7 @@ I learnt some cool stuff about Python and FastAPI, like setting it up and runnin
 
 I set up a Telegram bot for the first time, which was quite cool. I can ask it to give me videos of website articles and it does! This was going to tie into a submission mechanism, which I could do technically, but it wasn't actually necessary for me to feed news in.
 
-<video controls=""><source src="/images/2021/08/sudo-make-me-a-video.m4v" type="audio/mpeg">Your browser does not support the audio element.</video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hwDUMAv_vSM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 It was really interesting running and managing a YouTube channel and seeing what it would take to organically grow it, it's been almost 6 months since I started the project and I only have half the subs I would need to monetize and because Short view time doesn't count, not enough hours by a long way, since 90% of my traffic is shorts.
 
@@ -229,3 +229,6 @@ Thanks for reading this far and here's how close I've come to the YouTube moneti
 
 ![](/images/2021/08/6-growth.png)
 
+And finally if you read this far, some inception! It wasn't the greatest summary, but I'm not vein enough to go back and rig it.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5ScFqcfXJio" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
