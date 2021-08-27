@@ -39,7 +39,7 @@ I had an idea about automation and news. I had a simple premise that I could pro
 Here is the channel I built
 
 <https://www.youtube.com/c/TonyTechnology>
-![](/images/2021/08/the-channel.png)
+![](/images/2021/08/the-channel2.png)
 
 A popular video early on which made me think the project had more legs
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7IvZ7SmWLNk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -132,7 +132,7 @@ This was an interesting part of the project and stumped a lot of my dockerizatio
 
 I replaced the talking head with a spinning logo and got no more snarky comments (for that!), WIN!
 
-![](/images/2021/08/spinning.gif)
+![](/images/2021/08/spinning.webm)
 
 <a name="6">
 
@@ -210,7 +210,7 @@ YouTube API's are great feature wise, but very restrictive with point allocation
 
 I can say that I got really good at dragging and dropping 15 videos at a time into the YouTube upload and then slamming through titles and descriptions, that was me being a cog for the machine for a long portion of the project. After the initial couple hundred videos I was curious about increasing subscription rates and for a long time I was putting on End Cards with a subscription button and a popular article, eventually I swapped channel my watermark for a subscription button and that really made the uploads quicker and easier to manage.
 
-![](/images/2021/08/manual-labour.jpg)
+![](/images/2021/08/manual-labour2.jpg)
 
 <a name="hits">
 
