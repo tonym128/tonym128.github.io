@@ -3,210 +3,229 @@ author: tonym128
 comments: false
 date: 2021-08-25 23:15:47+00:00
 layout: post
-link: https://ttech.mamacos.media/2021/08/29/the-time-i-uploaded-3000-videos-to-youtube/
+link: https://ttech.mamacos.media/2021/08/25/the-time-i-uploaded-3000-videos-to-youtube/
 slug: the-time-i-uploaded-3000-videos-to-youtube
 title: The Time I Uploaded 3000 videos to YouTube
 wordpress_id: 300
 ---
+{% include open-embed.html %}
 
 # Table of Contents
 
 1. [Synopsis](#synopsis)
 2. [The goal](#goal)
 3. [Nailing the goals one by one](#nailing)
-4. [Assortment of games to play](#games)
+4. [What did I get wrong](#wrong)
+4. [What did I get right](#right)
+4. [What did I learn](#learn)
 5. [Where to from here](#where)
 
 <a name="synopsis">
 
 # Synopsis
 
-![](/images/2021/06/esp32_arduboy.webp)
+![](/images/2021/08/1-metrics-overview.png)
 
-A simple games console for some fun, with some cheap components and minimal experience necessary to get going to make and play games.
+The story of the automation journey I went on to create an entire YouTube channel with 3000 videos, over 300,000 views and over 500 subscribers in 6 months. (PS. I didn't advertise of cheat for subs or views)
+
+A completely true and not too sensationalist title for my project that got a bit out of control and while it was meant to be a man automating the machine project, at some points, I felt like I was a cog doing the machines work.
 
 <a name="goal">
 
 ## The Goal
 
-I set out to make a easy minimal effort Arduboy game console. The design goals were
+I had an idea about automation and news. I had a simple premise that I could programmatically create a daily video showcasing a lot of different news articles from different sources for the day. The idea was about curating content from the web, summarising pertinent facts and putting it all together in a news show type format, content on one side and someone on the side talking through it as if it was a real person.
 
--   Cheap and simple
--   TV output
--   Nice controls
--   Assortment of fun games to play
+Here is the channel I built
 
-I am quite comfortable working with ESP32 and Arduboy code now and thought it would be a fun project to push myself to learn a few new things.
+<https://www.youtube.com/c/TonyTechnology>
+![](/images/2021/08/the-channel.png)
+
+A popular video early on which made me think the project had more legs
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7IvZ7SmWLNk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <a name="nailing">
 
-## Nailing the goals one by one
+### The Pieces I needed to cover
+- [Find interesting articles](#1)
+- [Create a video of the article for something to look at](#2)
+- [Create a summary of the article for something to read](#3)
+- [Text to speech the summarised article](#4)
+- [Create a machine learning model of a human head talking to the video](#5)
+- [Put all the bits together to make it work.](#6)
 
-### Cheap and Simple
+Or [Skip to What I got wrong](#wrong)
 
-KISS - Keep it simple stupid.
+<a name="1">
 
-Pretty much the only big product to purchase is this
+### Find interesting articles
+Initially I was looking at HackerNews and thought it would be great to highlight some of their articles, I quickly found an API that they allow access to and was able to grab some interesting articles. After the initial work on this, I built an RSS reader which was able to iterate through the articles and create the video. On the back of this, I found the Google Search Alerts, which are able to create RSS feeds for searches, which was great for finding content dynamically from around the web based around a search term.
 
-<http://www.lilygo.cn/prod_view.aspx?TypeId=50033&Id=1126&FId=t3:50033:3>
-![](/images/2021/06/ttgo.webp)
+<https://github.com/HackerNews/API>
+![](/images/2021/08/hacker-news.png)
 
-The TTGO T-Display ESP32, this board was actually cheaper than a lot of boards without a display at the time I bought it, but almost any ESP32 board will do.
+<https://en.wikipedia.org/wiki/RSS>
+![](/images/2021/08/rss.png)
 
-I have kept building controls over and over and this time I was hoping I could leverage some of the extra hardware in the ESP32 for this purpose. I chose a PS3 controller, any wireless generic PS3 controller should be perfect.
+<a name="2">
 
-You will need some RCA jacks as well, I went with the female header so that I could quickly and easily run back and forth between the TV and my PC and a male to male extension cable to leave the back plugged into the TV as well... Eventually I did get a RCA to HDMI convertor and hooked it up to my second monitor, I am quite happy with the device and less turn around time between flashing and testing.
+### Create a video of the article for something to look at
+I had hoped to find something off the shelf to do this which I could easily integrate, but I actually ended up rolling up something pretty custom. On a unix machine I start up the QT browser engine and then create a very high quality screenshot of the website, once I have that I can create a scrolling video using the image as an input to ffmpeg with some fancy options.
 
-### TV Output
+![](/images/2021/08/screenshot.png)
 
-TV output was the first and foremost thing I really wanted to learn a bit more about. There was an awesome video by Bitluni on the subject
-![](/images/2021/06/tvoutput.webp)
+<a name="3">
 
-<https://bitluni.net/esp32-composite-video>
+### Create a summary of the article for something to read
+Once again some quick searches got me to an awesome python library which was able to summarise articles for me. I provide full text to the summariser and it returns suggested content. There was a bit of tuning back and forth and eventually I found a sweet spot for generating content which was under 60 seconds long per article using the title then a 2 sentences summary
 
-And his code here
+Here's an example of the generated description along with the video creation process. The first line is the title, I then provide the link for attributation, and then the automatically generated summary and finally some more details about where the article came from and finally the #Shorts tag for YouTube, which was originally needed to flag videos for Shorts, but I don't believe it is anymore.
 
-<https://github.com/bitluni/ESP32CompositeVideo>
+```
+Electric cars have much lower life cycle emissions, new study confirms
 
-I got this up and running and that was really cool to see some actual video signals I was sending from a bare ESP32 to the TV.
+https://arstechnica.com/?p=1784275
+If you listen to electric vehicle naysayers, switching to EVs is pointless because even if the cars are vastly more efficient than ones that use internal combustion engines—and they are—that doesn't take into account the amount of carbon required to build and then scrap them.Advertisement Assuming the four regions stick to officially announced decarbonization programs, in 2030 the gap widens in favor of BEVs, even accounting for more efficient engine technologies and fuel production.
+Found via Ars Technica RSS Feed : 
+https://feeds.arstechnica.com/arstechnica/index
+Check it out for this and other awesome articles
 
-There were a few issues with the unmodified code, it is actually meant for an ESP32 with PSRAM, which augments the 520kb normally available with up to another 8mb!
+#Shorts
 
-The issue was that doing colour uses a lot of space and with the library and the way it works, it has VERY tight timing requirements, so you actually use a double buffer, which means while you're drawing the one buffer (screen), you work on updating the other buffer. At the point where you complete rendering to the one buffer, you swap it out and then display that one, and start drawing to the alternate one. This allows you to continuously render the one buffer to the TV while the game is working on the next frame.
 
-I got around the size limit I was facing by moving from colour to black and white, which made the buffer 8 times smaller from a byte to a bit... so we're back in the game :)
+```
+<a name="4">
 
-Another interesting problem with generating a TV signal is that it requires very tight timing constraints being met, and with the ESP32 having 2 cores, I got around this issue by mentally dedicating one of the cores to the TV signal.
+### Text to speech the summarised article
+Carrying on with the process of finding interesting python modules, I found a great one to take my audio and convert it into speech, it's free and provided by Google and has a very slow and unique voice that I find infuriatingly easy to listen to. It's very understandable and is easy to use, but has literally no customisation. There's some amazing research going on in this area and I tried about 20 different text to speech engines that I could run locally on my machine and while some where super customisable and others sounds phenomenal, none of them was as good as slowly and methodically sounding out the words one at a time like the first TTS engine I tried.
 
-I could have gone another route, and got an ESP32 with the PSRAM, most camera modules have them as they chew up way more than 520kb quite often, though referring back to my original Cheap and Easy goal the 'bare' ESP32 without the extra ram is a lot easier to get hold of.
+Speech Generation in use
+<audio controls=""><source src="/images/2021/08/original-voice-better-pronounce.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>
 
-![](/images/2021/06/ttgo_clipped.webp)
+Prototype not in use (Better voice but worse vocabulary)
+<audio controls=""><source src="/images/2021/08/better-voice-worse-vocab.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>
 
-![](/images/2021/06/ttgo_soldered.webp)
+Basically Core eee5 vs Core I5 broke me, I couldn't switch, there's Ram later vs R-A-M which was the 2nd nail in the coffin.
 
-### Nice Controls
+I did some very fun work with finding out about languages and phonemes and actually tried to build my own text to speech engine from my voice. I recorded long spoken paragraphs of my voice onto my PC and then used some speech to text libraries to identify the phonemes I was saying in each work and snuck the pieces into separate files, which I would add back together later. Using a text string and identifying the phonemes in the word, I could grab each of these discrete little words and put it back together to form the words I wanted. It was honestly one of the scariest things I've heard, if you can imagine a ransom letter with the different letter cutouts from a magazine as a voice, this was it!
 
-The choice I originally made was to go Bluetooth, it gets a few goals of mine in place, it's good controls, the hardware is built into the ESP32 (though some software hackery is needed) and since we're doing TV output, it'll give us some range to hit the couch while we play.
+Word Level Speech Generation
+<audio controls=""><source src="/images/2021/08/generation-word-level.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>
 
-I happen to have a derelict PS3 and 2 controllers for it, so after messing around with some original Bluetooth peripherals I decided to see about using these.
+Phoneme Level Speech Generation
+<audio controls=""><source src="/images/2021/08/generation-terrifying.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>
 
-The PS3 controller is a fascinating case of almost there, technically it uses Bluetooth but has a custom pairing process via the serial numbers.
+I honestly still laugh at the horror of that above audio clip everytime I listen to it
 
-Using this library <https://github.com/jvpernis/esp32-ps3>
+<a name="5">
 
-I hooked up my PS3 controller to my PC and set it's serial number using the SixAxisPair tool to 01:02:03:04:05:06 (very original I know!)
+### Create a machine learning model of a human head talking to the video
+I found some amazing research papers which let me generate a video of a person talking from a static image and an audio file. I think it looked amazing and added quite a lot of dynamic appeal to my videos, though the final consensus from 3000 videos and over 100,000 views was that I should remove it as it was in the uncanny valley, her one eye was always shut and it distracted from the comments. That is a profanity free, very short, summary of the comments I got about my ML speaking face!
 
-I got it from here which this website, which seems legit ... <https://sixaxispairtool.en.lo4d.com/windows>
+The AI generated face, which was then animated by the ML algorithm to the audio
+![](/images/2021/08/female1.jpg)
 
-![](/images/2021/06/sixaxispair.webp)
+Talking head in action (same video as earlier)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/7IvZ7SmWLNk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-One thing to be aware of when kicking off an ESP32 project with Wifi and Bluetooth is that the libraries are huge! You blast about 1Mb of your ROM just to get the BT and Wifi stack, I believe there are lighter ones available, but not that I could get working with Arduino.
+This was an interesting part of the project and stumped a lot of my dockerization attempts. I initially got the ML code up and running on my windows machine with CUDA on Anaconda, which was surprisingly simple and easy, though proved for some reason impossible for me to port to a docker machine or my linux machine... I could have possibly put more effort into it, but with the comments and the snags I kept hitting, it was easier to ditch it in the end.
 
-With this done I was up and away with input and output working!
+I replaced the talking head with a spinning logo and got no more snarky comments (for that!), WIN!
 
-Now where are my games!
+![](/images/2021/08/spinning.gif)
 
-<a name="games">
+<a name="6">
 
-# Assortment of games to play
-The Arduboy has brought me a world of fun up to this point already, from it being the first real hardware I put on a breadboard and then soldered onto a protoboard and building my own ESP32 version and finally doing a TV out version now. I'm very happy with the amount of fun I've had an in and around this eco-system. I even built a game I'm quite proud of Game Plug ArduRacer https://community.arduboy.com/t/arduracer-a-trackmania-type-time-trial-game/8850 , it has smooth scrolling, a zoom in start line and 10 levels as features!
+### Put all the bits together to make it work.
+The glue code around everything ended up being mostly about breaking up the project into loosly coupled functional pieces of code, every step led into another step. Having the news articles led into creating the scrolling videos and summarising the content, straight into the audio generation and ML video generation.
 
-![](/images/2021/06/arduracer1.webp)
+![](/images/2021/08/sudo-make-video.png)
 
-![](/images/2021/06/arduracer2.webp)
+<a name="wrong">
 
-An early console prototype (wrong chip, but I promise I had a pretty similar Arduino Pro Micro one with buttons).
+# What did I get wrong
 
-![](/images/2021/06/esp8266gameconsole.webp)
+![](/images/2021/08/sqlite.jpg)
 
-The actual process of getting it up and running was quite fun.
+I think the toughest bits were the things I didn't do upfront and having to retrofit them later, things that stuck out were adding in a database later and trying to decouple the steps which were inherently tied into certain files existing on disk. The database seemed like overkill initially, but once I was processing 50 videos a day it became an intricate part of the process of monitoring and avoiding duplication.
 
-Originally I tried with Mr Blinky's library
+![](/images/2021/08/logging.jpg)
 
-https://github.com/MrBlinky/Arduboy-homemade-package
+That leads into monitoring itself, where I felt I had some failings initially, it's something I thought I could wing my way through, but as always I was wrong, every bug ends up being 10 times harder to debug without logging, I'll excuse myself slightly since it's a personal project, but a small slap on the wrist to remember next time.
 
-It's great and does the trick for a lot of different types of Arduboy's on different screens and different pin out for Arduino's. After a bunch of false starts, I found the ESP8266 conversion for ESPBoy https://www.espboy.com/
+![](/images/2021/08/docker.png)
 
-Once I grabbed this, the first thing I do is always get it up and running on the hardware it's built for, so I grabbed an ESP8266, a compatible screen and breadboard it all and worked on it until I got it up and running (and then played some games for a while)
+Dockerise upfront, I love local development, but keeping parity with a remote build is a great idea. Not losing track of dependencies and settings, it's a bit hard to do when you're in flux with development and proof of concepts, but remember to go back once you've got it working and make sure you get it working again.
 
-With this done, the next steps was to replace the processor, there were a lot of changes, but mostly removing and changing libraries. I'll list some highlights
+<a name="right">
 
-- PROGMEM isn't a thing on ESP32, remove references
-- avr/pgmspace.h has moved to pgmspace.h on ESP32
-- EEPROM isn't great and has to be worked
-- Tones didn't work, had to rework the code and it's still a bit hacky
-- Changed the controls to use the PS3 controller
-- Change the output code quite substantially to be threaded and output to the TV
-- Because of needing threading, I had to modify the code of every game!
+# What did I get right
 
-**PROGMEM** - This was kinda easy, all you need to do is #define PROGMEM to mean nothing and et viola, done
+![](/images/2021/08/2-video-count-its-over-3000.png)
 
-![](/images/2021/06/progmem.webp)
+Well I did manage to get over 500 subscribers and upload over 3000 videos to YouTube. I'm going to put those under the WIN! category for a small personal project.
 
-**avr/pgmspace.h** - I was a bit lazy and did a full search and replace in Visual Studio Code over the whole folder, this took care of this quick quick
+![](/images/2021/08/pivot.jpeg)
 
-**Tones** - I wrote some hacky code that works great for Catacombs of the Damned, which I love! Some other games struggle with it unfortunately... I should look into it more later
+I had a successful pivot before even going live, just after I started the project YouTube Shorts was just kicking off, which actually fitted the project really well and I decided to generate single short videos.
 
-**EEPROM** - I got this working well enough for during the game to have it stored, but in reality it needs a full blown implementation, I would love it know which game is running and store and EEPROM file on the SPIFFS partition, which is more like a file system and allows files, possibly a format which matched the game name and would store that particular games EEPROM in a files on the SPIFFS so it would never get overwritten. TBC
+![](/images/2021/08/python.jpg)
+![](/images/2021/08/fastapi.png)
 
-**PS3 Controller hookup** - The PS3 library actually has a notify check which runs every so often and I just hooked this to store it's values in some global variables then I was able to use this in the Arduboy2Core::buttonsState procedure to set the values.
+This was the first time I wrote a relatively large Python application and I decided to use FastAPI to drive it. FastAPI is amazing, and it was so much fun to work with. I will definitely be using it on future projects. It was easy, intuitive and worked great out of the box, I can see myself writing services using FastAPI for strict domain boundaries and trying to build out functionality in independant pieces I may re-use in the future.
 
-**TV Output** - The Arduboy has it's own framebuffer and I would have ideally have used this to avoid code duplication and copying, but it has a slightly weird format of horizontal stripes. The buffer mimics the way you write to the screen which is a couple horizontal pixels at a time, and this made it quite hard to work with for my TV output code, so I have a process that I put into Arduboy output code and instead of outputing to the screens, it prepares the buffers and handles the swapping of buffers with a lock. There is a thread running the whole time just doing the TV output using the currently set output buffer, which will pick up the changes whenever they're ready.
+![](/images/2021/08/little-boxes.jpg)
 
-Modify the code of every game - This was actually quite entertaining, since it's meant to be source compatible I wanted to find a way to modify every Arduboy game, I worked through quite a few solutions. But let me setup the premise first.
+Breaking up the project into snippets and loosely coupling them made things more mentally manageable early on and moved faster later on.
+For instance I added features later to skip certain websites, because they never resulted in good scrolling videos *cough* Twitter and BBC *cough*
+Tagging was a fun feature that snuck in quite easily, just a list of words that were searched for, then added to the start of the description with a hash.
+By neccesity I added banned words to avoid getting a strike on the account, merely posting an article that mentioned the word sex, got me a community strike for a week, which killed all my YouTube Short traffic, even with me contesting it and getting it over turned.
 
-I needed to add the initialization code for the threading, the TV output code is very time sensitive for the NTSC signal it's generating, so I wanted that to have a whole core to itself. The Wifi and Bluetooth code also runs by default on the one core which is in use by default. This proved problematic for the TV output, so I wanted it on a different core.
+<a name="learn">
 
-***First try*** - Modify the games manually this was a pain to do and wasn't maintainable or scalable for all the games.
+# What did I get learn
+I learnt some cool stuff about Python and FastAPI, like setting it up and running it, a lot of learning around what NOT to do from the async perspective.
 
-***Second try*** - Replace the main ino file with my own, while renaming the ino to mytvgame.cpp or some such, I was able to get away with this with one or two games, but then had a few problems for a few reasons. Ino files are like a global namespace and functions can be defined in any order you like (as if you specified them in an imported header) but when I programatically generated the header files I start encountering many more errors. Here's the single source file which actually was able to make headers from my Arduino INO file https://fossil-scm.org/home/doc/trunk/src/makeheaders.html once they were copied into CPP files.
+I set up a Telegram bot for the first time, which was quite cool. I can ask it to give me videos of website articles and it does! This was going to tie into a submission mechanism, which I could do technically, but it wasn't actually necessary for me to feed news in.
 
-***Third try*** - Actually all I need is to rename the setup() and loop() to something else and make my own startup and loop methods which call those!
+<video controls=""><source src="/images/2021/08/sudo-make-me-a-video.m4v" type="audio/mpeg">Your browser does not support the audio element.</video>
 
-I have been having a lot of fun with Python lately and decided to script it out in there. First things first, go through all the GAMES directories looking for a.ino file which matches the folder name (it's an Arduino IDE restriction I've never understood, but thanks!)
+It was really interesting running and managing a YouTube channel and seeing what it would take to organically grow it, it's been almost 6 months since I started the project and I only have half the subs I would need to monetize and because Short view time doesn't count, not enough hours by a long way, since 90% of my traffic is shorts.
 
-Once you've found the files, take a backup (always take a backup!). Then a copy to a file I'm willing to modify, I run a few changes
+Even with over 1000 hours on record, only 100ish was not from Shorts, which is excluded.
 
-![](/images/2021/06/python_converter.webp)
+![](/images/2021/08/3-dont-call-us.png)
 
-In the end once it's done all the run of the mill changes, it creates a new ino file with my new setup and loop which calls the renamed game setup and loop methods once it's done it's stuff
+News articles don't really generate a lot of continued view uptick after their initial spike in the zeitgeist
 
-![](/images/2021/06/game_loop.webp)
+![](/images/2021/08/4-not-really-organic-growth.png)
 
-My setup runs the game setup code and sets up the thread for the game logic loop.
+The shorts don't really make people stick around that long, I swear I get swiped left quite quickly quite often, but I am personally a bit ruthless when I do these things too
 
-I could do almost anything I wanted in here, currently it's just trying to do the Over The Air updates, but a flash menu could possibly be added later and if we had a SD card, you could have multiple games on the device
+![](/images/2021/08/5-please-stay-longer.png)
 
-You will see the loop is just a delay method. It doesn't need to do anything the gameLogicLoop thread takes care of running the original loop code.
+YouTube API's are great feature wise, but very restrictive with point allocations, you can only upload very few videos a day with the API and it was quite pedantic about making me sign in almost every time I used it, so while I got it working, I did give up on it soon in, due to the amount of videos I wanted to upload daily. I was at one point doing manual uploads, then name matching my videos to update the titles and descriptions, because it used less points per call, it really felt a bit draconian.
 
-A nice feature in this was to actually make it runnable multiple (kinda idempotent) so everytime you run it, it will modify the original files and not the already changed ones, this helped a lot with quick iterations on it.
+![](/images/2021/08/please-sir-some-more.jpg)
+
+I can say that I got really good at dragging and dropping 15 videos at a time into the YouTube upload and then slamming through titles and descriptions, that was me being a cog for the machine for a long portion of the project. After the initial couple hundred videos I was curious about increasing subscription rates and for a long time I was putting on End Cards with a subscription button and a popular article, eventually I swapped channel my watermark for a subscription button and that really made the uploads quicker and easier to manage.
+
+![](/images/2021/08/manual-labour.jpg)
+
+<a name="hits">
+
+# What were the video hits and misses
+I felt like I was really at the mercy of the algorithm, you always hear the popular YouTubers talk about it and yeah I'm not on the same scale, but it felt really random when a video would hit or not hit. With that said, the Tesla and SpaceX videos which I grab specifically from a Google RSS feed actually generate a lot of popular articles from anything that gets indexed by Google.
 
 <a name="where">
 
 # Where to from here
 
-You can take a look at all of my code if you're interested in poking around
+I think I'm close to closing the project out, I was really happy with the time I spent on it learning about Python, Bash Scripting, FFMPEG, Machine Learning frameworks, YouTube, Docker, Text to Speech Engines and driving the operating system with automation like Selenium and QT scripts.
 
-<https://github.com/tonym128/ESP32_Arduboy>
+It was a lot to take in and I think I'll carry quite a few things onto the next project, I don't think I'm quite ready to take on the YouTube world as a paid monetised creator, but it was definitely a fun few steps in that direction.
 
-This project is all currently under the tvout branch
+Thanks for reading this far and here's how close I've come to the YouTube monetised creator goal as of near end of August 2021!
 
-I've had this running on a BSides Cape Town 2019 Badge, where I detailed the software for the badge project itself here.
+![](/images/2021/08/6-growth.png)
 
-<https://ttech.mamacos.media/2019/12/15/making-a-badge.html>
-
-An ESP32 E-Paper display
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/UsU7p2SeZJs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-Dark and Under on the E-Paper Board and the BSides Cape Town 2019 Badge
-
-And now with the TV output with PS3 controller as what I believe is the simplest and quickest way to get going with this and have some fun.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JAzbY3VLw6E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-I hope you found some interesting bits in this journey with me and if you would like to chat to anything about this, give me a shout, I'll be happy to engage.
-
-Until then I'll be playing some Catacombs of the Damned.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ZgZ1MNB7YgE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
