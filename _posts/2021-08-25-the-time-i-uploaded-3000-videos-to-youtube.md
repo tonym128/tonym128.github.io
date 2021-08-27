@@ -65,14 +65,14 @@ Initially I was looking at HackerNews and thought it would be great to highlight
 ![](/images/2021/08/hacker-news2.jpg)
 
 <https://en.wikipedia.org/wiki/RSS>
-![](/images/2021/08/rss.png)
+![](/images/2021/08/rss2.png)
 
 <a name="2">
 
 ### Create a video of the article for something to look at
 I had hoped to find something off the shelf to do this which I could easily integrate, but I actually ended up rolling up something pretty custom. On a unix machine I start up the QT browser engine and then create a very high quality screenshot of the website, once I have that I can create a scrolling video using the image as an input to ffmpeg with some fancy options.
 
-![](/images/2021/08/screenshot.png)
+![](/images/2021/08/screenshot2.png)
 
 <a name="3">
 
@@ -139,7 +139,7 @@ I replaced the talking head with a spinning logo and got no more snarky comments
 ### Put all the bits together to make it work.
 The glue code around everything ended up being mostly about breaking up the project into loosly coupled functional pieces of code, every step led into another step. Having the news articles led into creating the scrolling videos and summarising the content, straight into the audio generation and ML video generation.
 
-![](/images/2021/08/sudo-make-video.png)
+![](/images/2021/08/sudo-make-video2.png)
 
 <a name="wrong">
 
