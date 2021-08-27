@@ -62,7 +62,7 @@ Or [Skip to What I got wrong](#wrong)
 Initially I was looking at HackerNews and thought it would be great to highlight some of their articles, I quickly found an API that they allow access to and was able to grab some interesting articles. After the initial work on this, I built an RSS reader which was able to iterate through the articles and create the video. On the back of this, I found the Google Search Alerts, which are able to create RSS feeds for searches, which was great for finding content dynamically from around the web based around a search term.
 
 <https://github.com/HackerNews/API>
-![](/images/2021/08/hacker-news.png)
+![](/images/2021/08/hacker-news2.jpg)
 
 <https://en.wikipedia.org/wiki/RSS>
 ![](/images/2021/08/rss.png)
