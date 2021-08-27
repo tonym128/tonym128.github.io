@@ -39,7 +39,7 @@ I had an idea about automation and news. I had a simple premise that I could pro
 Here is the channel I built
 
 <https://www.youtube.com/c/TonyTechnology>
-![](/images/2021/08/the-channel2.png)
+![](/images/2021/08/the-channel2.jpg)
 
 A popular video early on which made me think the project had more legs
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7IvZ7SmWLNk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
