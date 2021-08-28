@@ -26,7 +26,7 @@ wordpress_id: 300
 
 ![](/images/2021/08/1-metrics-overview.png)
 
-The story of the automation journey I went on to create an entire YouTube channel with 3000 videos, over 300,000 views and over 500 subscribers in 6 months. (PS. I didn't advertise of cheat for subs or views)
+The story of the automation journey I went on to create an entire YouTube channel with 3000 videos, over 300,000 views and over 500 subscribers in 6 months. (PS. I didn't advertise or cheat for subs or views)
 
 A completely true and not too sensationalist title for my project that got a bit out of control and while it was meant to be a man automating the machine project, at some points, I felt like I was a cog doing the machines work.
 
@@ -229,6 +229,6 @@ Thanks for reading this far and here's how close I've come to the YouTube moneti
 
 ![](/images/2021/08/6-growth.png)
 
-And finally if you read this far, some inception! It wasn't the greatest summary, but I'm not vein enough to go back and rig it.
+And finally if you read this far, some inception! It wasn't the greatest summary, but I'm not vain enough to go back and rig it.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/5ScFqcfXJio" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
