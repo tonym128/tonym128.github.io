@@ -208,7 +208,7 @@ YouTube API's are great feature wise, but very restrictive with point allocation
 
 ![](/images/2021/08/please-sir-some-more.jpg)
 
-I can say that I got really good at dragging and dropping 15 videos at a time into the YouTube upload and then slamming through titles and descriptions, that was me being a cog for the machine for a long portion of the project. After the initial couple hundred videos I was curious about increasing subscription rates and for a long time I was putting on End Cards with a subscription button and a popular article, eventually I swapped channel my watermark for a subscription button and that really made the uploads quicker and easier to manage.
+I can say that I got really good at dragging and dropping 15 videos at a time into the YouTube upload and then slamming through titles and descriptions, that was me being a cog for the machine for a long portion of the project. After the initial couple hundred videos I was curious about increasing subscription rates and for a long time I was putting on End Cards with a subscription button and a popular article, eventually I swapped my channel watermark for a subscription button and that really made the uploads quicker and easier to manage.
 
 ![](/images/2021/08/manual-labour2.jpg)
 
