@@ -11,6 +11,8 @@ tags:
 - hacking
 - raspberry pi
 ---
+{% include open-embed.html %}
+{% include gtag.html %}
 
 ## The problem
 

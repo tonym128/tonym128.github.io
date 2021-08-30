@@ -10,6 +10,9 @@ wordpress_id: 105
 tags:
 - vr
 ---
+{% include open-embed.html %}
+{% include gtag.html %}
+
 ![](/images/2018/03/VR-Headline.jpeg)
 
 I have always been fascinated by [Virtual Reality.](https://en.wikipedia.org/wiki/Virtual_reality) It was always depicted as the future in media, the place we wanted to be but weren't yet.

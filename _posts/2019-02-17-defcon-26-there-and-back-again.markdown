@@ -8,7 +8,8 @@ slug: defcon-26-there-and-back-again
 title: DefCon 26 There and back again
 wordpress_id: 256
 ---
-
+{% include open-embed.html %}
+{% include gtag.html %}
 
 ![](/images/2019/02/DefCon26.jpg)DefCon 26
 

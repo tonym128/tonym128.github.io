@@ -13,6 +13,8 @@ tags:
 - graphics
 - programming
 ---
+{% include open-embed.html %}
+{% include gtag.html %}
 
 I was surprised that [Ray tracing](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)) made a massive resurgence at [GDC 2018](http://www.gdconf.com/aboutgdc/).
 

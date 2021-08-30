@@ -13,6 +13,8 @@ tags:
 - gpu
 - mining
 ---
+{% include open-embed.html %}
+{% include gtag.html %}
 
 ![BitCoin](/images/2018/01/blockchain-3041480_640.jpg){:class="img-responsive"}
 

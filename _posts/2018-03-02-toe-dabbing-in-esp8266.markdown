@@ -12,6 +12,8 @@ tags:
 - hardware
 - iot
 ---
+{% include open-embed.html %}
+{% include gtag.html %}
 
 
 

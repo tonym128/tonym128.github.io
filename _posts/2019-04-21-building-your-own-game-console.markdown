@@ -8,9 +8,8 @@ slug: building-your-own-game-console
 title: Building your own game console
 wordpress_id: 290
 ---
-
-
-
+{% include open-embed.html %}
+{% include gtag.html %}
 
 ## That's quite a sensationalist title!
 

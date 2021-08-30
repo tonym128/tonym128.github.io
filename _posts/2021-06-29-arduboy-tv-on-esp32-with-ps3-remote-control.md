@@ -8,6 +8,8 @@ slug: arduboy-tv-on-esp32-with-ps3-remote-control
 title: Arduboy TV on ESP32 with PS3 Remote Control
 wordpress_id: 291
 ---
+{% include open-embed.html %}
+{% include gtag.html %}
 
 # Table of Contents
 

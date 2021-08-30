@@ -8,6 +8,8 @@ slug: making-a-badge
 title: BSides Cape Town 2019 Making a badge
 wordpress_id: 290
 ---
+{% include open-embed.html %}
+{% include gtag.html %}
 
 <video controls="controls" autoplay="autoplay" loop="loop" width="768" height="512">
 	<source src="/images/2019/11/badge_fire.mp4" type="video/mp4">

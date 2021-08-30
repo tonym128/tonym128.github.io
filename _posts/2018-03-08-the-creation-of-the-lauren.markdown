@@ -12,6 +12,9 @@ tags:
 - github
 - programming
 ---
+{% include open-embed.html %}
+{% include gtag.html %}
+
 ![](/images/2018/03/Lauren.png)
 
 For me, the best part of finishing a project is making people's tedious problems into non-entities.

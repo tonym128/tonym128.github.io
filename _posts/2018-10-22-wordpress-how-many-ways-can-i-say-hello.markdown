@@ -13,9 +13,8 @@ tags:
 - cloud
 - wordpress
 ---
-
-
-
+{% include open-embed.html %}
+{% include gtag.html %}
 
 I find it funny that I can write programs that can calculate risk on a share portfolio, do heavy math calculations on tiny hardware devices, help write programs that massive enterprise businesses use to stock take , but putting up my first WordPress blog, was just as massive en devour to get something I was happy with.
 

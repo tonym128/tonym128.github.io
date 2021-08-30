@@ -10,6 +10,8 @@ wordpress_id: 132
 tags:
 - people
 ---
+{% include open-embed.html %}
+{% include gtag.html %}
 
 This is a follow on to another blog I wrote, [What I learnt from interviewing 50 people in a year](/2018/04/10/what-i-learnt-from-interviewing-over-50-people-in-a-year/), to detail a bit more in depth some of the do's and don'ts that I found in interviewing and training interviewers.
 
