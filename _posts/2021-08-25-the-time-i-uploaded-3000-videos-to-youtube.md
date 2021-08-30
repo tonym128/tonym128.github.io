@@ -24,6 +24,9 @@ wordpress_id: 300
 <a name="synopsis">
 
 # Synopsis
+If you would prefer to watch me rambling about it, take a look here
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4nIF26kX1Ko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ![](/images/2021/08/1-metrics-overview.png)
 
