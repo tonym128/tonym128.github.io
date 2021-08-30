@@ -9,6 +9,7 @@ title: The Time I Uploaded 3000 videos to YouTube
 wordpress_id: 300
 ---
 {% include open-embed.html %}
+{% include gtag.html %}
 
 # Table of Contents
 
