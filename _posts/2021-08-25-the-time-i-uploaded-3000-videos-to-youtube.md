@@ -184,7 +184,7 @@ By neccesity I added banned words to avoid getting a strike on the account, mere
 
 <a name="learn">
 
-# What did I get learn
+# What did I learn
 I learnt some cool stuff about Python and FastAPI, like setting it up and running it, a lot of learning around what NOT to do from the async perspective.
 
 I set up a Telegram bot for the first time, which was quite cool. I can ask it to give me videos of website articles and it does! This was going to tie into a submission mechanism, which I could do technically, but it wasn't actually necessary for me to feed news in.
