@@ -24,15 +24,15 @@ wordpress_id: 300
 <a name="synopsis">
 
 # Synopsis
-If you would prefer to watch me rambling about it, take a look here
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/4nIF26kX1Ko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ![](/images/2021/08/1-metrics-overview.png)
 
 The story of the automation journey I went on to create an entire YouTube channel with 3000 videos, over 300,000 views and over 500 subscribers in 6 months. (PS. I didn't advertise or cheat for subs or views)
 
 A completely true and not too sensationalist title for my project that got a bit out of control and while it was meant to be a man automating the machine project, at some points, I felt like I was a cog doing the machines work.
+
+If you would prefer to watch me talking about this article and the project.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4nIF26kX1Ko" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <a name="goal">
 
