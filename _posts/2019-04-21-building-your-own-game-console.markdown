@@ -558,21 +558,7 @@ _There is a built in font with help functions, specifically built for the screen
 **Text scrolling helper**  
 _Nice easy way to get your story on screen and going. See the full video of BFlight below._
 
-
-
-
-
-
-
-
-https://youtu.be/wtsBz0ch2IA
-
-
-
-
-
-
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wtsBz0ch2IA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **Fully Open-Source**  
 _All the code is available online [here](https://github.com/tonym128/ESP8266GameOn)_[ ](https://github.com/tonym128/ESP8266GameOn)
