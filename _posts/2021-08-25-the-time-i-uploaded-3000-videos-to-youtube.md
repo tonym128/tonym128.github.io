@@ -192,8 +192,6 @@ I learnt some cool stuff about Python and FastAPI, like setting it up and runnin
 
 I set up a Telegram bot for the first time, which was quite cool. I can ask it to give me videos of website articles and it does! This was going to tie into a submission mechanism, which I could do technically, but it wasn't actually necessary for me to feed news in.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hwDUMAv_vSM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 It was really interesting running and managing a YouTube channel and seeing what it would take to organically grow it, it's been almost 6 months since I started the project and I only have half the subs I would need to monetize and because Short view time doesn't count, not enough hours by a long way, since 90% of my traffic is shorts.
 
 Even with over 1000 hours on record, only 100ish was not from Shorts, which is excluded.
