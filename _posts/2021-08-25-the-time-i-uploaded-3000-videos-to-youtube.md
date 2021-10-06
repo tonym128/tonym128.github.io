@@ -233,6 +233,6 @@ Thanks for reading this far and here's how close I've come to the YouTube moneti
 
 ![](/images/2021/08/6-growth.png)
 
-And finally if you read this far, some inception! It wasn't the greatest summary, but I'm not vain enough to go back and rig it.
+And finally if you read this far, some inception! Here's an auto-generated video of this article.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5ScFqcfXJio" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q6gOjiQ9CIY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
