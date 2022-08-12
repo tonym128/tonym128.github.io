@@ -21,14 +21,11 @@
 title: ttech
 email: tmamacos@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-    Opinions are my own and not the views of my employer.
-    
-    Technology Adventures in new, upcoming and unexplored things. I am an avid fan of technology in my
+    Opinions are my own and not the views of my employer. I endevour to show technology adventures in new, upcoming and unexplored things. I am an avid fan of technology in my
     personal and professional life. I like to explore the latest and greatest tech, preferably in the Open
     Source space. Also on the radar are gaming technology and most things to do with graphics.
     Hardware and on the side I tinker a bit with some hardware technology.
 
-    
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: tonym128
