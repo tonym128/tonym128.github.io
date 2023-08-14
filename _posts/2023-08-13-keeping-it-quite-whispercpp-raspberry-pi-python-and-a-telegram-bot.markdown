@@ -26,13 +26,13 @@ layout: post
 ![](/images/man_listening.png)
 {: refdef}
 
-There is a particular pet hate I have, it's voice notes. Often I am somewhere noisy, or busy with a zoom meeting and can't listen, even when I have the time to listen, I'm not aware of the content that is going to be announced out around me.
+There is a particular pet hate I have, it's voice notes. Often I am somewhere noisy, or busy with a zoom meeting and can't listen, then even when I have the time to listen, I'm not aware of the content that is going to be announced out around me.
 
-In my mind the call to action on a text message is immediate, I see the message, often with a preview in the notification, respond and move on. 
+In my mind, the call to action on a text message is immediate, I see the message, often with a preview in the notification, respond and move on. 
 
-However, with voice notes you have to find the opportunity to listen to it, take it in and reply. I wished that there was some way of getting the text from the voice notes, with spending the time listening.
+However, with voice notes you have to find the opportunity to listen to it, take it in and reply. I wished that there was some way of getting the text from the voice notes, without spending the time listening.
 
-Thus start a fun journey with the potential ongoing advantage to me, of not having to listen to voice notes anymore.
+Thus started a fun journey with the potential ongoing advantage to me, of not having to listen to voice notes anymore.
 
 *At the time I made this, there were no services I knew of offering this feature. But Telegram has a [subscription service](https://researchsnipers.com/how-to-transcribe-voice-notes-with-telegram-premium/) which will now do this inline on voice notes for you. WhatsApp Speech to Text also seems to be [coming](https://www.thehindubusinessline.com/info-tech/social-media/whatsapp-rolls-out-voice-message-transcripts/article66799959.ece). Well at least mine would still have the advantage of being free and private.*
 
