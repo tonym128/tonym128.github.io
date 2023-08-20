@@ -1,7 +1,7 @@
 ---
 author: tonym128
 comments: false
-date: 2023-08-20 22:22:41+00:00
+date: 2023-08-20 10:22:41+00:00
 title: It's Story Time, a Raspberry Pi journey of ML, publishing and podcasting
 layout: post
 ---
