@@ -27,12 +27,16 @@ layout: post
 # TLDR;
 Go check out my [Story Time Podcast](https://podcasts.apple.com/us/podcast/ai-daily-short-story/id1703394839), there's a few stories generated a day using TinyStories and it's the converted to a html page, uploaded to GitHub pages, post that process a mp3 is created using Piper and a rss and atom podcast feed.
 
-It all runs on a Raspberry Pi 4. The same one serving (shhh bot)[https://ttech.mamacos.media/2023/08/13/keeping-it-quite-whispercpp-raspberry-pi-python-and-a-telegram-bot.html]
+It all runs on a Raspberry Pi 4. The same one serving [shhh bot](https://ttech.mamacos.media/2023/08/13/keeping-it-quite-whispercpp-raspberry-pi-python-and-a-telegram-bot.html)
 
 Check out the [website](https://ttech.mamacos.media/storytime/)
+
 Check out the [podcast](https://podcasts.apple.com/us/podcast/ai-daily-short-story/id1703394839)
+
 Check out the [code](https://GitHub.com/tonym128/storytime), it doesn't include piper, but it's the stock code.
+
 Link to paper on [TinyStories](https://arxiv.org/abs/2305.07759)
+
 Link to [Piper](https://GitHub.com/rhasspy/piper) Text to Speech engine.
 
 <details>
@@ -67,7 +71,7 @@ The backend for GitHub pages is [Jekyll](https://jekyllrb.com/) and it uses [Mar
 
 Mostly you would write these pages yourself then publish them when you have something new to share. I wanted some automation in this space and found some python snippets to write a valid markdown file.
 
-'''python
+```python
  
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Create a new post')
@@ -86,7 +90,7 @@ if __name__ == "__main__":
 
     write_frontmatter(args, current_time)
 
-'''
+```
 
 I supply all the parameters on the command line and I'll get a new post.
 
@@ -100,11 +104,11 @@ I supply all the parameters on the command line and I'll get a new post.
 Pairing this with [llama.cpp](https://GitHub.com/ggerganov/llama.cpp), we have a small model we can run on a Pi 4.
 
 Here's a sample story
-'''
+```
 Once upon a time, there was a gray cat. The cat loved to eat popcorn. One day, the cat went to the kitchen to find some popcorn.
 The cat found a big bowl of popcorn on the table. The cat was very happy. It started to eat the popcorn very fast. The cat wanted to finish the popcorn before it was all gone.
 But then, the cat ate too much popcorn. It started to feel sick. The cat ate so much popcorn that it could not move. In the end, the gray cat was very sad and sick because it ate too much popcorn.
-'''
+```
 
 ## Text to Speech
 [HomeAssitant](https://www.home-assistant.io/) is a powerfull home automation system and it has gone strength to strength this year. In my home we use it to control the lights, geyser, inverter and many more small tasks as they come up. This runs on a Raspberry Pi 3, I got before the drought. This year is the [year of the voice](https://www.home-assistant.io/blog/2022/12/20/year-of-voice/) and as part of that they integrates [Whisper](https://GitHub.com/ggerganov/whisper.cpp) for speech to text and [Piper](https://rhasspy.GitHub.io/piper-samples/) for Text to Speech.
