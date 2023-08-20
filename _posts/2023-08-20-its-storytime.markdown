@@ -25,7 +25,7 @@ layout: post
 <a name="tldr">
 
 # TLDR;
-Go check out my [Story Time Podcast](https://podcasts.apple.com/us/podcast/ai-daily-short-story/id1703394839), there's a few stories generated a day using TinyStories and it's the converted to a html page, uploaded to GitHub pages, post that process a mp3 is created using Piper and a rss and atom podcast feed.
+Go check out my [Story Time Podcast](https://podcasts.apple.com/us/podcast/ai-daily-short-story/id1703394839), there's a few stories generated a day using TinyStories and it's the converted to a html page, uploaded to GitHub pages, after that it runs a process to create a mp3 using Piper and finally a rss and atom podcast feed.
 
 It all runs on a Raspberry Pi 4. The same one serving [shhh bot](https://ttech.mamacos.media/2023/08/13/keeping-it-quite-whispercpp-raspberry-pi-python-and-a-telegram-bot.html)
 
@@ -51,7 +51,7 @@ Link to [Piper](https://GitHub.com/rhasspy/piper) Text to Speech engine.
 ![](/images/2023/storytime/goal.jpg)
 {: refdef}
 
-Reading is a big part of our family. We all read, even those too young to read, will happily listen to the stories being read to them. Sometime when I'm a bit too tired, I sometimes dream that I could play them a podcast story instead. Our Google Home is able to tell stories whenever you ask it "Hey Google, tell me a story", but eventually those run out (about 50 or so, that I've heard). Often, I wonder what could be done in this space.
+Reading is a big part of our family. We all read, even those too young to read, will happily listen to their stories at bedtime, or any other time. Sometime when I'm a bit too tired, I sometimes dream that I could play them a podcast story instead. Our Google Home is able to tell stories whenever you ask it "Hey Google, tell me a story", but eventually those run out (about 50 or so, that I've heard). Often, I wonder what could be done in this space.
 
 With the new generation of machine learning is there a way to make endless stories ? Could they be unique and fun and have a moral grounding ? Could I run it all myself on a Raspberry Pi, hidden in a corner somewhere ?
 
@@ -94,11 +94,10 @@ if __name__ == "__main__":
 
 I supply all the parameters on the command line and I'll get a new post.
 
+## Writing a Story
 {:refdef: style="text-align: center;"}
 ![](/images/2023/storytime/nailing2.jpg)
 {: refdef}
-
-## Writing a Story
 [TinyStories](https://arxiv.org/abs/2305.07759) is an amazing new Large Language Model or [LLM](https://www.techtarget.com/whatis/definition/large-language-model-LLM) showing what is possible with a small model. It's a LLM designed to make short stories, using a limited set of words and a small model size. The biggest version I could find was a 110 million parameter mode, normally these models are talked about in at least 10's of billions for the ones that you would want to run locally, and 100's of billions of parameters for ones you would want a larger company to be running on your behalf.
 
 Pairing this with [llama.cpp](https://GitHub.com/ggerganov/llama.cpp), we have a small model we can run on a Pi 4.
@@ -183,7 +182,7 @@ The GitHub pages took a bit of fiddling to automate, but overall went really eas
 
 # What did I learn
 {:refdef: style="text-align: center;"}
-![](/images/2023/storytime/learn.jpg)
+![](/images/study.png)
 {: refdef}
 
 The TinyStories LLM was fun to play with and see it running on a Pi 4 in under a minute for a story. The text to speech engine, Piper, also runs just as fast, so all out this could produce a massive amount of stories a day, but I think the value 2 to 4 a day, make it's into something I will be happy to have in my Podcast feed.
