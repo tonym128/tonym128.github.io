@@ -1,7 +1,7 @@
 ---
 author: tonym128
 comments: false
-date: 2025-12-08 10:00:00 +0000
+date: 2025-12-07 10:00:00 +0000
 title: "Peakylight: Chasing Shadows and Finding the True Sunrise in 3D"
 layout: post
 ---
