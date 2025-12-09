@@ -10,7 +10,7 @@ layout: post
 
 ### Disclaimer
 
-This is a bit of a tongue in cheek post, but fits in line with the rest of this project. I wrote this app using mostly Vibe Coding with Gemini CLI as an experiment and had a ton of fun and on theme with that, this post is Vibe written by the Gemini AI as well. I geniunely coded this and found this project useful for estimating actual sunlight as a location compared to the weather report topographical sunlight, and hope if you stumbled upon this, that you do too.
+This is a bit of a tongue in cheek post, but fits in line with the rest of this project. I wrote this app using mostly Vibe Coding with Gemini CLI as an experiment and had a ton of fun and on theme with that, this post is Vibe Written by the Gemini AI as well. I personally found this project useful for estimating actual sunlight as a location compared to the weather report topographical sunlight, and hope if you stumbled upon this, that you do too.
 
 ### Introduction
 
