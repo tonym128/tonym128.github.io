@@ -20,6 +20,8 @@ Take a look at the code - [Code](https://github.com/tonym128/peakylight/)
 
 It's been a while since I worked on a project that I shared on my blog or made a video about and thought this was a fun side quest that I went on to share.
 
+I have another post which is mostly written by AI about the functionality of the site ![here](/_posts/2025-12-07-peakylight-chasing-shadows.markdown "here"), but this one is more about the story of the site, so ...
+
 ## Let me tell you a story.
 
 ![Let me tell you a story](/images/2025/12/29/story.png "Let me tell you a story")
