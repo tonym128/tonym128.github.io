@@ -8,7 +8,7 @@ layout: post
 {% include open-embed.html %}
 {% include gtag.html %}
 
-# Peakylights tldr; 
+# Peakylight tldr; 
 
 ![Peakylight main interface showing a 3D terrain map with shadow casting](/images/peakylight/main-interface.png "Peakylight Main Interface")
 
