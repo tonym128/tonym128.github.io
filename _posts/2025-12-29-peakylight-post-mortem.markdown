@@ -56,8 +56,6 @@ It wasn't as simple as that as the AI didn't have context on the GPS location wh
 
 Initially I thought that I could solve this by just running it on my pc for specific co-ordinates using all my obtained data and having it number crunch. I got some working solutions early on, but it all ran very slowly due to having to query many external api's and websites for specific daylight times. Even introducing a caching layer it would get rate throttled and slow down to a crawl. Every date or location change resulted in new data requests, a new calculation and many hours of waiting for numbers.
 
-*Wizard long grey beard and with cobwebs on him, staring at a computer monitor with black ground and green text saying "Please wait, calculating alignment of the star(s)"*
-
 ## Attempt 4: Write a website to do it for anywhere. 
 
 ![Wizard controlling the stars](/images/2025/12/29/attempt4.jpg "Wizard controlling the stars")
