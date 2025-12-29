@@ -60,7 +60,7 @@ Initially I thought that I could solve this by just running it on my pc for spec
 
 ## Attempt 4: Write a website to do it for anywhere. 
 
-![Wizard controlling the stars](/images/2025/12/29/wizardstars.jpg "Wizard controlling the stars")
+![Wizard controlling the stars](/images/2025/12/29/attempt4.jpg "Wizard controlling the stars")
 
 Make it WebGL and show it in 3d, use the 3d terrain and astronomical data to plot everything and work out how much light you're losing to mountains. Oh and on top of that get some road and houses maps data to give context to it when looking. Generate reports for year round calculations. Finally don't hit other peoples webservers too heavily. How hard could it be ?
 
