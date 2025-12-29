@@ -14,7 +14,8 @@ layout: post
 
 I made a static website which can show you the sunlight hours at any location on earth!
 
-Take a look - [Peakylight](https://tonym128.github.io/peakylight/)
+Take a look at the site - [Live Demo](https://tonym128.github.io/peakylight/)
+Take a look at the code - [Code](https://github.com/tonym128/peakylight/)
 
 It's been a while since I worked on a project that I shared on my blog or made a video about and thought this was a fun side quest that I went on to share.
 
