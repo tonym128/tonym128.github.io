@@ -15,6 +15,7 @@ layout: post
 I made a static website which can show you the sunlight hours at any location on earth!
 
 Take a look at the site - [Live Demo](https://tonym128.github.io/peakylight/)
+
 Take a look at the code - [Code](https://github.com/tonym128/peakylight/)
 
 It's been a while since I worked on a project that I shared on my blog or made a video about and thought this was a fun side quest that I went on to share.
@@ -37,8 +38,8 @@ Since I have very little experience with working with geospatial data, I started
 
 This failed due to no one supplying that information for free. There was definitely paid for services and data, and even some free data sources, but they wouldn't provide the answer without a lot of data-wrangling.
 
-
 ## Attempt 1: Attempt to data-wrangle it
+
 ![Cannot compute](/images/2025/12/29/thinkingfail.jpg "Cannot compute")
 
 The next idea was to get the data and work it out in Excel.
