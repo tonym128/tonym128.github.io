@@ -8,6 +8,12 @@ layout: post
 {% include open-embed.html %}
 {% include gtag.html %}
 
+### Disclaimer
+
+This is a bit of a tongue in cheek post, but fits in line with the rest of this project. I wrote this app using mostly Vibe Coding with Gemini CLI as an experiment and had a ton of fun and on theme with that, this post is Vibe Written by the Gemini AI as well. I personally found this project useful for estimating actual sunlight as a location compared to the weather report astronomical sunlight, and hope if you stumbled upon this, that you do too.
+
+### Introduction
+
 Have you ever stood in a deep valley or at the foot of a mountain and wondered when the sun would *actually* hit you? We all know the weather app says sunrise is at 6:30 AM, but if there’s a massive peak to your east, you might be standing in the shade until 9:00 AM.
 
 Enter **[Peakylight](https://tonym128.github.io/peakylight/)**, a fascinating browser-based tool designed to solve exactly that problem. It’s a 3D geographical map that visualizes sun position, terrain shadows, and the real daylight hours for any location on Earth.
