@@ -1,7 +1,7 @@
 ---
 author: tonym128
 comments: false
-date: 2026-02-23 10:00:00 +0000
+date: 2026-02-22 10:00:00 +0000
 title: "Aussie Meme Boss Rush: Vibe Coding the Great Cyber-Outback"
 layout: post
 ---
@@ -49,15 +49,11 @@ To give it that "Deluxe" feel, I added cinematic story scrollers for the mission
 
 ## Things I was very happy with
 
-![Happy Things](/images/2026/02/23/happy.jpg "Happy things")
-
 *   **Mobile Accessibility:** Getting the controls to feel right on both a mouse and a touch screen was a challenge, but using a dual-finger/on-screen button setup for the shield worked out better than I expected.
 *   **The Physics:** Watching a Cyber Emu tumble through a neon forest in ragdoll mode is surprisingly satisfying.
 *   **The Workflow:** Using Gemini CLI to iterate on the physics and shader logic allowed me to focus on the "fun" parts of the game design while the AI handled the heavy lifting of the WebGL math.
 
 ## Things I wasn’t very happy with
-
-![Sad Things](/images/2026/02/23/sad.jpg "Sad Things")
 
 *   **UI Scaling:** In very specific portrait orientations on older phones, the score multiplier can sometimes overlap with the health bar. It's a minor "bogan" in the system, but something I'll need to patch.
 *   **Performance on Low-End Devices:** While Three.js is efficient, the soft-body calculations can get heavy on older mobile hardware. I might need to add a "Low Detail" mode similar to what I did for Peakylight.
