@@ -4,5 +4,3 @@
 
 layout: home
 ---
-<!-- Global site tag (gtag.js) - Google Analytics -->
-{% include gtag.html %}
