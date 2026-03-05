@@ -10,8 +10,6 @@ wordpress_id: 138
 tags:
 - people
 ---
-{% include open-embed.html %}
-{% include gtag.html %}
 
 I went from literally no interviewing experience to an experienced interviewer in the space of only a year.
 

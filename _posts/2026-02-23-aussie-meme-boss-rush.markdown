@@ -5,8 +5,6 @@ date: 2026-02-22 10:00:00 +0000
 title: "Aussie Meme Boss Rush: Vibe Coding the Great Cyber-Outback"
 layout: post
 ---
-{% include open-embed.html %}
-{% include gtag.html %}
 
 # Aussie Meme Boss Rush tldr; 
 

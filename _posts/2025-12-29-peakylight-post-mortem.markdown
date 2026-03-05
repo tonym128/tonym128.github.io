@@ -5,8 +5,6 @@ date: 2025-12-29 11:00:00 +0000
 title: "Peakylight: Post Mortem"
 layout: post
 ---
-{% include open-embed.html %}
-{% include gtag.html %}
 
 # Peakylight tldr; 
 

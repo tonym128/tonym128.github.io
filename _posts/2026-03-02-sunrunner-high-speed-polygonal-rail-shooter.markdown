@@ -5,8 +5,6 @@ date: 2026-03-02 11:00:00 +0000
 title: "Sun Runner: High-Speed Polygonal Rail Shooting in the Browser"
 layout: post
 ---
-{% include open-embed.html %}
-{% include gtag.html %}
 
 # Sun Runner tldr; 
 
@@ -18,7 +16,7 @@ Take a look at the code - [Code](https://github.com/tonym128/SunRunner)
 
 ## The Vibe: Cybernetic Solar Descent
 
-Continuing the "Vibe Coding" journey that started with [Peakylight](/_posts/2025-12-07-peakylight-chasing-shadows.markdown), [Aussie Meme Boss Rush](/_posts/2026-02-23-aussie-meme-boss-rush.markdown), and the recent [TexGen](/_posts/2026-03-02-texgen-procedural-texture-generator.markdown), **Sun Runner** is my latest exploration into what's possible with modern WebGL and a "single-file portable" philosophy.
+Continuing the "Vibe Coding" journey that started with [Peakylight](/_posts/2025-12-07-peakylight-chasing-shadows.markdown), [Aussie Meme Boss Rush](/_posts/2026-02-23-aussie-meme-boss-rush.markdown), and the recent [TexGen](/_posts/2026-03-04-texgen-procedural-texture-generator.markdown), **Sun Runner** is my latest exploration into what's possible with modern WebGL and a "single-file portable" philosophy.
 
 The goal was to capture the essence of classic rail shooters like *Star Fox* or *Rez*, but with a modern, high-contrast aesthetic—think deep magentas, vibrant cyans, and a persistent wireframe grid that makes you feel like you're diving into the heart of a digital star.
 

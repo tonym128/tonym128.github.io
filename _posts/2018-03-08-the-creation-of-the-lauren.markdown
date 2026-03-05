@@ -12,8 +12,6 @@ tags:
 - github
 - programming
 ---
-{% include open-embed.html %}
-{% include gtag.html %}
 
 ![](/images/2018/03/Lauren.png)
 

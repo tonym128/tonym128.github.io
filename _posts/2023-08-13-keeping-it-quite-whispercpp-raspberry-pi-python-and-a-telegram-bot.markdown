@@ -5,8 +5,6 @@ date: 2023-08-13 12:14:41+00:00
 title: Shhh, keep quiet! Whisper.cpp, Raspberry Pi, Python and a Telegram bot
 layout: post
 ---
-{% include open-embed.html %}
-{% include gtag.html %}
 
 # Table of Contents
 

@@ -5,8 +5,6 @@ date: 2025-12-07 10:00:00 +0000
 title: "Peakylight: Chasing Shadows and Finding the True Sunrise in 3D"
 layout: post
 ---
-{% include open-embed.html %}
-{% include gtag.html %}
 
 ### Disclaimer
 

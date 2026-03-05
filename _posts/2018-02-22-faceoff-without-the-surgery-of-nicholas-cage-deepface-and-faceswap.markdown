@@ -13,8 +13,6 @@ tags:
 - tensorflow
 - tesnsorflow
 ---
-{% include open-embed.html %}
-{% include gtag.html %}
 
 ## What is FaceSwap ?
 ![](/images/2018/02/FaceMask.jpg)

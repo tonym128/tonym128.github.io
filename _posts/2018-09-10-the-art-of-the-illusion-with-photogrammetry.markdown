@@ -17,8 +17,6 @@ tags:
 - photogrammetry
 - programming
 ---
-{% include open-embed.html %}
-{% include gtag.html %}
 
 ##  The Problem 
 
