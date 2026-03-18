@@ -1,7 +1,7 @@
 ---
 author: tonym128
 comments: false
-date: 2026-03-18 10:00:00 +0000
+date: 2026-03-17 10:00:00 +0000
 title: "Axis Rush: High-Speed Cylindrical Racing in Three.js"
 layout: post
 ---
