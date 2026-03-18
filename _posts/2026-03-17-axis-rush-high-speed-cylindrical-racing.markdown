@@ -14,6 +14,8 @@ Take a look at the demo page - [Live Demo](https://tonym128.github.io/axis_rush/
 
 Take a look at the code - [GitHub Repository](https://github.com/tonym128/axis_rush)
 
+![Axis Rush main menu showing a futuristic racing craft on a cylindrical track](/images/axis-rush/axis-rush.jpg "Axis Rush Main Menu")
+
 ## The Vision: Redefining the Racing Line
 
 In most racers, the "line" is two-dimensional. In **Axis Rush**, it's a full 360-degree experience. By allowing players to jump between the **Interior** and **Exterior** of the cylindrical track, I wanted to create a game where spatial awareness is just as important as reflexes. 
