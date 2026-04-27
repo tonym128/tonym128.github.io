@@ -80,6 +80,9 @@ feature_row:
     width: 100%;
     display: block;
   }
+  .feature__item .archive__item-teaser img[src*="texgen-opt"] {
+    object-position: top left;
+  }
   /* Push the button to the bottom of the card */
   .feature__item .archive__item-body {
     display: flex;
