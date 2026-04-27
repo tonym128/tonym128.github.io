@@ -1,17 +1,15 @@
 ---
 author: tonym128
-comments: false
-date: 2018-10-22 21:15:15.000000000 +00:00
+comments: False
+date: 2018-10-22 21:15:15+00:00
 layout: single
-title: Wordpress, how many ways can I say hello ?
+title: "Wordpress, how many ways can I say hello ?"
 tags:
 - aws
 - blog
 - cloud
 - wordpress
-excerpt: I find it funny that I can write programs that can calculate risk on a share
-  portfolio, do heavy math calculations on tiny hardware devices, help write programs
-  that massive enterprise businesses use to stock take , but putting up my first WordPres...
+excerpt: "The surprisingly complex journey of setting up and customizing my first WordPress blog."
 ---
 I find it funny that I can write programs that can calculate risk on a share portfolio, do heavy math calculations on tiny hardware devices, help write programs that massive enterprise businesses use to stock take , but putting up my first WordPress blog, was just as massive en devour to get something I was happy with.
 

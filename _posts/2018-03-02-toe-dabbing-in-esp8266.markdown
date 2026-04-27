@@ -1,17 +1,14 @@
 ---
 author: tonym128
-comments: false
-date: 2018-03-02 11:38:28.000000000 +00:00
+comments: False
+date: 2018-03-02 11:38:28+00:00
 layout: single
-title: Toe Dabbing in ESP8266
+title: "Toe Dabbing in ESP8266"
 tags:
 - hacking
 - hardware
 - iot
-excerpt: I've always had a dream of learning electronics and I've had a  sitting around
-  on my desk for a quite a while now. This board is a marvel of technology, originally
-  it was designed as a WiFi chip, but it was made so well and flexibly, that hackers
-  l...
+excerpt: "An introduction to the ESP8266 chip and its incredible potential for building custom IoT devices."
 ---
 # The start of something small
 

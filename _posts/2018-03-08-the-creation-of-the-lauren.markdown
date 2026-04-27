@@ -1,16 +1,14 @@
 ---
 author: tonym128
-comments: false
-date: 2018-03-08 20:37:21.000000000 +00:00
+comments: False
+date: 2018-03-08 20:37:21+00:00
 layout: single
-title: The creation of Lauren
+title: "The creation of Lauren"
 tags:
 - c#
 - github
 - programming
-excerpt: For me, the best part of finishing a project is making people's tedious problems
-  into non-entities. I believe that people's jobs are generally encumbered with too
-  much peripheral work to what they should actually be doing and focussing on.
+excerpt: "How I built a custom automation tool named Lauren to eliminate tedious manual work in content publishing."
 ---
 ![](/images/2018/03/Lauren.png)
 

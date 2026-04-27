@@ -1,9 +1,9 @@
 ---
 author: tonym128
-comments: false
-date: 2018-09-10 21:42:22.000000000 +00:00
+comments: False
+date: 2018-09-10 21:42:22+00:00
 layout: single
-title: The art of the illusion with photogrammetry
+title: "The art of the illusion with photogrammetry"
 tags:
 - 3d
 - blender
@@ -13,9 +13,7 @@ tags:
 - meshroom
 - photogrammetry
 - programming
-excerpt: This was one of the most amazing finds of the last year for me. As someone
-  with no real classical artistic talent, I find the idea of taking real world assets
-  and getting them into computers fascinating.
+excerpt: "Discovering the magic of photogrammetry and how to translate real-world objects into digital 3D models."
 ---
 ##  The Problem 
 

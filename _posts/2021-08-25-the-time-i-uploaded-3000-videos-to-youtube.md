@@ -1,10 +1,10 @@
 ---
 author: tonym128
-comments: false
-date: 2021-08-25 23:15:47.000000000 +00:00
+comments: False
+date: 2021-08-25 23:15:47+00:00
 layout: single
-title: The Time I Uploaded 3000 videos to YouTube
-excerpt: "The Time I Uploaded 3000 videos to YouTube"
+title: "The Time I Uploaded 3000 videos to YouTube"
+excerpt: "The story of an automation project that generated and uploaded 3,000 videos to YouTube in six months."
 ---
 # Table of Contents
 

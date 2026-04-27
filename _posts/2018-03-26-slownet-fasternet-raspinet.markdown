@@ -1,15 +1,13 @@
 ---
 author: tonym128
-comments: false
-date: 2018-03-26 21:01:58.000000000 +00:00
+comments: False
+date: 2018-03-26 21:01:58+00:00
 layout: single
-title: Slownet :-( , Fasternet? Raspinet!
+title: "Slownet :-( , Fasternet? Raspinet!"
 tags:
 - hacking
 - raspberry pi
-excerpt: My internet was under performing quite severly and I didn't know why. Occasionally
-  for periods of time from a few minutes to hours at a time our internet would become
-  unusable.
+excerpt: "Diagnosing home network issues caused by cloud uploads and taking back control of internet bandwidth."
 ---
 ## The problem
 

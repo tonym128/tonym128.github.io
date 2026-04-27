@@ -1,11 +1,10 @@
 ---
 author: tonym128
-comments: false
-date: 2026-04-25 10:00:00.000000000 +00:00
-title: 'Debugging the Novel: How I Built a 9-Book Cyberpunk Series with AI'
+comments: False
+date: 2026-04-25 10:00:00+00:00
+title: "Debugging the Novel: How I Built a 9-Book Cyberpunk Series with AI"
 layout: single
-excerpt: "Status: Published  \n Genre: Cyberpunk / Tech-Noir / Non-Fiction  \n Tags:
-  #AIWriting #LLM #CreativeProcess #Cyberpunk #SoftwareEngineering"
+excerpt: "How a weekend experiment turned into building a nine-book cyberpunk series using AI and LLMs."
 ---
 # Debugging the Novel: How I Built a 9-Book Cyberpunk Series with AI
 

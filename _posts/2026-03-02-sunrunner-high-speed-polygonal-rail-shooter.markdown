@@ -1,12 +1,10 @@
 ---
 author: tonym128
-comments: false
-date: 2026-03-02 11:00:00.000000000 +00:00
-title: 'Sun Runner: High-Speed Polygonal Rail Shooting in the Browser'
+comments: False
+date: 2026-03-02 11:00:00+00:00
+title: "Sun Runner: High-Speed Polygonal Rail Shooting in the Browser"
 layout: single
-excerpt: I built a high-speed, polygonal rail shooter where you pilot a sleek craft
-  through a relentless descent into a stylized sun, all contained within a single
-  HTML file.
+excerpt: "Developing Sun Runner, a high-speed polygonal rail shooter contained entirely within a single HTML file."
 ---
 # Sun Runner tldr; 
 

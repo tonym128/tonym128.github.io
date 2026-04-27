@@ -1,13 +1,10 @@
 ---
 author: tonym128
-comments: false
-date: 2026-03-17 10:00:00.000000000 +00:00
-title: 'Axis Rush: High-Speed Cylindrical Racing in Three.js'
+comments: False
+date: 2026-03-17 10:00:00+00:00
+title: "Axis Rush: High-Speed Cylindrical Racing in Three.js"
 layout: single
-excerpt: I've just released Axis Rush, a futuristic arcade racer inspired by the classics
-  like F-Zero and Wipeout. The twist? You're racing on a giant cylinder, and you can
-  flip between the inside and outside of the track at will to dodge obstacles or find
-  ...
+excerpt: "Releasing Axis Rush, a futuristic 3D arcade racer built with Three.js featuring cylindrical tracks."
 ---
 # Axis Rush tldr; 
 

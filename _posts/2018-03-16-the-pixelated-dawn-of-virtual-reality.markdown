@@ -1,14 +1,12 @@
 ---
 author: tonym128
-comments: false
-date: 2018-03-16 22:33:25.000000000 +00:00
+comments: False
+date: 2018-03-16 22:33:25+00:00
 layout: single
-title: The pixelated dawn of virtual reality
+title: "The pixelated dawn of virtual reality"
 tags:
 - vr
-excerpt: I have always been fascinated by  It was always depicted as the future in
-  media, the place we wanted to be but weren't yet. There was , ), ), scenes in )
-  and so many others.
+excerpt: "A nostalgic look back at the early days of virtual reality and how modern technology revived the dream."
 ---
 ![](/images/2018/03/VR-Headline.jpeg)
 

@@ -1,18 +1,15 @@
 ---
 author: tonym128
-comments: false
-date: 2018-02-22 08:39:52.000000000 +00:00
+comments: False
+date: 2018-02-22 08:39:52+00:00
 layout: single
-title: FaceOff without the surgery... DeepFace and FaceSwap
+title: "FaceOff without the surgery... DeepFace and FaceSwap"
 tags:
 - gpu
 - machine learning
 - tensorflow
 - tesnsorflow
-excerpt: "FaceSwap is a technology used for taking one face and swapping it with another
-  in an image or video. What makes this news ? All the tools are available for anyone
-  to use now!\r\n\r\nIt's an interesting topic and it's pretty current, I found the
-  images ..."
+excerpt: "Exploring the accessible but controversial world of FaceSwap technology and the rise of deepfakes."
 ---
 ## What is FaceSwap ?
 ![](/images/2018/02/FaceMask.jpg)

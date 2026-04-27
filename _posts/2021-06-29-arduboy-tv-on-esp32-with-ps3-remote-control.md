@@ -1,10 +1,10 @@
 ---
 author: tonym128
-comments: false
-date: 2021-06-29 20:15:47.000000000 +00:00
+comments: False
+date: 2021-06-29 20:15:47+00:00
 layout: single
-title: Arduboy TV on ESP32 with PS3 Remote Control
-excerpt: "Arduboy TV on ESP32 with PS3 Remote Control"
+title: "Arduboy TV on ESP32 with PS3 Remote Control"
+excerpt: "Creating a minimal-effort Arduboy game console using an ESP32 and a PS3 remote control."
 ---
 # Table of Contents
 

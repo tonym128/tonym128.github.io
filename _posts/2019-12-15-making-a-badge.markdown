@@ -1,10 +1,10 @@
 ---
 author: tonym128
-comments: false
-date: 2019-12-15 22:55:44.000000000 +00:00
+comments: False
+date: 2019-12-15 22:55:44+00:00
 layout: single
-title: BSides Cape Town 2019 Making a badge
-excerpt: "BSides Cape Town 2019 Making a badge"
+title: "BSides Cape Town 2019 Making a badge"
+excerpt: "Detailing the firmware and hardware design behind the custom electronic badge for BSides Cape Town 2019."
 ---
 <video controls="controls" autoplay="autoplay" loop="loop" width="768" height="512">
 	<source src="/images/2019/11/badge_fire.mp4" type="video/mp4">

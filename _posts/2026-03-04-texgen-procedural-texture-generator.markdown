@@ -1,12 +1,10 @@
 ---
 author: tonym128
-comments: false
-date: 2026-03-04 10:00:00.000000000 +00:00
-title: 'TexGen: Procedural Texture Generation for the Web'
+comments: False
+date: 2026-03-04 10:00:00+00:00
+title: "TexGen: Procedural Texture Generation for the Web"
 layout: single
-excerpt: I built TexGen, a lightweight (~15kb) JavaScript library that leverages GLSL
-  shaders to generate high-quality, procedural textures on the fly, including a natural
-  language interface called "TexGen Words".
+excerpt: "Creating TexGen, a lightweight JavaScript library for generating procedural GLSL textures on the fly."
 ---
 # TexGen tldr; 
 

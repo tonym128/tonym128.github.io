@@ -1,11 +1,10 @@
 ---
 author: tonym128
-comments: false
-date: 2026-02-22 10:00:00.000000000 +00:00
-title: 'Aussie Meme Boss Rush: Vibe Coding the Great Cyber-Outback'
+comments: False
+date: 2026-02-22 10:00:00+00:00
+title: "Aussie Meme Boss Rush: Vibe Coding the Great Cyber-Outback"
 layout: single
-excerpt: I made a high-octane, neon-drenched 3D boss rush shooter where you face off
-  against cybernetic versions of Australia's most infamous wildlife memes!
+excerpt: "Behind the scenes of Aussie Meme Boss Rush, a neon-drenched 3D web shooter built using Vibe Coding."
 ---
 # Aussie Meme Boss Rush tldr; 
 

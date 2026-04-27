@@ -1,12 +1,10 @@
 ---
 author: tonym128
-comments: false
-date: 2019-04-21 21:57:35.000000000 +00:00
+comments: False
+date: 2019-04-21 21:57:35+00:00
 layout: single
-title: Building your own game console
-excerpt: I didn't honestly set out to build a console, but it was a fun journey and
-  I thought it would be great to share. There's a couple learnings I would like to
-  pass on and a couple hopes and dreams I have for the future.
+title: "Building your own game console"
+excerpt: "The fun and challenging journey of designing and building a custom hardware game console."
 ---
 ## That's quite a sensationalist title!
 
