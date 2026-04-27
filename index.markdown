@@ -5,7 +5,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /images/big_computer-opt.jpg
-excerpt: "Hi, I'm Tony. I'm a Software Engineer and this is my blog about some of my personal adventures."
+excerpt: "Hi, I’m Tony. I’m a software engineer, and this is my digital workshop for technical and creative experiments."
 
 feature_row:
   - image_path: /images/2026/04/debugging-opt.jpg
