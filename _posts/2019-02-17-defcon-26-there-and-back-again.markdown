@@ -1,14 +1,13 @@
 ---
 author: tonym128
 comments: false
-date: 2019-02-17 20:00:40+00:00
-layout: post
-link: https://ttech.mamacos.media/2019/02/17/defcon-26-there-and-back-again/
-slug: defcon-26-there-and-back-again
+date: 2019-02-17 20:00:40.000000000 +00:00
+layout: single
 title: DefCon 26 There and back again
-wordpress_id: 256
+excerpt: "DefCon 26\r\n\r\n\r\n\r\n\r\n\r\nI was very fortunate to get an opportunity
+  to go to DefCon 26 with a friend of mine for a project he was doing. He needed some
+  extra hands on deck and being in the right place at the right time was fortuitous."
 ---
-
 ![](/images/2019/02/DefCon26.jpg)DefCon 26
 
 

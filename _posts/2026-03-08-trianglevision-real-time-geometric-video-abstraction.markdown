@@ -1,11 +1,13 @@
 ---
 author: tonym128
 comments: false
-date: 2026-03-08 10:00:00 +0000
-title: "triangleVision: Real-time Geometric Video Abstraction"
-layout: post
+date: 2026-03-08 10:00:00.000000000 +00:00
+title: 'triangleVision: Real-time Geometric Video Abstraction'
+layout: single
+excerpt: I built triangleVision, a high-performance video processing engine that transforms
+  standard video or live webcam feeds into stylized, artistic triangle meshes in real-time.
+  It uses intelligent point sampling to preserve detail while creating a uniq...
 ---
-
 # triangleVision tldr; 
 
 I built **triangleVision**, a high-performance video processing engine that transforms standard video or live webcam feeds into stylized, artistic triangle meshes in real-time. It uses intelligent point sampling to preserve detail while creating a unique "low-poly" aesthetic.

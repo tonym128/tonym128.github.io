@@ -1,12 +1,9 @@
 ---
 author: tonym128
 comments: false
-date: 2018-09-10 21:42:22+00:00
-layout: post
-link: https://ttech.mamacos.media/2018/09/10/the-art-of-the-illusion-with-photogrammetry/
-slug: the-art-of-the-illusion-with-photogrammetry
+date: 2018-09-10 21:42:22.000000000 +00:00
+layout: single
 title: The art of the illusion with photogrammetry
-wordpress_id: 180
 tags:
 - 3d
 - blender
@@ -16,8 +13,10 @@ tags:
 - meshroom
 - photogrammetry
 - programming
+excerpt: This was one of the most amazing finds of the last year for me. As someone
+  with no real classical artistic talent, I find the idea of taking real world assets
+  and getting them into computers fascinating.
 ---
-
 ##  The Problem 
 
 This was one of the most amazing finds of the last year for me. As someone with no real classical artistic talent, I find the idea of taking real world assets and getting them into computers fascinating.

@@ -1,17 +1,16 @@
 ---
 author: tonym128
 comments: false
-date: 2018-03-26 21:01:58+00:00
-layout: post
-link: https://ttech.mamacos.media/2018/03/26/slownet-fasternet-raspinet/
-slug: slownet-fasternet-raspinet
+date: 2018-03-26 21:01:58.000000000 +00:00
+layout: single
 title: Slownet :-( , Fasternet? Raspinet!
-wordpress_id: 111
 tags:
 - hacking
 - raspberry pi
+excerpt: My internet was under performing quite severly and I didn't know why. Occasionally
+  for periods of time from a few minutes to hours at a time our internet would become
+  unusable.
 ---
-
 ## The problem
 
 

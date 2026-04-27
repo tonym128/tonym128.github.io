@@ -1,14 +1,11 @@
 ---
 author: tonym128
 comments: false
-date: 2019-12-15 22:55:44+00:00
-layout: post
-link: https://ttech.mamacos.media/2019/12/15/making-a-badge/
-slug: making-a-badge
+date: 2019-12-15 22:55:44.000000000 +00:00
+layout: single
 title: BSides Cape Town 2019 Making a badge
-wordpress_id: 290
+excerpt: "BSides Cape Town 2019 Making a badge"
 ---
-
 <video controls="controls" autoplay="autoplay" loop="loop" width="768" height="512">
 	<source src="/images/2019/11/badge_fire.mp4" type="video/mp4">
 </video>
@@ -26,7 +23,7 @@ wordpress_id: 290
 
 # The making of my first badge (firmware)
 
-This has been a long time in the making and it's a straight follow on to my last blog about making a [simple hardware console](https://ttech.mamacos.media/2019/04/21/building-your-own-game-console.html).
+This has been a long time in the making and it's a straight follow on to my last blog about making a [simple hardware console](https://tonym128.github.io/2019/04/21/building-your-own-game-console.html).
 
 Flash forward 8+ months later, we've had the [BSides Cape Town 2019 conference](https://bsidescapetown.co.za/) and I think we made something quite great hardware wise, and I hope you enjoy the software too.
 
@@ -217,5 +214,5 @@ Probably for a while, but Thank You for reading this far, I hope you had some fu
 
 [Esp8266 Game On Repo](https://github.com/tonym128/ESP8266GameOn)
 
-[Esp8266 Game On Blog](https://ttech.mamacos.media/2019/04/21/building-your-own-game-console.html)
+[Esp8266 Game On Blog](https://tonym128.github.io/2019/04/21/building-your-own-game-console.html)
 

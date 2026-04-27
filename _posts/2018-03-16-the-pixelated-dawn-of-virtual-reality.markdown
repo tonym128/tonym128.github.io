@@ -1,16 +1,15 @@
 ---
 author: tonym128
 comments: false
-date: 2018-03-16 22:33:25+00:00
-layout: post
-link: https://ttech.mamacos.media/2018/03/17/the-pixelated-dawn-of-virtual-reality/
-slug: the-pixelated-dawn-of-virtual-reality
+date: 2018-03-16 22:33:25.000000000 +00:00
+layout: single
 title: The pixelated dawn of virtual reality
-wordpress_id: 105
 tags:
 - vr
+excerpt: I have always been fascinated by  It was always depicted as the future in
+  media, the place we wanted to be but weren't yet. There was , ), ), scenes in )
+  and so many others.
 ---
-
 ![](/images/2018/03/VR-Headline.jpeg)
 
 I have always been fascinated by [Virtual Reality.](https://en.wikipedia.org/wiki/Virtual_reality) It was always depicted as the future in media, the place we wanted to be but weren't yet.

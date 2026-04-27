@@ -1,11 +1,13 @@
 ---
 author: tonym128
 comments: false
-date: 2025-12-07 10:00:00 +0000
-title: "Peakylight: Chasing Shadows and Finding the True Sunrise in 3D"
-layout: post
+date: 2025-12-07 10:00:00.000000000 +00:00
+title: 'Peakylight: Chasing Shadows and Finding the True Sunrise in 3D'
+layout: single
+excerpt: This is a bit of a tongue in cheek post, but fits in line with the rest of
+  this project. I wrote this app using mostly Vibe Coding with Gemini CLI as an experiment
+  and had a ton of fun and on theme with that, this post is Vibe Written by the Gemini...
 ---
-
 ### Disclaimer
 
 This is a bit of a tongue in cheek post, but fits in line with the rest of this project. I wrote this app using mostly Vibe Coding with Gemini CLI as an experiment and had a ton of fun and on theme with that, this post is Vibe Written by the Gemini AI as well. I personally found this project useful for estimating actual sunlight as a location compared to the weather report astronomical sunlight, and hope if you stumbled upon this, that you do too.

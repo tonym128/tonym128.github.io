@@ -1,14 +1,13 @@
 ---
 author: tonym128
 comments: false
-date: 2019-04-21 21:57:35+00:00
-layout: post
-link: https://ttech.mamacos.media/2019/04/21/building-your-own-game-console/
-slug: building-your-own-game-console
+date: 2019-04-21 21:57:35.000000000 +00:00
+layout: single
 title: Building your own game console
-wordpress_id: 290
+excerpt: I didn't honestly set out to build a console, but it was a fun journey and
+  I thought it would be great to share. There's a couple learnings I would like to
+  pass on and a couple hopes and dreams I have for the future.
 ---
-
 ## That's quite a sensationalist title!
 
 ![](/images/2019/04/Badge.jpg)
@@ -37,7 +36,7 @@ My journey started about 3 years ago when I was given an ESP8266 for almost noth
 
 
 
-I wrote a previous article about my earlier ESP8266 tinkerings [here](https://ttech.mamacos.media/2018/03/02/toe-dabbing-in-esp8266/).  
+I wrote a previous article about my earlier ESP8266 tinkerings [here](https://tonym128.github.io/2018/03/02/toe-dabbing-in-esp8266/).  
 
 
 

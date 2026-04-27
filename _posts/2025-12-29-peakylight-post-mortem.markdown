@@ -1,11 +1,12 @@
 ---
 author: tonym128
 comments: false
-date: 2025-12-29 11:00:00 +0000
-title: "Peakylight: Post Mortem"
-layout: post
+date: 2025-12-29 11:00:00.000000000 +00:00
+title: 'Peakylight: Post Mortem'
+layout: single
+excerpt: I made a static website which can show you the sunlight hours at any location
+  on earth!
 ---
-
 # Peakylight tldr; 
 
 ![Peakylight main interface showing a 3D terrain map with shadow casting](/images/peakylight/main-interface.png "Peakylight Main Interface")

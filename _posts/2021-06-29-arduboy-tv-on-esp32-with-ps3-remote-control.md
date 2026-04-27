@@ -1,14 +1,11 @@
 ---
 author: tonym128
 comments: false
-date: 2021-06-29 20:15:47+00:00
-layout: post
-link: https://ttech.mamacos.media/2021/06/29/arduboy-tv-on-esp32-with-ps3-remote-control/
-slug: arduboy-tv-on-esp32-with-ps3-remote-control
+date: 2021-06-29 20:15:47.000000000 +00:00
+layout: single
 title: Arduboy TV on ESP32 with PS3 Remote Control
-wordpress_id: 291
+excerpt: "Arduboy TV on ESP32 with PS3 Remote Control"
 ---
-
 # Table of Contents
 
 1. [Synopsis](#synopsis)
@@ -193,7 +190,7 @@ This project is all currently under the tvout branch
 
 I've had this running on a BSides Cape Town 2019 Badge, where I detailed the software for the badge project itself here.
 
-<https://ttech.mamacos.media/2019/12/15/making-a-badge.html>
+<https://tonym128.github.io/2019/12/15/making-a-badge.html>
 
 An ESP32 E-Paper display
 

@@ -1,11 +1,11 @@
 ---
 author: tonym128
 comments: false
-date: 2023-08-20 10:22:41+00:00
+date: 2023-08-20 10:22:41.000000000 +00:00
 title: It's Story Time, a Raspberry Pi journey of ML, publishing and podcasting
-layout: post
+layout: single
+excerpt: "It’s Story Time, a Raspberry Pi journey of ML, publishing and podcasting"
 ---
-
 # Table of Contents
 
 1. [TLDR;](#tldr)
@@ -25,9 +25,9 @@ layout: post
 # TLDR;
 Go check out my [Story Time Podcast](https://podcasts.apple.com/us/podcast/ai-daily-short-story/id1703394839), there's a few stories generated a day using TinyStories and it's the converted to a html page, uploaded to GitHub pages, after that it runs a process to create a mp3 using Piper and finally a rss and atom podcast feed.
 
-It all runs on a Raspberry Pi 4. The same one serving [shhh bot](https://ttech.mamacos.media/2023/08/13/keeping-it-quite-whispercpp-raspberry-pi-python-and-a-telegram-bot.html)
+It all runs on a Raspberry Pi 4. The same one serving [shhh bot](https://tonym128.github.io/2023/08/13/keeping-it-quite-whispercpp-raspberry-pi-python-and-a-telegram-bot.html)
 
-Check out the [website](https://ttech.mamacos.media/storytime/)
+Check out the [website](https://tonym128.github.io/storytime/)
 
 Check out the [podcast](https://podcasts.apple.com/us/podcast/ai-daily-short-story/id1703394839)
 
@@ -134,8 +134,8 @@ def createPodcastRSS():
     fg.author({"name": "Tony Mamacos", "email": "tmamacos@gmail.com"})
     fg.language("en")
 
-    fg.id("https://ttech.mamacos.media/storytime")
-    fg.link(href="https://ttech.mamacos.media/storytime", rel="self")
+    fg.id("https://tonym128.github.io/storytime")
+    fg.link(href="https://tonym128.github.io/storytime", rel="self")
     fg.description("A daily pod cast of an AI generated short story")
 ```
 

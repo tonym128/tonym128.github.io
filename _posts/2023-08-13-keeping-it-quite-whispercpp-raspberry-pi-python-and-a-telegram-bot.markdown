@@ -1,11 +1,11 @@
 ---
 author: tonym128
 comments: false
-date: 2023-08-13 12:14:41+00:00
+date: 2023-08-13 12:14:41.000000000 +00:00
 title: Shhh, keep quiet! Whisper.cpp, Raspberry Pi, Python and a Telegram bot
-layout: post
+layout: single
+excerpt: "Shhh, keep quiet! Whisper.cpp, Raspberry Pi, Python and a Telegram bot"
 ---
-
 # Table of Contents
 
 1. [Synopsis](#synopsis)

@@ -1,16 +1,14 @@
 ---
 author: tonym128
 comments: false
-date: 2018-04-10 20:07:27+00:00
-layout: post
-link: https://ttech.mamacos.media/2018/04/10/interviewing-dos-and-donts/
-slug: interviewing-dos-and-donts
+date: 2018-04-10 20:07:27.000000000 +00:00
+layout: single
 title: Interviewing do's and don'ts
-wordpress_id: 132
 tags:
 - people
+excerpt: This is a follow on to another blog I wrote, , to detail a bit more in depth
+  some of the do's and don'ts that I found in interviewing and training interviewers.
 ---
-
 This is a follow on to another blog I wrote, [What I learnt from interviewing 50 people in a year](/2018/04/10/what-i-learnt-from-interviewing-over-50-people-in-a-year/), to detail a bit more in depth some of the do's and don'ts that I found in interviewing and training interviewers.
 
 

@@ -1,16 +1,15 @@
 ---
 author: tonym128
 comments: false
-date: 2018-04-10 20:51:08+00:00
-layout: post
-link: https://ttech.mamacos.media/2018/04/10/what-i-learnt-from-interviewing-over-50-people-in-a-year/
-slug: what-i-learnt-from-interviewing-over-50-people-in-a-year
+date: 2018-04-10 20:51:08.000000000 +00:00
+layout: single
 title: What I learnt from interviewing over 50 people in a year
-wordpress_id: 138
 tags:
 - people
+excerpt: I went from literally no interviewing experience to an experienced interviewer
+  in the space of only a year. I found it a fascinating experience and thought it
+  would be good to share.
 ---
-
 I went from literally no interviewing experience to an experienced interviewer in the space of only a year.
 
 I found it a fascinating experience and thought it would be good to share.

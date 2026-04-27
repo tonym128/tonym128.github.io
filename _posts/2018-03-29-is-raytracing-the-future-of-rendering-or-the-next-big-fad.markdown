@@ -1,19 +1,18 @@
 ---
 author: tonym128
 comments: false
-date: 2018-03-29 22:11:21+00:00
-layout: post
-link: https://ttech.mamacos.media/2018/03/30/is-raytracing-the-future-of-rendering-or-the-next-big-fad/
-slug: is-raytracing-the-future-of-rendering-or-the-next-big-fad
+date: 2018-03-29 22:11:21.000000000 +00:00
+layout: single
 title: Is Raytracing the future of rendering or the next big fad ?
-wordpress_id: 119
 tags:
 - 3d
 - gpu
 - graphics
 - programming
+excerpt: I was surprised that ) made a massive resurgence at . Ray tracing has always
+  been the alternative to Polygonal Rasterization (Standard 3d Rendering) and Voxels
+  (similar to Polygons but using many many many dots in 3d space).
 ---
-
 I was surprised that [Ray tracing](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)) made a massive resurgence at [GDC 2018](http://www.gdconf.com/aboutgdc/).
 
 Ray tracing has always been the alternative to Polygonal Rasterization (Standard 3d Rendering) and Voxels (similar to Polygons but using many many many dots in 3d space).

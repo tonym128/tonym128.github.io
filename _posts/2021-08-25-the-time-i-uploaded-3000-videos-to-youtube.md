@@ -1,14 +1,11 @@
 ---
 author: tonym128
 comments: false
-date: 2021-08-25 23:15:47+00:00
-layout: post
-link: https://ttech.mamacos.media/2021/08/25/the-time-i-uploaded-3000-videos-to-youtube/
-slug: the-time-i-uploaded-3000-videos-to-youtube
+date: 2021-08-25 23:15:47.000000000 +00:00
+layout: single
 title: The Time I Uploaded 3000 videos to YouTube
-wordpress_id: 300
+excerpt: "The Time I Uploaded 3000 videos to YouTube"
 ---
-
 # Table of Contents
 
 1. [Synopsis](#synopsis)
