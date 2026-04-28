@@ -18,9 +18,7 @@ FaceSwap is a technology used for taking one face and swapping it with another i
 
 It's an interesting topic and it's pretty current, I found the images of Nic Cage everywhere absolutely amazing, especially the Indianna Jones video, that was fantastic. Take a look at the video below!
 
-<video muted controls>
-    <source src="https://thumbs.gfycat.com/FlawlessForthrightAmericanshorthair-mobile.mp4" type="video/mp4">
-</video>
+<iframe width="827" height="465" src="https://www.youtube.com/embed/_OqMkZNHWPo" title="Nic Cage | Mega Mix One" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 I love the technology and the way it's so accessible, unfortunately that comes with the bad part of it too, that people are using this to put people into situations they were never in.
 

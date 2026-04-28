@@ -41,7 +41,6 @@ I had an idea about automation and news. I had a simple premise that I could pro
 
 Here is the channel I built
 
-<https://www.youtube.com/c/TonyTechnology>
 ![](/images/2021/08/the-channel2-opt.jpg)
 
 <a name="nailing">

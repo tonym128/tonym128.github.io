@@ -310,7 +310,7 @@ I think the site looks pretty good now, has a few good features and mostly gets 
 
 
 
-I think that cool changes are coming soon, from the new [Gutenberg editor for Wordpress ](https://wordpress.org/gutenberg/)which I'm finding really cool after a few tries using it. To the new [Headless CMS ](https://medium.com/tech-tajawal/why-headless-cms-is-becoming-so-popular-57d262b1e096)movement, which is a bit of a off shoot of the whole React Website with a API / Database sitting behind it.
+I think that cool changes are coming soon, from the new [Gutenberg editor for Wordpress ](https://wordpress.org/gutenberg/)which I'm finding really cool after a few tries using it. To the new Headless CMS movement, which is a bit of a off shoot of the whole React Website with a API / Database sitting behind it.
 
 
 

@@ -24,7 +24,7 @@ Games like [Dactyl Nightmare](https://www.arcade-history.com/?n=dactyl-nightmare
 
 Then is just died overnight, no one talked about it anymore and it was gone from the zeitgeist for years, living in small niches of people building custom hardware.
 
-Then one day it exploded again in the early 2010's thanks to the first big [Kickstarter](https://www.kickstarter.com/projects/1523379957/oculus-rift-step-into-the-game) I supported. Palmer Lucky had worked out that commodity mobile phone screens would be good enough for the displays and the rest is tech!
+Then one day it exploded again in the early 2010's thanks to the first big Kickstarter I supported. Palmer Lucky had worked out that commodity mobile phone screens would be good enough for the displays and the rest is tech!
 
 ![Developer kit for the Oculus Rift - the first truly immersive virtual reality headset for video games.](/images/2018/03/headset-opt.jpg)
 
@@ -123,7 +123,7 @@ No real user interaction, all you could do was look around but it made you feel 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/S1Zt34yaNAY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-An early follow on for people who wanted to play something was [Epic Dragon VR](http://www.aghartastudio.com/), this was a game where you flew on the back of a dragon and could look to direct it. It was an amazing experience being on the back of this living breathing dragon and getting it to do your bidding, such a simple mechanic, all you had to do was look where you wanted to go and the Dragon would take you there.
+An early follow on for people who wanted to play something was Epic Dragon VR, this was a game where you flew on the back of a dragon and could look to direct it. It was an amazing experience being on the back of this living breathing dragon and getting it to do your bidding, such a simple mechanic, all you had to do was look where you wanted to go and the Dragon would take you there.
 
 ![Image result for epic dragon vr](/images/2019/08/Epic-Dragon-VR1-1-opt.jpg)
 

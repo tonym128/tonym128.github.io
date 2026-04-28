@@ -11,7 +11,7 @@ tags:
 - programming
 excerpt: "Examining the resurgence of ray tracing technology and its potential to revolutionize real-time rendering."
 ---
-I was surprised that [Ray tracing](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)) made a massive resurgence at [GDC 2018](http://www.gdconf.com/aboutgdc/).
+I was surprised that [Ray tracing](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)) made a massive resurgence at [GDC 2018](https://gdconf.com/).
 
 Ray tracing has always been the alternative to Polygonal Rasterization (Standard 3d Rendering) and Voxels (similar to Polygons but using many many many dots in 3d space).
 
@@ -67,7 +67,7 @@ Ray tracing uses the idea of ray casting, which involves shooting rays from a ca
 
 The idea is that the more rays you shoot into a scene the higher a level of fidelity you achieve.
 
-The increasing detail Illustrated by additional rays being cast at a 2d kettle from a [tutorial ](https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-ray-tracing)on programming Ray tracing engines.
+The increasing detail Illustrated by additional rays being cast at a 2d kettle from a [tutorial ](https://www.scratchapixel.com/lessons/3d-basic-rendering/introduction-to-ray-tracing/how-does-it-work.html)on programming Ray tracing engines.
 ![](/images/2019/08/teapotracing.gif)
 
 Since the rays rely on additional recursive rays being cast, you can also speed up the process by limiting the amount of rays you will additionally cast into scene from the object such as the depth, but doing this too heavily will result in losing a lot of the amazing lighting you get from ray tracing.

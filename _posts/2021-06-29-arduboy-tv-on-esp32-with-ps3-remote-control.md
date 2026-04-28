@@ -45,7 +45,6 @@ KISS - Keep it simple stupid.
 
 Pretty much the only big product to purchase is this
 
-<http://www.lilygo.cn/prod_view.aspx?TypeId=50033&Id=1126&FId=t3:50033:3>
 ![](/images/2021/06/ttgo-opt.webp)
 
 The TTGO T-Display ESP32, this board was actually cheaper than a lot of boards without a display at the time I bought it, but almost any ESP32 board will do.
@@ -156,7 +155,7 @@ I needed to add the initialization code for the threading, the TV output code is
 
 ***First try*** - Modify the games manually this was a pain to do and wasn't maintainable or scalable for all the games.
 
-***Second try*** - Replace the main ino file with my own, while renaming the ino to mytvgame.cpp or some such, I was able to get away with this with one or two games, but then had a few problems for a few reasons. Ino files are like a global namespace and functions can be defined in any order you like (as if you specified them in an imported header) but when I programatically generated the header files I start encountering many more errors. Here's the single source file which actually was able to make headers from my Arduino INO file https://fossil-scm.org/home/doc/trunk/src/makeheaders.html once they were copied into CPP files.
+***Second try*** - Replace the main ino file with my own, while renaming the ino to mytvgame.cpp or some such, I was able to get away with this with one or two games, but then had a few problems for a few reasons. Ino files are like a global namespace and functions can be defined in any order you like (as if you specified them in an imported header) but when I programatically generated the header files I start encountering many more errors. Here's the single source file which actually was able to make headers from my Arduino INO file https://fossil-scm.org/home/doc/trunk/tools/makeheaders.html once they were copied into CPP files.
 
 ***Third try*** - Actually all I need is to rename the setup() and loop() to something else and make my own startup and loop methods which call those!
 

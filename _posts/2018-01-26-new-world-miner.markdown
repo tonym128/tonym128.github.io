@@ -67,16 +67,16 @@ There is a lot of software out there for mining, from the simple miners (which a
 
 
 	
-  * [CCMiner](http://ccminer.org/) - Good comprehesive miner, not always the fastest though.
+  * CCMiner - Good comprehesive miner, not always the fastest though.
 
 	
-  * [Claymore](https://github.com/nanopool/Claymore-Dual-Miner) - Recognised as a great AMD Mining software stack, supports Nvidia too.
+  * Claymore - Recognised as a great AMD Mining software stack, supports Nvidia too.
 
 	
-  * [XMR-Stak](https://github.com/fireice-uk/xmr-stak) - A great Monero miner for AMD and Nvidia.
+  * XMR-Stak - A great Monero miner for AMD and Nvidia.
 
 	
-  * [MinerGate](https://minergate.com/) - Really easy to use, while it was easy to get up and running, I didn't feel like I had control over anything, which this whole new world is meant to provide you with.
+  * MinerGate - Really easy to use, while it was easy to get up and running, I didn't feel like I had control over anything, which this whole new world is meant to provide you with.
 
 
 I chose XMR-Stak for it's speed to ease of use, the SumoKoin website actually detailed it's setup as well.
@@ -101,7 +101,7 @@ If you're willing to cede control you can have a third party do this on your beh
 
 At some point you're going to want to turn your coin into something else, so you'll need an exchange which can handle the exchange of one token to another, they normally do this by providing you with wallets on the exchange in the different crypto's you want to use. Some exchanges will even allow you to transfer back into [fiat](https://www.fool.com/investing/general/2015/12/06/fiat-currency-what-it-is-and-why-its-better-than-a.aspx) letting you spend your hard earned $$$'s.
 
-SumoKoin is currently only listed on [Cryptopia](https://www.cryptopia.co.nz/) A well regarded exchange from my travels online. [LiveCoin](https://www.livecoin.net/) The one I used to succesfully make my conversions between crypto's
+SumoKoin is currently only listed on [Cryptopia](https://www.cryptopia.co.nz/) A well regarded exchange from my travels online. LiveCoin the one I used to succesfully make my conversions between crypto's.
 
 
 ## Pool

@@ -88,7 +88,7 @@ I tried the smallest available dataset and since it was running well, but a litt
 ![](/images/puzzle-opt.jpg)
 {: refdef}
 
-At first thought I was looking at integrating the Telegram bot directly with the code for whisper.cpp, but given the time I wanted to invest, there was an [example](https://github.com/ggerganov/whisper.cpp/tree/master/examples/main) that would accept a wav file and convert it to text. The idea was then to have the Telegram bot accept messages with attachments and then convert those to .wav, which the example code could parse and convert and get the end result back into my Python Telegram Bot and send the text conversion back. 
+At first thought I was looking at integrating the Telegram bot directly with the code for whisper.cpp, but given the time I wanted to invest, there was an [example](https://github.com/ggml-org/whisper.cpp/tree/master/examples/cli) that would accept a wav file and convert it to text. The idea was then to have the Telegram bot accept messages with attachments and then convert those to .wav, which the example code could parse and convert and get the end result back into my Python Telegram Bot and send the text conversion back. 
 
 Python once again to the rescue has some great tooling for executing shell scripts using [Popen](https://docs.python.org/3/library/subprocess.html) which allows you to run commands. You really want to be careful with things like this, they're a massive security hole. Since I'm not accepting text directly, I don't have to worry about the command injection coming in, so much as bad payloads which somehow blow up FFMpeg and allow arbitrary command execution. As they say the first task is knowing about the problem...
 
