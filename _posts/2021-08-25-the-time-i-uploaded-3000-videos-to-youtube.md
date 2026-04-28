@@ -44,9 +44,6 @@ Here is the channel I built
 <https://www.youtube.com/c/TonyTechnology>
 ![](/images/2021/08/the-channel2-opt.jpg)
 
-A popular video early on which made me think the project had more legs
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7IvZ7SmWLNk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 <a name="nailing">
 
 ### The Pieces I needed to cover
@@ -127,9 +124,6 @@ I found some amazing research papers which let me generate a video of a person t
 
 The AI generated face, which was then animated by the ML algorithm to the audio
 ![](/images/2021/08/female1-opt.jpg)
-
-Talking head in action (same video as earlier)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/7IvZ7SmWLNk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 This was an interesting part of the project and stumped a lot of my dockerization attempts. I initially got the ML code up and running on my windows machine with CUDA on Anaconda, which was surprisingly simple and easy, though proved for some reason impossible for me to port to a docker machine or my linux machine... I could have possibly put more effort into it, but with the comments and the snags I kept hitting, it was easier to ditch it in the end.
 
@@ -229,7 +223,3 @@ It was a lot to take in and I think I'll carry quite a few things onto the next 
 Thanks for reading this far and here's how close I've come to the YouTube monetised creator goal as of near end of August 2021!
 
 ![](/images/2021/08/6-growth-opt.jpg)
-
-And finally if you read this far, some inception! Here's an auto-generated video of this article.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/q6gOjiQ9CIY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
