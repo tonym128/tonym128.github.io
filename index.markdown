@@ -47,7 +47,7 @@ feature_row:
     alt: "The Time I Uploaded 3000 videos to YouTube"
     title: "The Time I Uploaded 3000 videos to YouTube"
     excerpt: "The story of an automation project that generated and uploaded 3,000 videos to YouTube in six months."
-    url: "/2021/08/26/the-time-i-uploaded-3000-videos-to-youtube.html"
+    url: "/2021/08/25/the-time-i-uploaded-3000-videos-to-youtube.html"
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
