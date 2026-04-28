@@ -39,11 +39,11 @@ This is probably the easiest place to start since everything gets based on this 
 
 The components are 
 
-![](/images/2019/11/esp32.png)
+![](/images/2019/11/esp32-opt.jpg)
 - ESP32 processor. 
 	- This is a dual core 240mhz, 380kb memory, 4mb rom processor. It is super fast, and has Bluetooth and Wifi built in! It doesn't have a floating point unit, but those type of calcs can be done via the toolchain and Arduino libraries, otherwise you can do fixed point math, like I did for a number of performance reasons.
 
-![](/images/2019/11/ips.png)
+![](/images/2019/11/ips-opt.jpg)
 - 1.3 Inch 240x240 IPS Display
 	- This display was a real find, it's price and resolution are not easy to come by, one of the challenges in the project was actually pushing out all those pixels, we couldn't actually do full 16 bit colour, which the screen supports, because of the framebuffer it would have required. I do feel the 256 colour palette has some charm to it though.
 
@@ -51,7 +51,7 @@ The components are
 - Custom PCB
 	- The PCB is designed to fit all the components (Charging circuit, USB, battery power) as well as the touch buttons
 
-![](/images/2019/11/18650.png)
+![](/images/2019/11/18650-opt.jpg)
 - A 18650 Battery
 	- This is considered the most standard battery in the world, it's the same one as is used in Teslas! So you can feel a bit like a part of the future, just having one of these in your possession, I think it's a 2800mah battery, but time will tell, literally on the day :)
 	

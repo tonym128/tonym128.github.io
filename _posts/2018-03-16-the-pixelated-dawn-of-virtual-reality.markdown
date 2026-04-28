@@ -8,7 +8,7 @@ tags:
 - vr
 excerpt: "A nostalgic look back at the early days of virtual reality and how modern technology revived the dream."
 ---
-![](/images/2018/03/VR-Headline.jpeg)
+![](/images/2018/03/VR-Headline-opt.jpeg)
 
 I have always been fascinated by [Virtual Reality.](https://en.wikipedia.org/wiki/Virtual_reality) It was always depicted as the future in media, the place we wanted to be but weren't yet.
 
@@ -18,7 +18,7 @@ Games like [Dactyl Nightmare](https://www.arcade-history.com/?n=dactyl-nightmare
 
 ![Tron poster.jpg](/images/2019/08/220px-Tron_poster.jpg)![Lawnmower Man.jpg](/images/2019/08/220px-Lawnmower_Man.jpg)
 
-![Image result](/images/2019/08/img_5d5ffbee36b91.jpg)
+![Image result](/images/2019/08/img_5d5ffbee36b91-opt.jpg)
 
 ![Hackersposter.jpg](/images/2019/08/220px-Hackersposter.jpg)![](/images/2019/08/2239309-virtuality.jpg)
 
@@ -26,11 +26,11 @@ Then is just died overnight, no one talked about it anymore and it was gone from
 
 Then one day it exploded again in the early 2010's thanks to the first big [Kickstarter](https://www.kickstarter.com/projects/1523379957/oculus-rift-step-into-the-game) I supported. Palmer Lucky had worked out that commodity mobile phone screens would be good enough for the displays and the rest is tech!
 
-![Developer kit for the Oculus Rift - the first truly immersive virtual reality headset for video games.](/images/2018/03/headset.jpg)
+![Developer kit for the Oculus Rift - the first truly immersive virtual reality headset for video games.](/images/2018/03/headset-opt.jpg)
 
 And now with the release of movies like [Ready Player One](https://en.wikipedia.org/wiki/Ready_Player_One_(film)) it's making it's way back in.
 
-![Ready Player One (film).png](/images/2019/08/Ready_Player_One_28film29.png)
+![Ready Player One (film).png](/images/2019/08/Ready_Player_One_28film29-opt.jpg)
 
 
 ## What I want to see ?
@@ -46,11 +46,11 @@ Virtual reality has come a very far way in a very short time. From it's renaissa
 
 **The entry level experience** is getting so much better with Google having stepping to that area with Cardboard. A great cheap experience to view photos and play some games. It uses your phone and some literal cardboard, great idea and great cheap introduction for everyone.
 
-![Image result for cardboard google](/images/2019/08/1200px-Google-Cardboard.jpg)
+![Image result for cardboard google](/images/2019/08/1200px-Google-Cardboard-opt.jpg)
 
 **The middle range experience** is slightly more involved is Google Daydream recently released for multiple vendors as well as Samsung Gear VR.
 
-![Image result for google daydream](/images/2019/08/daydream-view-fog.png)
+![Image result for google daydream](/images/2019/08/daydream-view-fog-opt.jpg)
 
 ![Image result for samsung vr](/images/2019/08/img_5d5ffbf576029.jpg)
 
@@ -79,7 +79,7 @@ Giving a very high quality image and the high end experience people always thoug
 [Gyroscope](https://en.wikipedia.org/wiki/Gyroscope) another sensor which allows you to know orientation. This allows the device to know the direction it's pointing.
 
 
-## ![](/images/2019/08/250px-3D_Gyroscope.png)
+## ![](/images/2019/08/250px-3D_Gyroscope-opt.jpg)
 
 
 All the above sensors were very expensive till mobile phones commoditized them making them commercially available and much cheaper.
@@ -94,7 +94,7 @@ And on the higher end devices you can get hand controllers as well to allow you 
 
 **No more wires**, for all the high end hardware it's either connected to a computer or a console via cables. There are plans in motion to turn this [wireless ](https://www.theverge.com/2018/1/8/16863304/htc-vive-wireless-adapter-features-ces-2018).
 
-![](/images/2019/08/htc_vive_pro_adapter_2_2.1515429588.jpg)
+![](/images/2019/08/htc_vive_pro_adapter_2_2.1515429588-opt.jpg)
 
 HTC will be releasing their add on in the near future and other companies are promising that they will be able to power HDMI devices and send the signal wireless in a generic way.
 
@@ -125,7 +125,7 @@ No real user interaction, all you could do was look around but it made you feel 
 
 An early follow on for people who wanted to play something was [Epic Dragon VR](http://www.aghartastudio.com/), this was a game where you flew on the back of a dragon and could look to direct it. It was an amazing experience being on the back of this living breathing dragon and getting it to do your bidding, such a simple mechanic, all you had to do was look where you wanted to go and the Dragon would take you there.
 
-![Image result for epic dragon vr](/images/2019/08/Epic-Dragon-VR1-1.png)
+![Image result for epic dragon vr](/images/2019/08/Epic-Dragon-VR1-1-opt.jpg)
 
 Fast forward a few years actually and people had tried to make a lot of First Person games, but nothing really worked, it all feels wrong and leaves you feeling ill afterwards.
 

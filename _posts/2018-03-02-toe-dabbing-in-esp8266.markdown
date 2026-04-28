@@ -25,7 +25,7 @@ An entire eco-system of tools formed around this and a community of hardware afi
 ## The dream
 
 
-![](/images/2018/02/pexels-photo-279467.jpeg)
+![](/images/2018/02/pexels-photo-279467-opt.jpeg)
 
 My dream was always to build small 'throw away' electronic devices cheaply that could form some sort of network and provide access to metrics of some sort, light levels, temperatures, air pressure and layer them throughout a room and then build displays of this data. An example that I've seen recently isn't quite this but it is similar in a popular supermarket chain that shows their electricity and water usage on real time updated graphs at the entrance.
 
@@ -35,7 +35,7 @@ I find this sort of information which is kinda mundane being turned into somethi
 ## Turn it into a reality
 
 
-![](/images/2018/02/pexels-photo-533189.jpeg)
+![](/images/2018/02/pexels-photo-533189-opt.jpeg)
 
 To find a project there first needs to be something to do... so the simplest project for the ESP is to set it up as a [WiFi Access Point](https://gist.github.com/Cyclenerd/7c9cba13360ec1ec9d2ea36e50c7ff77), pretty advanced functionality for a single chip, or you can make it connect to an existing wifi network and display a button on a website to click [on and off](https://create.arduino.cc/projecthub/jaiprak/control-led-from-web-app-using-esp8266-serial-wifi-module-cdf419) . Once it's connected with this example above, it should serve a website to you regardless of where you try to browse, regardless of where you try to browse to.
 
@@ -47,7 +47,7 @@ The board I got has a micro usb port with a serial port chip, two buttons and ea
 ## The first steps into the new brave world.
 
 
-![](/images/2018/02/Arduino.png)
+![](/images/2018/02/Arduino-opt.jpg)
 
 The chip arrives blank so I had to first program the firmware using a [flasher](https://en.wikipedia.org/wiki/Firmware#Flashing) and a [ROM](https://en.wikipedia.org/wiki/Read-only_memory).
 
@@ -57,7 +57,7 @@ Once we have the firmware, which is only actually writing some code. I installed
 
 I found the [online code sample](https://gist.github.com/Cyclenerd/7c9cba13360ec1ec9d2ea36e50c7ff77) for doing exactly what I wanted and the code was simple enough to copy paste while still understanding every line, so that made it perfect.
 
-![](/images/2018/03/Code.png)
+![](/images/2018/03/Code-opt.jpg)
 
 
 
@@ -69,7 +69,7 @@ With the code deployed and live on the ESP, I can fire up the wireless connectio
 
 And it displays this page when you try to browse anything!
 
-![](/images/2018/03/Im-just-a-bottle-WiFi.png)
+![](/images/2018/03/Im-just-a-bottle-WiFi-opt.jpg)
 
 No too exciting, but pretty good for a tiny little board.
 

@@ -18,7 +18,7 @@ First thing was isolating the problem . I installed all the monitoring tools I c
 
 I managed to find the app causing all my issues, it was [Google Photo](http://photos.google.com/)'s but there were no throttling options in the software to stop it.
 
-![Image result for google photos logo](/images/2019/08/2000px-Google_Photos_icon.svg.png)
+![Image result for google photos logo](/images/2019/08/2000px-Google_Photos_icon.svg-opt.jpg)
 
 I was honestly so surprised, but anytime a device in our house came home to land on the WiFi, we couldn't browse the web until it was done uploading it's photo's.
 
@@ -52,7 +52,7 @@ This will help you setup a Wifi Access Point, [DHCP](https://en.wikipedia.org/wi
 
 The last piece of the puzzle. I was actually quite surprised that a piece of software called [IP Tables](https://en.wikipedia.org/wiki/Iptables), which is normally used for directing traffic was actually able do quality management and throttling.
 
-![](/images/2019/08/1450px-Netfilter-packet-flow.svg.png)
+![](/images/2019/08/1450px-Netfilter-packet-flow.svg-opt.jpg)
 
 The IP Tables result was actually pretty great, but was quite complicated to setup, I modified a [guide](http://lartc.org/howto/lartc.cookbook.fullnat.intro.html) I found and ... we now have the best internet we ever had at home, even though the line is quite slow, it's never felt slow for us again.
 

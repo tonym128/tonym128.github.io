@@ -12,7 +12,7 @@ I went from literally no interviewing experience to an experienced interviewer i
 
 I found it a fascinating experience and thought it would be good to share.
 
-![](/images/2018/04/Puzzle.jpg)
+![](/images/2018/04/Puzzle-opt.jpg)
 
 
 ## What I want to accomplish
@@ -20,7 +20,7 @@ I found it a fascinating experience and thought it would be good to share.
 
 I'd like to reflect on the experience and share some of what I learnt, as well as what I wish I had known when I started out, like the things I wish I'd known to do, and what not to do.
 
-![](/images/2018/04/abc.jpg)
+![](/images/2018/04/abc-opt.jpg)
 
 
 ## What was my first interview like

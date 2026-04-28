@@ -72,7 +72,7 @@ I have always wanted to write games and for various reasons, I've never finished
 
 
 
-![](/images/2019/04/IMG_9328-1-1.jpg)Pic stolen from Andrew's great [blog post](https://www.andrewmohawk.com/2017/05/16/bsides-cpt-badge-2016/) on the BSides 2016 badge 
+![](/images/2019/04/IMG_9328-1-1-opt.jpg)Pic stolen from Andrew's great [blog post](https://www.andrewmohawk.com/2017/05/16/bsides-cpt-badge-2016/) on the BSides 2016 badge 
 
 
 
@@ -124,7 +124,7 @@ The game was going to be about the journey to DefCon. You fly a plan to the Stat
 
 
 
-![](/images/2019/04/20180925_224654.jpg)
+![](/images/2019/04/20180925_224654-opt.jpg)
 
 
 
@@ -136,7 +136,7 @@ You drive from the Airport to the Hotel ( Stage 3 and 4)
 
 
 
-![](/images/2019/04/image.png)
+![](/images/2019/04/image-opt.jpg)
 
 
 
@@ -148,7 +148,7 @@ And you then have to hunt your way through the hallways to the conference venue 
 
 
 
-![](/images/2019/04/image-1.png)
+![](/images/2019/04/image-1-opt.jpg)
 
 
 
@@ -160,7 +160,7 @@ There were a couple special effects and some code I'm really proud of in there, 
 
 
 
-![](/images/2019/04/Rotozoomer.png)
+![](/images/2019/04/Rotozoomer-opt.jpg)
 
 
 
@@ -220,7 +220,7 @@ I was happy with components of the ESP8266 and the SSD1306 screen, but I was ver
 
 
 
-![](/images/2019/04/image-2.png)The idea was great and it looked greatm but...
+![](/images/2019/04/image-2-opt.jpg)The idea was great and it looked greatm but...
 
 
 
@@ -264,7 +264,7 @@ I wired it all up on a [breadboard](https://en.wikipedia.org/wiki/Breadboard) an
 
 
 
-![](/images/2019/04/IMG_20190225_093053_484.jpg)4 input buttons on the left, the screen and processor in the middle, and down right I added audio at one point!
+![](/images/2019/04/IMG_20190225_093053_484-opt.jpg)4 input buttons on the left, the screen and processor in the middle, and down right I added audio at one point!
 
 
 
@@ -322,7 +322,7 @@ Windows Console
 
 
 
-![](/images/2019/04/image-3.png)Running Maze Runner on Windows in a Console Window
+![](/images/2019/04/image-3-opt.jpg)Running Maze Runner on Windows in a Console Window
 
 
 
@@ -334,7 +334,7 @@ Then the Linux Console
 
 
 
-![](/images/2019/04/Screenshot-from-2019-04-21-22-40-13.png)Running the Matrix code in a Linux Console
+![](/images/2019/04/Screenshot-from-2019-04-21-22-40-13-opt.jpg)Running the Matrix code in a Linux Console
 
 
 
@@ -346,7 +346,7 @@ Then [SDL](https://www.libsdl.org/index.php)
 
 
 
-![](/images/2019/04/Screenshot-from-2019-04-21-22-35-34.png)Running the Matrix code via SDL2 on Linux
+![](/images/2019/04/Screenshot-from-2019-04-21-22-35-34-opt.jpg)Running the Matrix code via SDL2 on Linux
 
 
 
@@ -358,7 +358,7 @@ Once I had SDL up and running, I realised that Emscripten worked with that so I 
 
 
 
-![](/images/2019/04/image-4.png)Maze game in a Web Browser
+![](/images/2019/04/image-4-opt.jpg)Maze game in a Web Browser
 
 
 
@@ -378,7 +378,7 @@ The biggest items were input, timing and output, for which I built seperate part
 
 
 
-![](/images/2019/04/CMake.png)CMake Logo
+![](/images/2019/04/CMake-opt.jpg)CMake Logo
 
 
 
@@ -430,7 +430,7 @@ And thus was launched [ESP8266 Game On](https://github.com/tonym128/ESP8266GameO
 
 
 
-![](/images/2019/04/logo.png)
+![](/images/2019/04/logo-opt.jpg)
 
 
 
@@ -503,7 +503,7 @@ _Since the sprites are basically bitmasks, you can double up their usage as a ma
 
 
 
-![](/images/2019/04/Flying-Game.png)
+![](/images/2019/04/Flying-Game-opt.jpg)
 
 
 
@@ -544,7 +544,7 @@ The ESP8266 is surprisingly powerful, able to play tech demos like Wolfenstein m
 **Built in Font Engine**  
 _There is a built in font with help functions, specifically built for the screen size_
 
-![](/images/2019/04/image-5.png)-= Asteroid! =-
+![](/images/2019/04/image-5-opt.jpg)-= Asteroid! =-
 
 
 

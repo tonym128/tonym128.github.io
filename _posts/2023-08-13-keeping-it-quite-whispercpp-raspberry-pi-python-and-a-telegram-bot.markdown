@@ -21,7 +21,7 @@ excerpt: "Building a Telegram bot with Whisper.cpp and a Raspberry Pi to automat
 
 # Synopsis
 {:refdef: style="text-align: center;"}
-![](/images/man_listening.png)
+![](/images/man_listening-opt.jpg)
 {: refdef}
 
 There is a particular pet hate I have, it's voice notes. Often I am somewhere noisy, or busy with a zoom meeting and can't listen, then even when I have the time to listen, I'm not aware of the content that is going to be announced out around me.
@@ -47,7 +47,7 @@ Most of the python code is available [here](https://gist.github.com/tonym128/544
 
 # Goal
 {:refdef: style="text-align: center;"}
-![](/images/big_computer.png)
+![](/images/big_computer-opt.jpg)
 {: refdef}
 
 I wanted to build some sort of service that would allow me to easily take my voice notes and get them transcribed into text, ideally it would always be online and ready to serve and it would not require me to buy or run any cloud infrastructure, or even having my home PC on and chugging electricity to serve some sort of massive GPU model for the couple voice notes I get in a day.
@@ -56,7 +56,7 @@ I wanted to build some sort of service that would allow me to easily take my voi
 
 # Nailing the pieces one by one
 {:refdef: style="text-align: center;"}
-![](/images/steps.png)
+![](/images/steps-opt.jpg)
 {: refdef}
 
 ## A way to access service from anywhere
@@ -69,7 +69,7 @@ Using Telegrams, [Botfather](https://telegram.me/BotFather) (great name btw), I 
 There is a python library for integrating with Telegram, [python-telegram-bot](https://python-telegram-bot.org/) It's really easy to get up and running too. Their front page literally has all the code you would need to setup a "Hello World" bot
 
 {:refdef: style="text-align: center;"}
-![](/images/python-telegram-bot.png)
+![](/images/python-telegram-bot-opt.jpg)
 {: refdef}
 
 ## Speech to Text service
@@ -81,7 +81,7 @@ I tried the smallest available dataset and since it was running well, but a litt
 
 ## Linking it together
 {:refdef: style="text-align: center;"}
-![](/images/puzzle.png)
+![](/images/puzzle-opt.jpg)
 {: refdef}
 
 At first thought I was looking at integrating the Telegram bot directly with the code for whisper.cpp, but given the time I wanted to invest, there was an [example](https://github.com/ggerganov/whisper.cpp/tree/master/examples/main) that would accept a wav file and convert it to text. The idea was then to have the Telegram bot accept messages with attachments and then convert those to .wav, which the example code could parse and convert and get the end result back into my Python Telegram Bot and send the text conversion back. 
@@ -108,7 +108,7 @@ I had a small concern about the SD card wear and tear, so I setup a ram disk to 
 
 # What went wrong
 {:refdef: style="text-align: center;"}
-![](/images/wrong.png)
+![](/images/wrong-opt.jpg)
 {: refdef}
 
 Surprisingly, the approach worked really well, I had a few troubles working out the python code for accepting and processing attachments.
@@ -166,21 +166,21 @@ SHHH_MY_CHAT_ID=11111112
 
 # What went right
 {:refdef: style="text-align: center;"}
-![](/images/stablethumbs.png)
+![](/images/stablethumbs-opt.jpg)
 {: refdef}
 
 The bot is up and running and it is always available for me, and anyone else actually, to convert voice notes and videos audio to text. The speech to text conversion is usually great, allowing me to reply to a voice note without ever listening to it. I only use it once a week, but I keep simple stats on calls to the service
 
 For the workflow it's pretty good, without being able to integrate into the messaging app directly. Most voice notes arrive in WhatsApp and I can long click them and share them to Shhh bot which will start the Speech to Text and return the result to me in under a minute.
 {:refdef: style="text-align: center;"}
-![](/images/shhhbot.png)
+![](/images/shhhbot-opt.jpg)
 {: refdef}
 
 <a name="learn">
 
 # What did I learn
 {:refdef: style="text-align: center;"}
-![](/images/study.png)
+![](/images/study-opt.jpg)
 {: refdef}
 
 ### Telegram Bots
@@ -203,7 +203,7 @@ Give it a go [here](https://linuxhandbook.com/create-systemd-services/)
 
 # Where to from here
 {:refdef: style="text-align: center;"}
-![](/images/map.png)
+![](/images/map-opt.jpg)
 {: refdef}
 
 Using a Telegram bot for automation of some form was a great learning experience for me and I'm very open to using this approach in the future for dynamic interactions and not having to host a web-server or other online resource to do simple tasks. It would be amazing to host my own Stable Diffusion model for generating images on my own private compute, but the Pi wouldn't be quite powerful enough for that from my experiences so far.

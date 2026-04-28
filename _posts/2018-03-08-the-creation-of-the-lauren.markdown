@@ -10,7 +10,7 @@ tags:
 - programming
 excerpt: "How I built a custom automation tool named Lauren to eliminate tedious manual work in content publishing."
 ---
-![](/images/2018/03/Lauren.png)
+![](/images/2018/03/Lauren-opt.jpg)
 
 For me, the best part of finishing a project is making people's tedious problems into non-entities.
 
@@ -30,7 +30,7 @@ Some of the formats are on the full page article, mini-preview, linking previews
 
 I felt certain I could help them spend their time better.
 
-![](/images/2018/03/pexels-photo-52608.jpeg)
+![](/images/2018/03/pexels-photo-52608-opt.jpeg)
 
 
 ## Research!
@@ -38,15 +38,15 @@ I felt certain I could help them spend their time better.
 
 Whenever I want to start a project the first step is always reasearch. In this age of information when you set out to do something there is almost always someone who has done it already, so I looked to a lot of my favourite imaging tools to see how easily they could be setup to automatically create a bunch of formats each time they were needed.
 
-![](/images/2018/03/app-xnconvert-512.png)
+![](/images/2018/03/app-xnconvert-512-opt.jpg)
 
-![](/images/2018/03/logo-download.png)
+![](/images/2018/03/logo-download-opt.jpg)
 
 I'd used [XNConvert](https://www.xnview.com/en/xnconvert/) in the past and [IrfanView ](http://www.irfanview.com/)with great sucess, but couldn't find a way to easily automate them to this specific task that would be easy enough and portable enough to setup on any machine.
 
 So the project was a go!
 
-![](/images/2018/03/flight-sky-earth-space.jpg)
+![](/images/2018/03/flight-sky-earth-space-opt.jpg)
 
 
 ## What I set out to accomplish
@@ -84,7 +84,7 @@ I wanted a very simple UI, drag and drop an image and get your copies.
 
 There were a couple iterations of even this, but this is what I came up with in the end.
 
-![](/images/2018/03/Lauren-Full-Image.png)
+![](/images/2018/03/Lauren-Full-Image-opt.jpg)
 
 A simple header (I had to use a 80's era logo for something in my lifetime).
 
@@ -98,11 +98,11 @@ With the two most important questions answered (what does it do and what do we c
 
 A brief break down, the top bar is for the different sizing requirements depending on CMS and tasks, so instead of creating twenty different types, we actually only create the ones pertinent to the specific task.
 
-![](/images/2018/03/Footer.png)
+![](/images/2018/03/Footer-opt.jpg)
 
 The bottom bar is for quickly setting the max size of quality of the picture.
 
-![](/images/2018/03/Header.png)
+![](/images/2018/03/Header-opt.jpg)
 
 These were the only two concessions I made to expanding requirements.
 
@@ -118,7 +118,7 @@ I do actually try to follow this [principle](https://en.wikipedia.org/wiki/KISS_
 
 It's tightly coupled to a favourite saying.
 
-[![](/images/2018/03/Simplicity.png)](https://www.brainyquote.com/quotes/alan_perlis_177332?src=t_complexity)
+[![](/images/2018/03/Simplicity-opt.jpg)](https://www.brainyquote.com/quotes/alan_perlis_177332?src=t_complexity)
 
 Keeping this project small and singularly focussed managed to get me to the finish line fast with the best ROI (Return on Investment) for the work I was doing, which was in my spare time and to help a friend. The ROI was seeing a happy friend with a tedious task removed from their life.
 
@@ -132,7 +132,7 @@ Surprisingly to me, this resulted in a really terrible output.
 
 I quickly changed to using a resize and crop method which didn't give the best result.
 
-![](/images/2018/03/Centred-Focal-Point.png)
+![](/images/2018/03/Centred-Focal-Point-opt.jpg)
 
 The image above illustrated the centred focal points in each photo which is how the resize and crop where happening.
 
@@ -140,7 +140,7 @@ I then changed this to allow the user to select a focal point if they wished and
 
 With the focal point selected you get much higher quality output.
 
-![](/images/2018/03/Chosen-Focal-Point.png)
+![](/images/2018/03/Chosen-Focal-Point-opt.jpg)
 
 With the resize and crop you see with similar aspect ratios' we get a similar photos, but with the long upright photo's we get a better result.
 
@@ -184,7 +184,7 @@ And finally it was about the different tasks, so I added 4 xml profiles.
 
 They have been very happy with the program and even shared it with collegues to help them do their jobs quicker and more effeciently.
 
-![](/images/2018/03/pexels-photo-450271.jpeg)
+![](/images/2018/03/pexels-photo-450271-opt.jpeg)
 
 
 ## Where to from here

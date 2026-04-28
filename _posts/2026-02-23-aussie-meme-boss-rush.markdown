@@ -8,7 +8,7 @@ excerpt: "Behind the scenes of Aussie Meme Boss Rush, a neon-drenched 3D web sho
 ---
 # Aussie Meme Boss Rush tldr; 
 
-![Aussie Meme Boss Rush main interface showing a neon-drenched 3D boss fight](/images/2026/02/23/aussie-meme-rush.png "Aussie Meme Boss Rush Main Interface")
+![Aussie Meme Boss Rush main interface showing a neon-drenched 3D boss fight](/images/2026/02/23/aussie-meme-rush-opt.jpg "Aussie Meme Boss Rush Main Interface")
 
 I made a high-octane, neon-drenched 3D boss rush shooter where you face off against cybernetic versions of Australia's most infamous wildlife memes!
 

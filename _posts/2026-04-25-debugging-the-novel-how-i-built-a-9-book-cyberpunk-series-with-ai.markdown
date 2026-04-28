@@ -15,7 +15,7 @@ excerpt: "How a weekend experiment turned into building a nine-book cyberpunk se
 ---
 
 <div style="display: flex; justify-content: center;">
-  <img src="/images/2026/04/1_titled.jpg" width="50%" alt="System Exception - Unhandled Exceptions Book 1 Cover">
+  <img src="/images/2026/04/1_titled-opt.jpg" width="50%" alt="System Exception - Unhandled Exceptions Book 1 Cover">
 </div>
 
 ## Abstract
@@ -114,6 +114,6 @@ I ended up with something I actually wanted to read. And in the process, I gaine
 
 Book 1 - System Exception | Book 2 - Memory Leak | Book 3 - FATAL ERROR
 :-------------------------:|:-------------------------:|:-------------------------:|
-<a href="https://www.amazon.com/System-Exception-Unhandled-Exceptions-Book-ebook/dp/B0GNMRWSYD"><img src="/images/2026/04/1_titled.jpg" width="200" alt="System Exception Cover"></a> | <a href="https://www.amazon.com/Memory-Leak-Unhandled-Exceptions-Book-ebook/dp/B0GS9BSHLD"><img src="/images/2026/04/2_titled.jpg" width="200" alt="Memory Leak Cover"></a> | <a href="https://www.amazon.com/gp/product/B0GX2YF9MX"><img src="/images/2026/04/3_titled.jpg" width="200" alt="Fatal Error Cover"></a> |
+<a href="https://www.amazon.com/System-Exception-Unhandled-Exceptions-Book-ebook/dp/B0GNMRWSYD"><img src="/images/2026/04/1_titled-opt.jpg" width="200" alt="System Exception Cover"></a> | <a href="https://www.amazon.com/Memory-Leak-Unhandled-Exceptions-Book-ebook/dp/B0GS9BSHLD"><img src="/images/2026/04/2_titled-opt.jpg" width="200" alt="Memory Leak Cover"></a> | <a href="https://www.amazon.com/gp/product/B0GX2YF9MX"><img src="/images/2026/04/3_titled-opt.jpg" width="200" alt="Fatal Error Cover"></a> |
 
 And more to come, see you in Neo-Viridia!

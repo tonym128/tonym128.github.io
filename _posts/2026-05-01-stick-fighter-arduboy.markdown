@@ -9,7 +9,7 @@ excerpt: "The story behind building a 2D fighting game for the Arduboy. Tackling
 
 # Stick Fighter: Fighting the Arduboy’s Constraints
 
-![Start Screen](/images/2026/05/01/start.png)
+![Start Screen](/images/2026/05/01/start-opt.jpg)
 
 When I first saw the Arduboy, I was immediately drawn to its charm and simplicity. 
 
@@ -23,7 +23,7 @@ Take a look at the source code [here](https://github.com/tonym128/stickfighter)
 
 ## The Vision vs. The Reality
 
-![Character Select](/images/2026/05/01/character_select.png)
+![Character Select](/images/2026/05/01/character_select-opt.jpg)
 
 My goal was ambitious: a fast-paced 2D fighter featuring fluid animations, varied moves, and tight gameplay. I wanted something that felt like a simplified *Street Fighter* but fit into the tiny footprint of the Arduboy’s ATMega32U4.
 
@@ -35,7 +35,7 @@ Early on, I had to make a critical decision: use traditional frame-by-frame spri
 
 ### Traditional 3D vs. Stripped-Down 2D
 
-![Gameplay Far](/images/2026/05/01/gameplay_far.png)
+![Gameplay Far](/images/2026/05/01/gameplay_far-opt.jpg)
 
 In **traditional 3D animation**, you have a hierarchy of bones, a complex skinning system, and often a root node that controls everything. This requires high-precision floating-point math and substantial RAM.
 
@@ -57,7 +57,7 @@ In *Stick Fighter*, I use a **forward-looking pose definition**. Each bone’s a
 
 ## The Technical Hurdle: Speed and Space
 
-![Gameplay Close](/images/2026/05/01/gameplay_close.png)
+![Gameplay Close](/images/2026/05/01/gameplay_close-opt.jpg)
 
 Implementing this on an 8-bit chip is deceptively difficult. I had to ditch standard `float` math for fixed-point arithmetic, and build a custom animation engine that could update character positions within the tight frame budget of the Arduboy’s screen refresh. The tooling was another challenge; I had to build a custom animation editor (in SDL) to preview and export these skeletal data structures, essentially building the game's pipeline from the ground up.
 
@@ -100,7 +100,7 @@ Playing *Stick Fighter* feels rewarding because of the "juice" added late in dev
 
 ## The Story and the "Wall"
 
-![Ladder](/images/2026/05/01/ladder.png)
+![Ladder](/images/2026/05/01/ladder-opt.jpg)
 
 Despite the technical focus, I wanted the game to have personality. I ended up adding a surprisingly large amount of story text to character introductions, giving each stick fighter their own motivations.
 

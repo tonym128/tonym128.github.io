@@ -41,7 +41,7 @@ I want to see how easy it is for a person like me to grab the required tools, an
 ### The tools
 
 
-![tensorflow](/images/2018/02/tensorflow.png)![python™](/images/2019/08/python-logo.png)![OpenCV logo](/images/2018/02/opencv.png)
+![tensorflow](/images/2018/02/tensorflow-opt.jpg)![python™](/images/2019/08/python-logo-opt.jpg)![OpenCV logo](/images/2018/02/opencv-opt.jpg)
 
 The toolset runs on [Python](https://www.python.org/) and uses [OpenCV](https://opencv.org/) and [TensorFlow](https://www.tensorflow.org/) on a [GPU](http://www.nvidia.com/object/what-is-gpu-computing.html), this is pretty standard for this area from what I understand.
 
@@ -57,7 +57,7 @@ Some of the libraries used are fascinating, to have the images setup the way you
 
 Once I had my two face sets from an image search on my Google Photo's by Name, I pulled the faces out and cleaned out the out directories of the additional people who appeared in the photos.
 
-![](/images/2018/02/Blurreed-Image-Search.png)![](/images/2018/02/Blurreed-Image-Search-1.png)
+![](/images/2018/02/Blurreed-Image-Search-opt.jpg)![](/images/2018/02/Blurreed-Image-Search-1-opt.jpg)
 
 This took about an hour of manual labour, but there is now a very freaky collection of 300+ photos of me and my wife in single folders. (The actual reccomendation is about 3000 photos, so I'm well under, this might bite me later)
 
@@ -71,7 +71,7 @@ Now that we have training data, we actually need to train a model that will enco
 
 The training step runs for a very long time and the longer you run it the better a result you get, thankfully this isn't a one off process and you can pick up your training to make the resultant image better quite easily.
 
-![Working Hard](/images/2018/02/Working-Hard.png)
+![Working Hard](/images/2018/02/Working-Hard-opt.jpg)
 
 
 ## Make me images
@@ -81,7 +81,7 @@ The process of making images is quite straight forward of providing a source ima
 
 After a few minutes of processing, my data loss went down to 0.055 and my images looked like a child had cut a copy of the one face out and stuck inside the other!
 
-![](/images/2018/02/FaceSwap.png)
+![](/images/2018/02/FaceSwap-opt.jpg)
 
 You can see above how the alignment is actually amazing, but unfortunately without the face shapes being similar that effect is not believable at all. Even more so when we move to video.
 

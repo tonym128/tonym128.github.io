@@ -60,7 +60,7 @@ You're not actually deciding if you would hire this person or not, you're decidi
 
 You've only got so much time with your candidate, you need to make sure you learn what you need to during your time with them. The things that make them someone who would work well with your company and the areas where they would bring diversity and what negatives they could bring too.
 
-![](/images/2018/04/Take-Notes-in-a-template.jpg)
+![](/images/2018/04/Take-Notes-in-a-template-opt.jpg)
 
 
 ### Take Notes in a template
@@ -71,7 +71,7 @@ You've only got so much time with your candidate, you need to make sure you lear
 I found a good template for taking notes after an interview invaluable, it helped me coalesce my thoughts into a final answer, I would start with a brief paragraph summary of my experience, then a list of things I liked and disliked, followed by digging a bit more in depth into parts of the interview that struck me as important, and finally I would go back to the start and give a yes or a no on the candidate, I only did the final single word answer after doing the rest, as sometimes writing your thoughts down can help you finalize your experience and answer. This was great whenever we didn't have a meeting to decide right away, or if I interviewed a few people in a short period of time.
 
 
-![](/images/2018/04/Make-it-a-great-experience.jpg)
+![](/images/2018/04/Make-it-a-great-experience-opt.jpg)
 
 
 ### Make it a great experience
@@ -101,7 +101,7 @@ You should try to push the person you're interviewing to learn about them and ho
 You should never say anything untrue, we all want to portray the best sides of our company and that's fine, but never stretch that tale too far, if you convince someone to come work for you, it should be what they want as well and they shouldn't end up feeling tricked at any point in the future, because of something you said.
 
 
-### ![](/images/2018/04/Put-down-your-company.png)
+### ![](/images/2018/04/Put-down-your-company-opt.jpg)
 
 
 

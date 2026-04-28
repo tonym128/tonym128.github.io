@@ -135,7 +135,7 @@ I was able to bring my images back to life using Meshroom and Blender.
 
 
 
-![Logo_Blender.svg](/images/2018/09/Logo_Blender.svg_.png)Blender
+![Logo_Blender.svg](/images/2018/09/Logo_Blender.svg_-opt.jpg)Blender
 
 
 
@@ -178,7 +178,7 @@ Loading my ~200  images into Meshroom with default setting and hitting go result
 
 
 
-![Meshroom](/images/2018/09/Meshroom.jpg) Loaded into Meshroom
+![Meshroom](/images/2018/09/Meshroom-opt.jpg) Loaded into Meshroom
 
 
 
@@ -229,7 +229,7 @@ Once I imported the Obj Model from Meshroom into Blender I was greeted with a lo
 
 
 
-![Blender2.JPG](/images/2018/09/Blender2.jpg)
+![Blender2.JPG](/images/2018/09/Blender2-opt.jpg)
 
 
 
@@ -253,7 +253,7 @@ I was very pleased with the model.
 
 
 
-![WireFrame.JPG](/images/2018/09/WireFrame.jpg) 3D Wireframe Model
+![WireFrame.JPG](/images/2018/09/WireFrame-opt.jpg) 3D Wireframe Model
 
 
 

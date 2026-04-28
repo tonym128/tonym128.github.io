@@ -8,7 +8,7 @@ excerpt: "A post-mortem on building the Peakylight web app, born from the need t
 ---
 # Peakylight tldr; 
 
-![Peakylight main interface showing a 3D terrain map with shadow casting](/images/peakylight/main-interface.png "Peakylight Main Interface")
+![Peakylight main interface showing a 3D terrain map with shadow casting](/images/peakylight/main-interface-opt.jpg "Peakylight Main Interface")
 
 I made a static website which can show you the sunlight hours at any location on earth!
 
@@ -22,7 +22,7 @@ I have another post which is mostly written by AI about the functionality of the
 
 ## Let me tell you a story.
 
-![Let me tell you a story](/images/2025/12/29/story.png "Let me tell you a story")
+![Let me tell you a story](/images/2025/12/29/story-opt.jpg "Let me tell you a story")
 
 We were recently looking at moving to a property in a valley, with a river running through the middle of it. 
 

@@ -47,7 +47,7 @@ Outcast with it's Voxel terrain rendering and it's recent 3d rasterizer remake, 
 
 For Raytracing it's been something more of an offline affair for getting a amazing lighting for 3d models which you can see from [Autodesk.](https://knowledge.autodesk.com/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/2015/ENU/AutoCAD-Core/files/GUID-498BD4DA-2C96-421E-9C6E-75CFF38FF5ED-htm.html)
 
-![Motorcycle, Engine, Raytracing, Render, Raytrace](/images/2019/08/motorcycle-1581945_960_720.jpg)
+![Motorcycle, Engine, Raytracing, Render, Raytrace](/images/2019/08/motorcycle-1581945_960_720-opt.jpg)
 
 But for real time ray tracing it's been in the domain of Coding Demo competitions for a long time, showcasing the skills of up and coming programmers and being done on even the early Amiga's like Jeff Atwood spoke about [here](https://blog.codinghorror.com/real-time-raytracing/).
 
@@ -63,7 +63,7 @@ And here is an amazing 64kb demo release in 2011 [Exceed - Heaven Seven (Heaven 
 
 Ray tracing uses the idea of ray casting, which involves shooting rays from a camera into a scene and evaluating what it hits in the scene, to determine what it looks like, these rays are affected by the lights casting into the scene as well.
 
-![](/images/2019/08/300px-Ray_trace_diagram.svg.png)
+![](/images/2019/08/300px-Ray_trace_diagram.svg-opt.jpg)
 
 The idea is that the more rays you shoot into a scene the higher a level of fidelity you achieve.
 
@@ -77,22 +77,22 @@ Since the rays rely on additional recursive rays being cast, you can also speed 
 Depth of 1
 You can distinctly see the lack of detail with regards to the floor on the balls and the lack of any detail on the reflection of the ball on the plane below it
 
-![](/images/2018/03/Depth-1.png)
+![](/images/2018/03/Depth-1-opt.jpg)
 
 Depth of 2
 With 2 levels of rays you can see the distinct checker board pattern more realistically displayed on the balls, as well as the detail on the floor._
 
-![](/images/2018/03/Depth-2.png)
+![](/images/2018/03/Depth-2-opt.jpg)
 
 Depth 0f 5
 There is a lot more detail on the floor reflections as well as muted colours in the later reflections on the ball._
 
-![](/images/2018/03/Depth-5.png)
+![](/images/2018/03/Depth-5-opt.jpg)
 
 Depth of 50
 Very minimal change in detail the only bif I can see is on the underside of the big ball on the floor plane has become a lot darker due to more dark shadow rays being cast into the scene from the big ball obscuring the light sources in later depth
 
-![](/images/2018/03/Depth-50-1.png)
+![](/images/2018/03/Depth-50-1-opt.jpg)
 
 
 ## The resurgence and the future ?

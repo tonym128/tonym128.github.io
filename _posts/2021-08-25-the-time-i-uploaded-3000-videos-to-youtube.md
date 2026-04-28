@@ -19,7 +19,7 @@ excerpt: "The story of an automation project that generated and uploaded 3,000 v
 <a name="synopsis">
 
 # Synopsis
-![](/images/2021/08/1-metrics-overview.png)
+![](/images/2021/08/1-metrics-overview-opt.jpg)
 
 The story of the automation journey I went on to create an entire YouTube channel with 3000 videos, over 300,000 views and over 500 subscribers in 6 months. (PS. I didn't advertise or cheat for subs or views)
 
@@ -64,14 +64,14 @@ Initially I was looking at HackerNews and thought it would be great to highlight
 ![](/images/2021/08/hacker-news2.jpg)
 
 <https://en.wikipedia.org/wiki/RSS>
-![](/images/2021/08/rss2.png)
+![](/images/2021/08/rss2-opt.jpg)
 
 <a name="2">
 
 ### Create a video of the article for something to look at
 I had hoped to find something off the shelf to do this which I could easily integrate, but I actually ended up rolling up something pretty custom. On a unix machine I start up the QT browser engine and then create a very high quality screenshot of the website, once I have that I can create a scrolling video using the image as an input to ffmpeg with some fancy options.
 
-![](/images/2021/08/screenshot2.png)
+![](/images/2021/08/screenshot2-opt.jpg)
 
 <a name="3">
 
@@ -138,7 +138,7 @@ I replaced the talking head with a spinning logo and got no more snarky comments
 ### Put all the bits together to make it work.
 The glue code around everything ended up being mostly about breaking up the project into loosly coupled functional pieces of code, every step led into another step. Having the news articles led into creating the scrolling videos and summarising the content, straight into the audio generation and ML video generation.
 
-![](/images/2021/08/sudo-make-video2.png)
+![](/images/2021/08/sudo-make-video2-opt.jpg)
 
 <a name="wrong">
 
@@ -152,7 +152,7 @@ I think the toughest bits were the things I didn't do upfront and having to retr
 
 That leads into monitoring itself, where I felt I had some failings initially, it's something I thought I could wing my way through, but as always I was wrong, every bug ends up being 10 times harder to debug without logging, I'll excuse myself slightly since it's a personal project, but a small slap on the wrist to remember next time.
 
-![](/images/2021/08/docker.png)
+![](/images/2021/08/docker-opt.jpg)
 
 Dockerise upfront, I love local development, but keeping parity with a remote build is a great idea. Not losing track of dependencies and settings, it's a bit hard to do when you're in flux with development and proof of concepts, but remember to go back once you've got it working and make sure you get it working again.
 
@@ -160,7 +160,7 @@ Dockerise upfront, I love local development, but keeping parity with a remote bu
 
 # What did I get right
 
-![](/images/2021/08/2-video-count-its-over-3000.png)
+![](/images/2021/08/2-video-count-its-over-3000-opt.jpg)
 
 Well I did manage to get over 500 subscribers and upload over 3000 videos to YouTube. I'm going to put those under the WIN! category for a small personal project.
 
@@ -169,7 +169,7 @@ Well I did manage to get over 500 subscribers and upload over 3000 videos to You
 I had a successful pivot before even going live, just after I started the project YouTube Shorts was just kicking off, which actually fitted the project really well and I decided to generate single short videos.
 
 ![](/images/2021/08/python.jpg)
-![](/images/2021/08/fastapi.png)
+![](/images/2021/08/fastapi-opt.jpg)
 
 This was the first time I wrote a relatively large Python application and I decided to use FastAPI to drive it. FastAPI is amazing, and it was so much fun to work with. I will definitely be using it on future projects. It was easy, intuitive and worked great out of the box, I can see myself writing services using FastAPI for strict domain boundaries and trying to build out functionality in independant pieces I may re-use in the future.
 
@@ -191,15 +191,15 @@ It was really interesting running and managing a YouTube channel and seeing what
 
 Even with over 1000 hours on record, only 100ish was not from Shorts, which is excluded.
 
-![](/images/2021/08/3-dont-call-us.png)
+![](/images/2021/08/3-dont-call-us-opt.jpg)
 
 News articles don't really generate a lot of continued view uptick after their initial spike in the zeitgeist
 
-![](/images/2021/08/4-not-really-organic-growth.png)
+![](/images/2021/08/4-not-really-organic-growth-opt.jpg)
 
 The shorts don't really make people stick around that long, I swear I get swiped left quite quickly quite often, but I am personally a bit ruthless when I do these things too
 
-![](/images/2021/08/5-please-stay-longer.png)
+![](/images/2021/08/5-please-stay-longer-opt.jpg)
 
 YouTube API's are great feature wise, but very restrictive with point allocations, you can only upload very few videos a day with the API and it was quite pedantic about making me sign in almost every time I used it, so while I got it working, I did give up on it soon in, due to the amount of videos I wanted to upload daily. I was at one point doing manual uploads, then name matching my videos to update the titles and descriptions, because it used less points per call, it really felt a bit draconian.
 
@@ -224,7 +224,7 @@ It was a lot to take in and I think I'll carry quite a few things onto the next 
 
 Thanks for reading this far and here's how close I've come to the YouTube monetised creator goal as of near end of August 2021!
 
-![](/images/2021/08/6-growth.png)
+![](/images/2021/08/6-growth-opt.jpg)
 
 And finally if you read this far, some inception! Here's an auto-generated video of this article.
 

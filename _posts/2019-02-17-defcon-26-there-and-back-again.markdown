@@ -6,7 +6,7 @@ layout: single
 title: "DefCon 26 There and back again"
 excerpt: "Recapping an unforgettable experience attending DefCon 26 and diving into the hacker community."
 ---
-![](/images/2019/02/DefCon26.jpg)DefCon 26
+![](/images/2019/02/DefCon26-opt.jpg)DefCon 26
 
 
 
@@ -77,7 +77,7 @@ There are two other events which take place at the same time. [BSides Vegas](htt
 
 
 
-![](/images/2019/08/img_5d5ffbd5491b0.png)#BadgeLife
+![](/images/2019/08/img_5d5ffbd5491b0-opt.jpg)#BadgeLife
 
 
 
@@ -85,7 +85,7 @@ There are two other events which take place at the same time. [BSides Vegas](htt
 
 
 
-![](/images/2019/08/img_5d5ffbd656569.png)Monero
+![](/images/2019/08/img_5d5ffbd656569-opt.jpg)Monero
 
 
 
@@ -107,7 +107,7 @@ And on the side I was keen to get a bit of the  experience of Las Vegas, being i
 
 
 
-![](/images/2019/02/badges.jpg)Badges always makes me think of the scene from [Bad Boys]()
+![](/images/2019/02/badges-opt.jpg)Badges always makes me think of the scene from [Bad Boys]()
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qcfnfKTP4Nk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
@@ -226,7 +226,7 @@ At the conference you had a chance to get hold of a Coin from the Monero desk. T
 
 
 
-![](/images/2019/02/image.png)The 4 coins representing the challenge to win a badge  
+![](/images/2019/02/image-opt.jpg)The 4 coins representing the challenge to win a badge  
 
 
 
@@ -303,11 +303,11 @@ Once checked in at the MGM Grand, I had a few hours to kill and figured I would 
 
 
 
-![Image result for mgm grand vegas](/images/2019/08/mgm-grand-las-vegasb.jpg)Just ridiculous in size
+![Image result for mgm grand vegas](/images/2019/08/mgm-grand-las-vegasb-opt.jpg)Just ridiculous in size
 
 
 
-![](/images/2019/02/image-1.png)This guy stared at me from everywhere!
+![](/images/2019/02/image-1-opt.jpg)This guy stared at me from everywhere!
 
 
 
@@ -319,13 +319,13 @@ I took a walk down to the peeps who offered to store the batteries for us in Veg
 
 
 
-![](/images/2019/02/image-2.png)Just a nice 3km walk, if I recall correcly I asked for a glass of water when I got there, but I was a little dazed and confused. I took a Taxi back.
+![](/images/2019/02/image-2-opt.jpg)Just a nice 3km walk, if I recall correcly I asked for a glass of water when I got there, but I was a little dazed and confused. I took a Taxi back.
 
 
 
 
 
-![Image result for don't go outside](/images/2019/08/keep-calm-and-don-t-go-outside.png)
+![Image result for don't go outside](/images/2019/08/keep-calm-and-don-t-go-outside-opt.jpg)
 
 
 
@@ -339,25 +339,25 @@ Taxi's are your friends, air conditioning is your friend!
 
 Once we had all the batteries charging 300 batteries with 15 x 4 battery chargers was up next! We had to charge every battery from almost flat and that took 8 hours. With the amount of charging needed before the conference I had to wake up to swap the batteries out...
 
-![](/images/2019/02/Charging.jpg)One round of charging!
+![](/images/2019/02/Charging-opt.jpg)One round of charging!
 
 After charging a couple batteries, we realized the batteries didn't have the little nubs that connect them to the terminal on the battery holder. Interesting for the most standard battery ever made, the 18650... it wasn't so standard!
 
 Thus ensued the soldering of 2 x bigger nipples onto... every... single... badge!
 
-![](/images/2019/02/Nipple-soldering-station.jpg)The nipple soldering station, not quite as exciting as it sounded.  
+![](/images/2019/02/Nipple-soldering-station-opt.jpg)The nipple soldering station, not quite as exciting as it sounded.  
 
 Staring at the smoke detectors for 2 minutes after soldering everytime was quite 'entertaining'.
 
 There was some time for a break and a coffee before the next disaster struck.
 
-![](/images/2019/02/20180806_082337.jpg)Was interesting taking part in the institution of American Coffee's
+![](/images/2019/02/20180806_082337-opt.jpg)Was interesting taking part in the institution of American Coffee's
 
 Whilst being really clever and getting all the badges ready for transport to the conference, we figured we'd load them up with batteries to just be able to hand them out, BAM done. 
 
 So here is ElasticNinja programming at night, with the beautifull red 'I've got a battery in' light, which should have lasted for weeks on these two batteries.
 
-![](/images/2019/02/BadgesReady.jpg)Ready to rock, batteries all plugged in, all tested with a copy of the firmware, rock on
+![](/images/2019/02/BadgesReady-opt.jpg)Ready to rock, batteries all plugged in, all tested with a copy of the firmware, rock on
 
 The next morning when we woke up, we saw the badges were at 60% power, without having been turned on. The little red led was not working quite as expected, this meant taking all the batteries out, charging them again, as well as removing the led's resistor...
 
@@ -383,17 +383,17 @@ Eye searing plasma!
 
 After getting all the badges flashed and getting a late lanyard delivery, it was time to setup them up, first off...
 
-![](/images/2019/02/Lanyard.jpg)
+![](/images/2019/02/Lanyard-opt.jpg)
 
 Remove all the metal pins we cannot use and replace them with orange zip ties, that we chose because we're so colour awesome!
 
-![](/images/2019/02/Late-Lanyard-Delivery.jpg)Check out the epic orange zip ties!
+![](/images/2019/02/Late-Lanyard-Delivery-opt.jpg)Check out the epic orange zip ties!
 
 ## AT DEFCON
 
 DefCon was pretty amazing when it started, we missed a substantial part of the first day as we were gunning away on most of the above still, but we did make our way there and see the sights later.  
 
-![](/images/2019/02/Breaking-Firewalls.jpg)Cool graphics definitely make talks even more interesting, but this was pretty good even without the graphics
+![](/images/2019/02/Breaking-Firewalls-opt.jpg)Cool graphics definitely make talks even more interesting, but this was pretty good even without the graphics
 
 I don't have a lot of pictures at the conference as it's a kinda a 'no no', to randomly go around taking pictures of people, but it was super busy and there were more people than I'd like to have counted everywhere you looked.
 
@@ -411,11 +411,11 @@ This was the one photo of me actually at DefCon, I was hacking away at 5 badges 
 
 It was finally time to party, but I was pretty tired after all this and came down with a cold, so I was sick the last night of DefCon and missed out on a massive party.
 
-![](/images/2019/02/Party-bath.jpg) Nothing says fun like the party bath full of beer 
+![](/images/2019/02/Party-bath-opt.jpg) Nothing says fun like the party bath full of beer 
 
 And the following day we were off, we were leaving Las Vegas to grab a flight out of Los Angeles and there wasn't a flight we could take, so we grabbed a rental car.
 
-![](/images/2019/02/We-had-a-nice-car.jpg)We might have got something a tiny bit better than the stock model. The Dodge Charger 5.7L V8 HEMI.
+![](/images/2019/02/We-had-a-nice-car-opt.jpg)We might have got something a tiny bit better than the stock model. The Dodge Charger 5.7L V8 HEMI.
 
 ## What did I learn ?
 
@@ -429,7 +429,7 @@ I've actually started hacking with hardware a bit more and the interest there ha
 
 Everyone always says your first DefCon is a whirlwind of experiences that you just get swept up in, and this was certainly true for me, I'd like to go again sometime, and knowing what I now know, prepare a bit better, see a bit more, learn a bit more, hopefully maybe  even teach some people some stuff.
 
-![](/images/2019/02/DefConLogo.png)
+![](/images/2019/02/DefConLogo-opt.jpg)
 
 Till the next time!
 

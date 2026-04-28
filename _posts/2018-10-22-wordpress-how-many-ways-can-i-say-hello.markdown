@@ -92,7 +92,7 @@ I started by testing on **Wordpress.com** just to see if I could be happy enough
 
 
 
-![](/images/2018/10/bitnamilogo.png)
+![](/images/2018/10/bitnamilogo-opt.jpg)
 
 
 
@@ -100,7 +100,7 @@ I started by testing on **Wordpress.com** just to see if I could be happy enough
 
 
 
-![](/images/2018/10/lightsail.png)
+![](/images/2018/10/lightsail-opt.jpg)
 
 
 
@@ -122,7 +122,7 @@ I started by testing on **Wordpress.com** just to see if I could be happy enough
 
 
 
-![](/images/2018/10/check.png)
+![](/images/2018/10/check-opt.jpg)
 
 
 
@@ -139,7 +139,7 @@ Self Hosted, Easy to Update, Follows Web Best Practices, Themed, Database driven
 
 
 
-![](/images/2018/10/Cross.png)
+![](/images/2018/10/Cross-opt.jpg)
 
 
 
@@ -185,7 +185,7 @@ I got a Domain setup pretty quickly using **[AWS Route 53](https://aws.amazon.co
 
 
 
-![](/images/2018/10/lets.png)
+![](/images/2018/10/lets-opt.jpg)
 
 
 
@@ -218,7 +218,7 @@ There were a ton of amazing plugins that I played with along the way, but I real
 
 
 
-![](/images/2018/10/Analytics.png)
+![](/images/2018/10/Analytics-opt.jpg)
 
 
 
@@ -226,7 +226,7 @@ There were a ton of amazing plugins that I played with along the way, but I real
 
 
 
-![](/images/2018/10/Analytics2.png)
+![](/images/2018/10/Analytics2-opt.jpg)
 
 
 
@@ -242,7 +242,7 @@ Getting **Google Analytics** up was a good idea, mostly makes me cry, but a good
 
 
 
-![](/images/2018/10/AMP.png)
+![](/images/2018/10/AMP-opt.jpg)
 
 
 
@@ -266,7 +266,7 @@ I used almost all the plugins I could find for Wordpress and eventually settled 
 
 
 
-![](/images/2018/10/Polly.png)
+![](/images/2018/10/Polly-opt.jpg)
 
 
 
@@ -288,7 +288,7 @@ I used almost all the plugins I could find for Wordpress and eventually settled 
 
 
 
-![](/images/2018/10/TTech.png)
+![](/images/2018/10/TTech-opt.jpg)
 
 
 
