@@ -26,7 +26,7 @@ The goal was to capture the essence of classic rail shooters like *Star Fox* or 
 
 ## Gameplay: The Elemental Arsenal
 
-In Sun Runner, survival isn't just about dodging; it's about mastering the elements. As you descend, you collect Earth, Water, Wind, and Fire cores that unlock devastating weapon configurations:
+In Sun Runner, survival isn't just about dodging; its about mastering the elements. As you descend, you collect Earth, Water, Wind, and Fire cores that unlock devastating weapon configurations:
 
 *   **Firestorm:** Rapid-fire solar flares.
 *   **Mud Slide:** Slows enemies with heavy gravitational anchors.

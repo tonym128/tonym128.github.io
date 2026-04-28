@@ -16,7 +16,7 @@ header:
 ## The problem
 
 
-My internet was under performing quite severly and I didn't know why. Occasionally for periods of time from a few minutes to hours at a time our internet would become unusable.
+My internet was under performing quite severely and I didn't know why. Occasionally for periods of time from a few minutes to hours at a time our internet would become unusable.
 
 First thing was isolating the problem . I installed all the monitoring tools I could to find to narrow down the problem to an application or device.
 
@@ -24,7 +24,7 @@ I managed to find the app causing all my issues, it was [Google Photo](http://ph
 
 ![Image result for google photos logo](/images/2019/08/2000px-Google_Photos_icon.svg-opt.jpg)
 
-I was honestly so surprised, but anytime a device in our house came home to land on the WiFi, we couldn't browse the web until it was done uploading it's photo's.
+I was honestly so surprised, but anytime a device in our house came home to land on the WiFi, we couldn't browse the web until it was done uploading its photo's.
 
 The worst thing about the problem is that we love Google Photo's and couldn't live without. From the free uploads at a great quality to the AI on the image categorization and knowing all the photos I'm in with my favourite people.
 
@@ -58,7 +58,7 @@ The last piece of the puzzle. I was actually quite surprised that a piece of sof
 
 ![](/images/2019/08/1450px-Netfilter-packet-flow.svg-opt.jpg)
 
-The IP Tables result was actually pretty great, but was quite complicated to setup, I modified a [guide](http://lartc.org/howto/lartc.cookbook.fullnat.intro.html) I found and ... we now have the best internet we ever had at home, even though the line is quite slow, it's never felt slow for us again.
+The IP Tables result was actually pretty great, but was quite complicated to setup, I modified a [guide](http://lartc.org/howto/lartc.cookbook.fullnat.intro.html) I found and ... we now have the best internet we ever had at home, even though the line is quite slow, its never felt slow for us again.
 
 
 ## A little bit more technical stuff

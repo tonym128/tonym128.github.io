@@ -29,7 +29,7 @@ This is a follow on to another blog I wrote, [What I learnt from interviewing 50
 ### Prepare
 
 
-Know your subject and questions. If it's an interactive question where you are asking them to do something, you should definitely have done it yourself first and also try to find out all the possible solutions you can. This means you can help guide candidates as well as try to avoid them going down dead ends, by nudging them when necessary.
+Know your subject and questions. If its an interactive question where you are asking them to do something, you should definitely have done it yourself first and also try to find out all the possible solutions you can. This means you can help guide candidates as well as try to avoid them going down dead ends, by nudging them when necessary.
 
 
 ### ![](/images/2018/04/Know-what-youre-trying-to-achieve-opt.jpg)
@@ -40,7 +40,7 @@ Know your subject and questions. If it's an interactive question where you are a
 ### Know what you're trying to achieve
 
 
-This is probably the biggest piece of advice I could give. I think it's extremely important to have goals while interviewing and go for them, if you're blindly letting the interview go it can be a very meandering experience and depending on who you are interviewing this could go well, or go very wrong. Some people need to be coaxed into opening up and this is easier to do when you have objectives.
+This is probably the biggest piece of advice I could give. I think its extremely important to have goals while interviewing and go for them, if you're blindly letting the interview go it can be a very meandering experience and depending on who you are interviewing this could go well, or go very wrong. Some people need to be coaxed into opening up and this is easier to do when you have objectives.
 
 
 ### ![](/images/2018/04/Interview-on-behalf-of-your-company-opt.jpg)
@@ -135,7 +135,7 @@ This is something great to do doing and something worth doing well, no matter ho
 ### Judge Candidates Against Each Other
 
 
-Judging your candidates against each other is usually a mistake as it doesn't give you a consistent measure of comparison and if you interview 5 candidates on month, and 5 the next month, they could all be fantastic the one month and not so great the next. What you need to measure against is something internal to your company, so no matter when you interview or how many people you do in a batch, it's always a consistent metric you're using.
+Judging your candidates against each other is usually a mistake as it doesn't give you a consistent measure of comparison and if you interview 5 candidates on month, and 5 the next month, they could all be fantastic the one month and not so great the next. What you need to measure against is something internal to your company, so no matter when you interview or how many people you do in a batch, its always a consistent metric you're using.
 
 
 # Closing

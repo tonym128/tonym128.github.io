@@ -41,7 +41,7 @@ I find this sort of information which is kinda mundane being turned into somethi
 
 ![](/images/2018/02/pexels-photo-533189-opt.jpeg)
 
-To find a project there first needs to be something to do... so the simplest project for the ESP is to set it up as a [WiFi Access Point](https://gist.github.com/Cyclenerd/7c9cba13360ec1ec9d2ea36e50c7ff77), pretty advanced functionality for a single chip, or you can make it connect to an existing wifi network and display a button on a website to click [on and off](https://create.arduino.cc/projecthub/jaiprak/control-led-from-web-app-using-esp8266-serial-wifi-module-cdf419) . Once it's connected with this example above, it should serve a website to you regardless of where you try to browse, regardless of where you try to browse to.
+To find a project there first needs to be something to do... so the simplest project for the ESP is to set it up as a [WiFi Access Point](https://gist.github.com/Cyclenerd/7c9cba13360ec1ec9d2ea36e50c7ff77), pretty advanced functionality for a single chip, or you can make it connect to an existing wifi network and display a button on a website to click [on and off](https://create.arduino.cc/projecthub/jaiprak/control-led-from-web-app-using-esp8266-serial-wifi-module-cdf419) . Once its connected with this example above, it should serve a website to you regardless of where you try to browse, regardless of where you try to browse to.
 
 The board I got has a micro usb port with a serial port chip, two buttons and easy pin outs for doing additional things like adding sensors or servos'
 

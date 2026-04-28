@@ -245,7 +245,7 @@ You had to decipher the coin using the information encode on the front and back 
 
 
 
-Once we had recieved and confirmed the tweet you would win a badge which you could collect from us.
+Once we had received and confirmed the tweet you would win a badge which you could collect from us.
 
 
 
@@ -277,7 +277,7 @@ Once you get that, you hopefully get that you're working with HEX and convert it
 
 
 
-It's a bit of a leap to get to the XOR operation, but once you do, you're laughing. Unfortunately the key doesn't work 100% and it's been corrupted as an extra detterent. Once you're got that, tweeting to [myself](https://twitter.com/tonym128), [@fluffypony ](https://twitter.com/fluffypony)and [@elasticninja ](https://twitter.com/elasticninja)got you a badge!
+its a bit of a leap to get to the XOR operation, but once you do, you're laughing. Unfortunately the key doesn't work 100% and its been corrupted as an extra deterrent. Once you're got that, tweeting to [myself](https://twitter.com/tonym128), [@fluffypony ](https://twitter.com/fluffypony)and [@elasticninja ](https://twitter.com/elasticninja)got you a badge!
 
 
 
@@ -323,7 +323,7 @@ I took a walk down to the peeps who offered to store the batteries for us in Veg
 
 
 
-![](/images/2019/02/image-2-opt.jpg)Just a nice 3km walk, if I recall correcly I asked for a glass of water when I got there, but I was a little dazed and confused. I took a Taxi back.
+![](/images/2019/02/image-2-opt.jpg)Just a nice 3km walk, if I recall correctly I asked for a glass of water when I got there, but I was a little dazed and confused. I took a Taxi back.
 
 
 
@@ -359,7 +359,7 @@ There was some time for a break and a coffee before the next disaster struck.
 
 Whilst being really clever and getting all the badges ready for transport to the conference, we figured we'd load them up with batteries to just be able to hand them out, BAM done. 
 
-So here is ElasticNinja programming at night, with the beautifull red 'I've got a battery in' light, which should have lasted for weeks on these two batteries.
+So here is ElasticNinja programming at night, with the beautiful red 'I've got a battery in' light, which should have lasted for weeks on these two batteries.
 
 ![](/images/2019/02/BadgesReady-opt.jpg)Ready to rock, batteries all plugged in, all tested with a copy of the firmware, rock on
 
@@ -377,7 +377,7 @@ I had to fill my time up with something and came up with the emoji badge! Since 
 
 The Emoji Badge!
 
-And just to push the old school graphics effects on the awesome pixel array, I found a plasma effect in C, it wasn't totally optimal, but after a bit of hacking it made it's way into the badge as well!
+And just to push the old school graphics effects on the awesome pixel array, I found a plasma effect in C, it wasn't totally optimal, but after a bit of hacking it made its way into the badge as well!
 
 <video muted controls>
     <source src="/images/2019/02/VID-20180809-WA0012-2.mp4" type="video/mp4">
@@ -399,11 +399,11 @@ DefCon was pretty amazing when it started, we missed a substantial part of the f
 
 ![](/images/2019/02/Breaking-Firewalls-opt.jpg)Cool graphics definitely make talks even more interesting, but this was pretty good even without the graphics
 
-I don't have a lot of pictures at the conference as it's a kinda a 'no no', to randomly go around taking pictures of people, but it was super busy and there were more people than I'd like to have counted everywhere you looked.
+I don't have a lot of pictures at the conference as it's kind of a 'no no', to randomly go around taking pictures of people, but it was super busy and there were more people than I'd like to have counted everywhere you looked.
 
 It was pretty phenomenal to see the amount of rooms and talks going on in addition to the 6 main tracks. There are rooms for body hacks, hard disk duplication, social engineering, pretty much anything do with security or hacking and it was there.
 
-We were VERY succesful in handing out the coin challenge tokens and all 1000 tokens were gone as fast as we handed them out. On day 2 we had to put images online for people to use in the challenge.
+We were VERY successful in handing out the coin challenge tokens and all 1000 tokens were gone as fast as we handed them out. On day 2 we had to put images online for people to use in the challenge.
 
 I spent a ton of time, co-ordinating with people to either help them solve the challenge or to show them how to use their prize and also fixing badges, we had a couple failures, but wasn't too bad. ElasticNinja was able to work magic with the broken badges! I was good at replacing batteries too :P
 
@@ -429,7 +429,7 @@ As well as seeing how much people care about and have fun with an area of techno
 
 ## Where to from here ?
 
-I've actually started hacking with hardware a bit more and the interest there has grown quite a lot for me, I'm hoping to have a project to show off soon, but it is a "When it's done" type affair.
+I've actually started hacking with hardware a bit more and the interest there has grown quite a lot for me, I'm hoping to have a project to show off soon, but it is a "When its done" type affair.
 
 Everyone always says your first DefCon is a whirlwind of experiences that you just get swept up in, and this was certainly true for me, I'd like to go again sometime, and knowing what I now know, prepare a bit better, see a bit more, learn a bit more, hopefully maybe  even teach some people some stuff.
 

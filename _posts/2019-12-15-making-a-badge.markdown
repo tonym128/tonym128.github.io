@@ -27,11 +27,11 @@ header:
 
 # The making of my first badge (firmware)
 
-This has been a long time in the making and it's a straight follow on to my last blog about making a [simple hardware console](https://tonym128.github.io/2019/04/21/building-your-own-game-console.html).
+This has been a long time in the making and its a straight follow on to my last blog about making a [simple hardware console](https://tonym128.github.io/2019/04/21/building-your-own-game-console.html).
 
 Flash forward 8+ months later, we've had the [BSides Cape Town 2019 conference](https://bsidescapetown.co.za/) and I think we made something quite great hardware wise, and I hope you enjoy the software too.
 
-To move onwards from the awesome [BSides 2016 badge](https://www.andrewmohawk.com/2017/05/16/bsides-cpt-badge-2016/), which is where all my hardware hackery started, we've gone with a colour screen, a dual core processor and touch buttons, as well as a GIANT battery to power it all, we also have a custom designed 3d printed case for it too! So it's an all out hardware geek fest.
+To move onwards from the awesome [BSides 2016 badge](https://www.andrewmohawk.com/2017/05/16/bsides-cpt-badge-2016/), which is where all my hardware hackery started, we've gone with a colour screen, a dual core processor and touch buttons, as well as a GIANT battery to power it all, we also have a custom designed 3d printed case for it too! So its an all out hardware geek fest.
 
 <a name="accomplish">
 
@@ -49,7 +49,7 @@ The components are
 
 ![](/images/2019/11/ips-opt.jpg)
 - 1.3 Inch 240x240 IPS Display
-	- This display was a real find, it's price and resolution are not easy to come by, one of the challenges in the project was actually pushing out all those pixels, we couldn't actually do full 16 bit colour, which the screen supports, because of the framebuffer it would have required. I do feel the 256 colour palette has some charm to it though.
+	- This display was a real find, its price and resolution are not easy to come by, one of the challenges in the project was actually pushing out all those pixels, we couldn't actually do full 16 bit colour, which the screen supports, because of the framebuffer it would have required. I do feel the 256 colour palette has some charm to it though.
 
 ![](/images/2019/11/badge_pcb-opt.jpg)
 - Custom PCB
@@ -57,7 +57,7 @@ The components are
 
 ![](/images/2019/11/18650-opt.jpg)
 - A 18650 Battery
-	- This is considered the most standard battery in the world, it's the same one as is used in Teslas! So you can feel a bit like a part of the future, just having one of these in your possession, I think it's a 2800mah battery, but time will tell, literally on the day :)
+	- This is considered the most standard battery in the world, its the same one as is used in Teslas! So you can feel a bit like a part of the future, just having one of these in your possession, I think its a 2800mah battery, but time will tell, literally on the day :)
 	
 ![](/images/2019/11/custom3dcase-opt.jpg)
 - 3D Printed case 
@@ -71,12 +71,12 @@ Thankfully the game won out and I've put together a single player game which sho
 
 I also wanted this to be as accessible as possible, part of that was tooling and libraries used, and another part was making it as cross platform as possible.
 
-A big goal is to have people go away, strip this badges software back to the core and make it do some single thing much better than I did here. Whether it's fleshing out the BT GamePad functionality or rolling out a new single player game, making a mesh network multiplayer game with adhoc capabilities, those would all blow me away. 
+A big goal is to have people go away, strip this badges software back to the core and make it do some single thing much better than I did here. Whether its fleshing out the BT GamePad functionality or rolling out a new single player game, making a mesh network multiplayer game with adhoc capabilities, those would all blow me away. 
 
 Mostly I will go away happy if people see the possibilities of the hardware and maybe it ignites some passion in them to go and explore and learn like I did. 
 
 After about 2 years of on and off upskilling for myself, I can highly reco
-mend anyone who is interested, give this a go, it's not untenable and unreachable. You just have to go for it.
+mend anyone who is interested, give this a go, its not untenable and unreachable. You just have to go for it.
 
 ## Firmware
 The badge firmware started on a whim after talking to Mike ([Elastic Ninja](https://twitter.com/elasticninja)) about it on and off for a couple months, I had a firmware for similar hardware and it worked with a screen, I figured how hard could it be to port and write some custom code for. It turns out, relatively straight forwards to start, but in the end massively time consuming to finish :).
@@ -119,7 +119,7 @@ The second scene is now in the office, looking for the security keys. I had impl
 	<source src="/images/2019/11/code_badge_wolf.mp4" type="video/mp4">
 </video>
 
-The 3rd and final scene, interspersed with the walking around the office scene, is the virtual reality scene, where you dive into the computer and go to secure the access key. This is one of the pieces of code which I fought the hardest for, it's a Voxel landscape and used two textures for the land and the height map. It also has a LOT of floating point calculations and took a good deal of time to optimise, I played with a LOT of ideas for speed and performance (interlacing, lower resolutions, different viewing angles), but mostly it just took tightening up loops and applying well established optimisations on the process. 
+The 3rd and final scene, interspersed with the walking around the office scene, is the virtual reality scene, where you dive into the computer and go to secure the access key. This is one of the pieces of code which I fought the hardest for, its a Voxel landscape and used two textures for the land and the height map. It also has a LOT of floating point calculations and took a good deal of time to optimise, I played with a LOT of ideas for speed and performance (interlacing, lower resolutions, different viewing angles), but mostly it just took tightening up loops and applying well established optimisations on the process. 
 
 <video controls="controls" autoplay="autoplay" loop="loop" width="768" height="512">
 	<source src="/images/2019/11/code_bsides_voxel.mp4" type="video/mp4">
@@ -183,7 +183,7 @@ I kept writing prototype code with global variables for the demo's, there was no
 The headers in the project are a mess. The way the framework expanded during the project was a little hodge podge, and features were added as needed, this was a big pain getting things working sometimes and the Arduino IDE / Tool chain does have some issues, my favourite was not being able to include cpp files which are in directories, the errors you get are really unrelated to this.
 
 ## The Bluetooth / Wifi not being cross platform
-This is one of my biggest regrets, but probably neccessary on some fronts. I wish I had the Wifi as a first class citizen of the framework, but instead quite a few portions of the code are littered with #ifdefs that I was hoping to contain only to the platform files.
+This is one of my biggest regrets, but probably necessary on some fronts. I wish I had the Wifi as a first class citizen of the framework, but instead quite a few portions of the code are littered with #ifdefs that I was hoping to contain only to the platform files.
 
 ## Documenting the goals earlier on
 This was a bit of a problem around maintaining velocity as I got further and further into the project. There is a lost month somewhere where I couldn't work out what to do and just lost all ability to write code towards the finished product, thankfully I did write up some goals and outlined my way to the finish line and then started nailing points off 1 by 1.

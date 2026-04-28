@@ -33,7 +33,7 @@ Proving it was real using a phone as a camera in 3d space. You can see how the c
 ## What I want to accomplish
 
 
-I'm quite fascinated by the technology and wanted to dig into the history and the alternatives, some of the theory behind it, and my reasoning it's seeing a resurgence.
+I'm quite fascinated by the technology and wanted to dig into the history and the alternatives, some of the theory behind it, and my reasoning its seeing a resurgence.
 
 ## History... Haven't we heard about it before
 
@@ -44,16 +44,16 @@ Quake was one of the first mainstream game I remember to do 'real 3d' using Poly
 
 There were [Voxels](https://en.wikipedia.org/wiki/Voxel), using elementary 3d particles to build environments (kinda like Minecraft with smaller building blocks)
 
-Outcast with it's Voxel terrain rendering and it's recent 3d rasterizer remake, 18 years later!
+Outcast with its Voxel terrain rendering and its recent 3d rasterizer remake, 18 years later!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HsZGeNoPJPQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-For Raytracing it's been something more of an offline affair for getting a amazing lighting for 3d models which you can see from [Autodesk.](https://knowledge.autodesk.com/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/2015/ENU/AutoCAD-Core/files/GUID-498BD4DA-2C96-421E-9C6E-75CFF38FF5ED-htm.html)
+For Raytracing its been something more of an offline affair for getting a amazing lighting for 3d models which you can see from [Autodesk.](https://knowledge.autodesk.com/support/autocad/learn-explore/caas/CloudHelp/cloudhelp/2015/ENU/AutoCAD-Core/files/GUID-498BD4DA-2C96-421E-9C6E-75CFF38FF5ED-htm.html)
 
 ![Motorcycle, Engine, Raytracing, Render, Raytrace](/images/2019/08/motorcycle-1581945_960_720-opt.jpg)
 
-But for real time ray tracing it's been in the domain of Coding Demo competitions for a long time, showcasing the skills of up and coming programmers and being done on even the early Amiga's like Jeff Atwood spoke about [here](https://blog.codinghorror.com/real-time-raytracing/).
+But for real time ray tracing its been in the domain of Coding Demo competitions for a long time, showcasing the skills of up and coming programmers and being done on even the early Amiga's like Jeff Atwood spoke about [here](https://blog.codinghorror.com/real-time-raytracing/).
 
 And here is an amazing 64kb demo release in 2011 [Exceed - Heaven Seven (Heaven 7)](<iframe width="560" height="315" src="https://www.youtube.com/embed/rNqpD3Mg9hY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ).
@@ -110,7 +110,7 @@ I can remember seeing the real time lighting in [Doom 3](https://en.wikipedia.or
 
 The comparisons made were always to animated movies by Pixar and when could we have that level of detail in our games. When movies like Toy Story were made they were taking hours rather than milliseconds to calculate frames.
 
-I believe, if our computers have the power, it could be the next step for our graphics. It's a much simpler way of representing the world and more closely mimics our reality and vision than rasterizers do.
+I believe, if our computers have the power, it could be the next step for our graphics. its a much simpler way of representing the world and more closely mimics our reality and vision than rasterizers do.
 
 There is a concern about building renderers which support current gen consoles and our current PC graphics cards, but then also supporting the new technology.
 
@@ -120,7 +120,7 @@ Futuremark is on the action with their next version of 3dMark having a [Raytraci
 
 ![DXR Raytracing on and off](/images/2019/08/directx-raytracing-demo-2.gif)
 
-Though the Siren demo didn't specifically mention DXR, it's also showing how the state of the art is moving forwards in so many other areas right now.
+Though the Siren demo didn't specifically mention DXR, its also showing how the state of the art is moving forwards in so many other areas right now.
 
 We are going to be spoilt for ways to be amazed in the near future.
 

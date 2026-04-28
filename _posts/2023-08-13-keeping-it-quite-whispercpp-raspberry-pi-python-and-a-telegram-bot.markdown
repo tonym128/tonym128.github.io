@@ -28,7 +28,7 @@ excerpt: "Building a Telegram bot with Whisper.cpp and a Raspberry Pi to automat
 ![](/images/man_listening-opt.jpg)
 {: refdef}
 
-There is a particular pet hate I have, it's voice notes. Often I am somewhere noisy, or busy with a zoom meeting and can't listen, then even when I have the time to listen, I'm not aware of the content that is going to be announced out around me.
+There is a particular pet hate I have, its voice notes. Often I am somewhere noisy, or busy with a zoom meeting and can't listen, then even when I have the time to listen, I'm not aware of the content that is going to be announced out around me.
 
 In my mind, the call to action on a text message is immediate, I see the message, often with a preview in the notification, respond and move on. 
 
@@ -64,20 +64,20 @@ I wanted to build some sort of service that would allow me to easily take my voi
 {: refdef}
 
 ## A way to access service from anywhere
-I have always been fascinated by Telegrams bots and wanted to write something that I found useful using it. Without having any cloud infrastrucutre, I hoped I would be able to setup a bot and have it respond to voice message conversion requests in a timely fashion.
+I have always been fascinated by Telegrams bots and wanted to write something that I found useful using it. Without having any cloud infrastructure, I hoped I would be able to setup a bot and have it respond to voice message conversion requests in a timely fashion.
 
-I figured I could run this on a Raspberry Pi, which I can leave on the whole time, I wouldn't be too worried about it's power consumption and it should have enough CPU and memory to recieve messages and respond to them.
+I figured I could run this on a Raspberry Pi, which I can leave on the whole time, I wouldn't be too worried about its power consumption and it should have enough CPU and memory to receive messages and respond to them.
 
-Using Telegrams, [Botfather](https://telegram.me/BotFather) (great name btw), I created a bot very easily, no costs involved, anyone can do it. It's really amazing that they offer this service for free. To make the bot do something, I used Python, a language that I have had a lot of fun with in recent times for personal projects, as it allows me to build things very quickly without getting in the way. 
+Using Telegrams, [Botfather](https://telegram.me/BotFather) (great name btw), I created a bot very easily, no costs involved, anyone can do it. its really amazing that they offer this service for free. To make the bot do something, I used Python, a language that I have had a lot of fun with in recent times for personal projects, as it allows me to build things very quickly without getting in the way. 
 
-There is a python library for integrating with Telegram, [python-telegram-bot](https://python-telegram-bot.org/) It's really easy to get up and running too. Their front page literally has all the code you would need to setup a "Hello World" bot
+There is a python library for integrating with Telegram, [python-telegram-bot](https://python-telegram-bot.org/) its really easy to get up and running too. Their front page literally has all the code you would need to setup a "Hello World" bot
 
 {:refdef: style="text-align: center;"}
 ![](/images/python-telegram-bot-opt.jpg)
 {: refdef}
 
 ## Speech to Text service
-When I heard about [Open AI Whisper](https://github.com/openai/whisper), I thought this was great, an open source speech to text service which you could run locally. The idea was to somehow get the voice messages I recieved, transcribed to text and let me reply in my preffered fashion, text.
+When I heard about [Open AI Whisper](https://github.com/openai/whisper), I thought this was great, an open source speech to text service which you could run locally. The idea was to somehow get the voice messages I received, transcribed to text and let me reply in my preferred fashion, text.
 
 Georgi Gerganov is a magician and made a version of Whisper, [whisper.cpp](https://github.com/ggerganov/whisper.cpp), which is small enough to run on a desktop PC without a GPU, or even Raspberry PI, check the github repo [here](https://github.com/ggerganov/whisper.cpp), this made me think that maybe a Raspberry Pi would be able to even handle the load. It could be online always as I wasn't really worried about the power consumption of it.
 
@@ -120,7 +120,7 @@ Surprisingly, the approach worked really well, I had a few troubles working out 
 The key learnings were
 ```python
 # Setup the handler to accept attachments at startup
-application.add_handler(MessageHandler(filters.ATTACHMENT, handle_message))
+application.add_handler(MessageHandler(filters. ATTACHMENT, handle_message))
 
 # In your handler
 async def handle_message(update, context):
@@ -175,7 +175,7 @@ SHHH_MY_CHAT_ID=11111112
 
 The bot is up and running and it is always available for me, and anyone else actually, to convert voice notes and videos audio to text. The speech to text conversion is usually great, allowing me to reply to a voice note without ever listening to it. I only use it once a week, but I keep simple stats on calls to the service
 
-For the workflow it's pretty good, without being able to integrate into the messaging app directly. Most voice notes arrive in WhatsApp and I can long click them and share them to Shhh bot which will start the Speech to Text and return the result to me in under a minute.
+For the workflow its pretty good, without being able to integrate into the messaging app directly. Most voice notes arrive in WhatsApp and I can long click them and share them to Shhh bot which will start the Speech to Text and return the result to me in under a minute.
 {:refdef: style="text-align: center;"}
 ![](/images/shhhbot-opt.jpg)
 {: refdef}

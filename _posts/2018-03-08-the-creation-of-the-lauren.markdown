@@ -28,9 +28,9 @@ So this project has a particular place in my heart... and [GitHub.](https://gith
 ## Premise
 
 
-As part of the their job a friend writes articles and publishes them on a custom [CMS](https://en.wikipedia.org/wiki/Content_management_system) and they have to put a picture in mutliple formats into the CMS to allow it to display in many different forms.
+As part of the their job a friend writes articles and publishes them on a custom [CMS](https://en.wikipedia.org/wiki/Content_management_system) and they have to put a picture in multiple formats into the CMS to allow it to display in many different forms.
 
-Some of the formats are on the full page article, mini-preview, linking previews and sister-site integrations, each article may need up to 10 photos and each of these has to be cropped, centred and re-sized into their respective formats, meaning up to 40 seperate images that need to be created and was taking an hour plus each time they had to do it!
+Some of the formats are on the full page article, mini-preview, linking previews and sister-site integrations, each article may need up to 10 photos and each of these has to be cropped, centred and re-sized into their respective formats, meaning up to 40 separate images that need to be created and was taking an hour plus each time they had to do it!
 
 I felt certain I could help them spend their time better.
 
@@ -40,13 +40,13 @@ I felt certain I could help them spend their time better.
 ## Research!
 
 
-Whenever I want to start a project the first step is always reasearch. In this age of information when you set out to do something there is almost always someone who has done it already, so I looked to a lot of my favourite imaging tools to see how easily they could be setup to automatically create a bunch of formats each time they were needed.
+Whenever I want to start a project the first step is always research. In this age of information when you set out to do something there is almost always someone who has done it already, so I looked to a lot of my favourite imaging tools to see how easily they could be setup to automatically create a bunch of formats each time they were needed.
 
 ![](/images/2018/03/app-xnconvert-512-opt.jpg)
 
 ![](/images/2018/03/logo-download-opt.jpg)
 
-I'd used [XNConvert](https://www.xnview.com/en/xnconvert/) in the past and [IrfanView ](http://www.irfanview.com/)with great sucess, but couldn't find a way to easily automate them to this specific task that would be easy enough and portable enough to setup on any machine.
+I'd used [XNConvert](https://www.xnview.com/en/xnconvert/) in the past and [IrfanView ](http://www.irfanview.com/)with great success, but couldn't find a way to easily automate them to this specific task that would be easy enough and portable enough to setup on any machine.
 
 So the project was a go!
 
@@ -120,7 +120,7 @@ There is no process button, we just process as you go.
 
 I do actually try to follow this [principle](https://en.wikipedia.org/wiki/KISS_principle) when I do anything.
 
-It's tightly coupled to a favourite saying.
+its tightly coupled to a favourite saying.
 
 [![](/images/2018/03/Simplicity-opt.jpg)](https://www.brainyquote.com/quotes/alan_perlis_177332?src=t_complexity)
 
@@ -186,7 +186,7 @@ After that it was mostly around the sizes required, so I added xml config, for t
 
 And finally it was about the different tasks, so I added 4 xml profiles.
 
-They have been very happy with the program and even shared it with collegues to help them do their jobs quicker and more effeciently.
+They have been very happy with the program and even shared it with collegues to help them do their jobs quicker and more efficiently.
 
 ![](/images/2018/03/pexels-photo-450271-opt.jpeg)
 
@@ -199,7 +199,7 @@ Sometimes a project should be short lived, but there are a couple things I would
 
 
 	
-  * The resizing and crop algorithm could be improved, but it's Good Enough (tm) right now.
+  * The resizing and crop algorithm could be improved, but its Good Enough (tm) right now.
 
 	
   * The UI could give more feedback and be multi-threaded.

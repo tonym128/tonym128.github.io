@@ -82,7 +82,7 @@ I have always wanted to write games and for various reasons, I've never finished
 
 
 
-The badge was perfect for it. The ESP8266 is a great processor, the LIPO on the badge was great (well over 2 hours battery life ), the screen has a 128x64 pixel size and it has 8 buttons! There was a single caveat and a phrase I still remember, "We're all red on the inside" which was how you remembered that the red wire of the battery goes on the inside two pin connetor or ... FIRE!
+The badge was perfect for it. The ESP8266 is a great processor, the LIPO on the badge was great (well over 2 hours battery life ), the screen has a 128x64 pixel size and it has 8 buttons! There was a single caveat and a phrase I still remember, "We're all red on the inside" which was how you remembered that the red wire of the battery goes on the inside two pin connector or ... FIRE!
 
 
 
@@ -186,7 +186,7 @@ The whole concept sounds easy enough, and I can happily say I did complete the g
 
 
 
-If you want to give it a go, it's on this repo [here](https://github.com/tonym128/BFlight).  And this leads into my favourite part of the project and the continued work I've put into it. You can play it in a web-browser  [here ](https://tonym128.github.io/BFlight/) and the maze game [here](https://tonym128.github.io/BFlight/maze/), plus the voxel demo I made [here](https://tonym128.github.io/BFlight/voxel/).
+If you want to give it a go, its on this repo [here](https://github.com/tonym128/BFlight).  And this leads into my favourite part of the project and the continued work I've put into it. You can play it in a web-browser  [here ](https://tonym128.github.io/BFlight/) and the maze game [here](https://tonym128.github.io/BFlight/maze/), plus the voxel demo I made [here](https://tonym128.github.io/BFlight/voxel/).
 
 
 
@@ -218,7 +218,7 @@ So after getting to a point where I liked the game quite a bit. I broke my BSide
 
 
 
-I was happy with components of the ESP8266 and the SSD1306 screen, but I was very keen to have some sort of novetly feel to it (and I didn't have buttons) so I researched a ton and found a way to do touch input over pencil.
+I was happy with components of the ESP8266 and the SSD1306 screen, but I was very keen to have some sort of novelty feel to it (and I didn't have buttons) so I researched a ton and found a way to do touch input over pencil.
 
 
 
@@ -376,7 +376,7 @@ That was an amazing experience as getting the code working on all those platform
 
 
 
-The biggest items were input, timing and output, for which I built seperate parts of the code for into the Platform specific files and for things which were platform dependant, I used [CMAKE ](https://cmake.org/)to be able to build different libraries and code on different platforms.
+The biggest items were input, timing and output, for which I built separate parts of the code for into the Platform specific files and for things which were platform dependent, I used [CMAKE ](https://cmake.org/)to be able to build different libraries and code on different platforms.
 
 
 
@@ -420,7 +420,7 @@ I took a few hints from [Michael Abrash's Graphics Programming Black Book](https
 
 
 
-I decided to document the process and build out a gaming platform similar to the Arduboy and release it with it's much more accesible components (to me).
+I decided to document the process and build out a gaming platform similar to the Arduboy and release it with its much more accessible components (to me).
 
 
 
@@ -448,7 +448,7 @@ I refactored all the games to be a single theme and they sit on their own branch
 
 
 
-As of this writing there are all the original game elements as seperate games
+As of this writing there are all the original game elements as separate games
 
 
 
@@ -514,7 +514,7 @@ _Since the sprites are basically bitmasks, you can double up their usage as a ma
 
 
 **Fixed Point Maths**  
-_To get great performance of complex decimal calculations for some of the features below, I impelemented my own library to help with these calcs._
+_To get great performance of complex decimal calculations for some of the features below, I implemented my own library to help with these calcs._
 
 
 
@@ -522,7 +522,7 @@ _To get great performance of complex decimal calculations for some of the featur
 
 
 
-_It does some basic trig and multiplication and division, it's all done in mind with the ESP8266, but it does work cross platform._
+_It does some basic trig and multiplication and division, its all done in mind with the ESP8266, but it does work cross platform._
 
 
 
@@ -585,7 +585,7 @@ _There are a samples for a few common game types, and the raycaster engine I bui
 
 
 
-I am quite happy with the outcome of this project, but I'd like to complete the loop on adding audio, it's built into the code base already, but I need to do the reference hardware design and build a game with it in mind.
+I am quite happy with the outcome of this project, but I'd like to complete the loop on adding audio, its built into the code base already, but I need to do the reference hardware design and build a game with it in mind.
 
 
 
@@ -603,9 +603,9 @@ There is still a feature list for things I'd like to add, such as saving scores 
 
 Multiple games on the SPIFFs would be nice and could be doable with a SPIFFs flasher integration.  
   
-Some sort of platformer game would be really nice to do, it's on my todo list for later to flesh out the engine around handling maps and sprites.  
+Some sort of platformer game would be really nice to do, its on my todo list for later to flesh out the engine around handling maps and sprites.  
   
-And finally I am looking at putting more reference design documentation toghether and building a few more games to flesh out the engine's functions.
+And finally I am looking at putting more reference design documentation together and building a few more games to flesh out the engine's functions.
 
 
 
@@ -613,7 +613,7 @@ And finally I am looking at putting more reference design documentation toghethe
 
 
 
-I think it's at the point where I can gauge community interest in a project like this and get feedback to help drive a course forwards.  
+I think its at the point where I can gauge community interest in a project like this and get feedback to help drive a course forwards.  
 
 
 

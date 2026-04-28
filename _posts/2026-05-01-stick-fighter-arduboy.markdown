@@ -17,11 +17,11 @@ header:
 
 When I first saw the Arduboy, I was immediately drawn to its charm and simplicity. 
 
-Over the years I've really enjoyed it's community, making games for it and the big library of games available, the small system with it's ability to code for so easily and it's online community always bring me back for more.
+Over the years I've really enjoyed its community, making games for it and the big library of games available, the small system with its ability to code for so easily and its online community always bring me back for more.
 
-I did however notice a hole in it's library: there were no real-time 2D fighting games. This always bugged me, the platform was crying out for a competitive, fluid brawler, and I decided to take on the challenge.
+I did however notice a hole in its library: there were no real-time 2D fighting games. This always bugged me, the platform was crying out for a competitive, fluid brawler, and I decided to take on the challenge.
 
-View it's game page and play it online [here](https://community.arduboy.com/t/stick-fighter/13392)
+View its game page and play it online [here](https://community.arduboy.com/t/stick-fighter/13392)
 
 Take a look at the source code [here](https://github.com/tonym128/stickfighter)
 

@@ -100,7 +100,7 @@ Things like "Chapter starts on a new page," "Footnote placement," and "Page numb
 
 ## Final Thoughts
 
-Is it "cheating" to write with AI? It's definitely different, but I don't think so. I feel more like a **Director** or a **Lead Architect**. I provided the vision, the constraints, and the "human" soul, while the AI provided the raw processing power to flesh out the world.
+Is it "cheating" to write with AI? its definitely different, but I don't think so. I feel more like a **Director** or a **Lead Architect**. I provided the vision, the constraints, and the "human" soul, while the AI provided the raw processing power to flesh out the world.
 
 I ended up with something I actually wanted to read. And in the process, I gained a massive amount of respect for the technical hurdles that traditional authors face every day.
 

@@ -57,7 +57,7 @@ To give it that "Deluxe" feel, I added cinematic story scrollers for the mission
 
 ## Things I wasn’t very happy with
 
-*   **UI Scaling:** In very specific portrait orientations on older phones, the score multiplier can sometimes overlap with the health bar. It's a minor "bogan" in the system, but something I'll need to patch.
+*   **UI Scaling:** In very specific portrait orientations on older phones, the score multiplier can sometimes overlap with the health bar. its a minor "bogan" in the system, but something I'll need to patch.
 *   **Performance on Low-End Devices:** While Three.js is efficient, the soft-body calculations can get heavy on older mobile hardware. I might need to add a "Low Detail" mode similar to what I did for Peakylight.
 
 ## Where to from here?

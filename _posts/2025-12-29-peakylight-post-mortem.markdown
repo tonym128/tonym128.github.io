@@ -20,7 +20,7 @@ Take a look at the site - [Live Demo](https://tonym128.github.io/peakylight/)
 
 Take a look at the code - [Code](https://github.com/tonym128/peakylight/)
 
-It's been a while since I worked on a project that I shared on my blog or made a video about and thought this was a fun side quest that I went on to share.
+its been a while since I worked on a project that I shared on my blog or made a video about and thought this was a fun side quest that I went on to share.
 
 I have another post which is mostly written by AI about the functionality of the site [here](/_posts/2025-12-07-peakylight-chasing-shadows.markdown), but this one is more about the story of the site, so ...
 
@@ -54,7 +54,7 @@ I quickly abandoned this after looking at some geospatial files and working out 
 
 ![Sorry Dave, I cannot do that](/images/2025/12/29/sorrydave-opt.jpg "Sorry Dave, I Cannot Do that")
 
-It wasn't as simple as that as the AI didn't have context on the GPS location which I wanted to know about and wasn't going to actually run code to figure it out, the best it might do it query it's big LLM knowledgebase or use MCP for some external tooling calls, but nothing internally or externally was able to answer the question for it or me.
+It wasn't as simple as that as the AI didn't have context on the GPS location which I wanted to know about and wasn't going to actually run code to figure it out, the best it might do it query its big LLM knowledgebase or use MCP for some external tooling calls, but nothing internally or externally was able to answer the question for it or me.
 
 ## Attempt 3: Local running cli tool to do the calc. 
 
@@ -79,7 +79,7 @@ Getting the actual time that you would be able to see the sunrise at a location 
 
 Seeing as this came together quite nicely I went into scope creep mode. Reports and animations! This probably took up the most time, working out how I wanted them to work and coaxing the AI to make it so. 
 
-I also did a lot of refactoring near the end of the project to break up the monolith of a html file with everything in it. CSS, JS, HTML, Libraries, just everything. It's not perfect now, but it's a lot better.
+I also did a lot of refactoring near the end of the project to break up the monolith of a html file with everything in it. CSS, JS, HTML, Libraries, just everything. its not perfect now, but its a lot better.
 
 ## Things I was very happy with
 

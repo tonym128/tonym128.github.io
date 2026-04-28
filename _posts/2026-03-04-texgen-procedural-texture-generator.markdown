@@ -26,7 +26,7 @@ Whether you need static baked images for a UI or real-time animated backgrounds 
 
 ## Features: Beyond Just Noise
 
-TexGen isn't just a wrapper for a canvas; it's a full-featured texture pipeline:
+TexGen isn't just a wrapper for a canvas; its a full-featured texture pipeline:
 
 *   **Live GLSL Editor:** A built-in IDE with real-time feedback and @slider annotations for interactive debugging.
 *   **TexGen Words:** An addon that allows you to synthesize complex textures using natural language. Phrases like "blue fire spiral warp" or "purple plasma vortex" are instantly converted into optimized GLSL.

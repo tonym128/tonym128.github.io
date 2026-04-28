@@ -257,7 +257,7 @@ I was very pleased with the model.
 
 
 
-![WireFrame.JPG](/images/2018/09/WireFrame-opt.jpg) 3D Wireframe Model
+![WireFrame. JPG](/images/2018/09/WireFrame-opt.jpg) 3D Wireframe Model
 
 
 
@@ -273,7 +273,7 @@ And the texture look wasn't looking too bad either
 
 
 
-![Textured.JPG](/images/2018/09/Textured-opt.jpg) Textured in Blender
+![Textured. JPG](/images/2018/09/Textured-opt.jpg) Textured in Blender
 
 
 

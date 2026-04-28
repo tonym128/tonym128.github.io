@@ -20,11 +20,11 @@ header:
 
 FaceSwap is a technology used for taking one face and swapping it with another in an image or video. What makes this news ? All the tools are available for anyone to use now!
 
-It's an interesting topic and it's pretty current, I found the images of Nic Cage everywhere absolutely amazing, especially the Indianna Jones video, that was fantastic. Take a look at the video below!
+its an interesting topic and its pretty current, I found the images of Nic Cage everywhere absolutely amazing, especially the Indianna Jones video, that was fantastic. Take a look at the video below!
 
 <iframe width="827" height="465" src="https://www.youtube.com/embed/_OqMkZNHWPo" title="Nic Cage | Mega Mix One" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-I love the technology and the way it's so accessible, unfortunately that comes with the bad part of it too, that people are using this to put people into situations they were never in.
+I love the technology and the way its so accessible, unfortunately that comes with the bad part of it too, that people are using this to put people into situations they were never in.
 
 
 ## What I'm trying to accomplish and what I want to share
@@ -55,13 +55,13 @@ After fighting the requirements and massive Nvidia downloads of many different d
 ### Faces!
 
 
-Some of the libraries used are fascinating, to have the images setup the way you need, they actually understand that in all likelyhood you're not going to have a homegenous image set of faces ready to use and provide a first step, which takes all the faces out of the photos you have, even doing some simple rotations to align them. I will definitely be using this feature in future.
+Some of the libraries used are fascinating, to have the images setup the way you need, they actually understand that in all likelihood you're not going to have a homogeneous image set of faces ready to use and provide a first step, which takes all the faces out of the photos you have, even doing some simple rotations to align them. I will definitely be using this feature in future.
 
 Once I had my two face sets from an image search on my Google Photo's by Name, I pulled the faces out and cleaned out the out directories of the additional people who appeared in the photos.
 
 ![](/images/2018/02/Blurreed-Image-Search-opt.jpg)![](/images/2018/02/Blurreed-Image-Search-1-opt.jpg)
 
-This took about an hour of manual labour, but there is now a very freaky collection of 300+ photos of me and my wife in single folders. (The actual reccomendation is about 3000 photos, so I'm well under, this might bite me later)
+This took about an hour of manual labour, but there is now a very freaky collection of 300+ photos of me and my wife in single folders. (The actual recommendation is about 3000 photos, so I'm well under, this might bite me later)
 
 I am imagining doing this process for multiple friends one day so I can put them in places they've never been and see if I can freak them out. That is probably a LOT of effort for a very minimal payoff.
 
@@ -91,7 +91,7 @@ You can see above how the alignment is actually amazing, but unfortunately witho
 ## Make me videos
 
 
-Interestingly the process of creating a video is the same as with images, though it's batch processing of the single frames which you then recombine back into a video.
+Interestingly the process of creating a video is the same as with images, though its batch processing of the single frames which you then recombine back into a video.
 
 
 ## Where to from here ?

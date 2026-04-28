@@ -84,7 +84,7 @@ Here's an example of the generated description along with the video creation pro
 Electric cars have much lower life cycle emissions, new study confirms
 
 https://arstechnica.com/?p=1784275
-If you listen to electric vehicle naysayers, switching to EVs is pointless because even if the cars are vastly more efficient than ones that use internal combustion engines—and they are—that doesn't take into account the amount of carbon required to build and then scrap them.Advertisement Assuming the four regions stick to officially announced decarbonization programs, in 2030 the gap widens in favor of BEVs, even accounting for more efficient engine technologies and fuel production.
+If you listen to electric vehicle naysayers, switching to EVs is pointless because even if the cars are vastly more efficient than ones that use internal combustion engines—and they are—that doesn't take into account the amount of carbon required to build and then scrap them. Advertisement Assuming the four regions stick to officially announced decarbonization programs, in 2030 the gap widens in favor of BEVs, even accounting for more efficient engine technologies and fuel production.
 Found via Ars Technica RSS Feed : 
 https://feeds.arstechnica.com/arstechnica/index
 Check it out for this and other awesome articles
@@ -96,7 +96,7 @@ Check it out for this and other awesome articles
 <a name="4">
 
 ### Text to speech the summarised article
-Carrying on with the process of finding interesting python modules, I found a great one to take my audio and convert it into speech, it's free and provided by Google and has a very slow and unique voice that I find infuriatingly easy to listen to. It's very understandable and is easy to use, but has literally no customisation. There's some amazing research going on in this area and I tried about 20 different text to speech engines that I could run locally on my machine and while some where super customisable and others sounds phenomenal, none of them was as good as slowly and methodically sounding out the words one at a time like the first TTS engine I tried.
+Carrying on with the process of finding interesting python modules, I found a great one to take my audio and convert it into speech, its free and provided by Google and has a very slow and unique voice that I find infuriatingly easy to listen to. its very understandable and is easy to use, but has literally no customisation. There's some amazing research going on in this area and I tried about 20 different text to speech engines that I could run locally on my machine and while some where super customisable and others sounds phenomenal, none of them was as good as slowly and methodically sounding out the words one at a time like the first TTS engine I tried.
 
 Speech Generation in use
 <audio controls=""><source src="/images/2021/08/original-voice-better-pronounce.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>
@@ -147,11 +147,11 @@ I think the toughest bits were the things I didn't do upfront and having to retr
 
 ![](/images/2021/08/logging-opt.jpg)
 
-That leads into monitoring itself, where I felt I had some failings initially, it's something I thought I could wing my way through, but as always I was wrong, every bug ends up being 10 times harder to debug without logging, I'll excuse myself slightly since it's a personal project, but a small slap on the wrist to remember next time.
+That leads into monitoring itself, where I felt I had some failings initially, its something I thought I could wing my way through, but as always I was wrong, every bug ends up being 10 times harder to debug without logging, I'll excuse myself slightly since its a personal project, but a small slap on the wrist to remember next time.
 
 ![](/images/2021/08/docker-opt.jpg)
 
-Dockerise upfront, I love local development, but keeping parity with a remote build is a great idea. Not losing track of dependencies and settings, it's a bit hard to do when you're in flux with development and proof of concepts, but remember to go back once you've got it working and make sure you get it working again.
+Dockerise upfront, I love local development, but keeping parity with a remote build is a great idea. Not losing track of dependencies and settings, its a bit hard to do when you're in flux with development and proof of concepts, but remember to go back once you've got it working and make sure you get it working again.
 
 <a name="right">
 
@@ -184,7 +184,7 @@ I learnt some cool stuff about Python and FastAPI, like setting it up and runnin
 
 I set up a Telegram bot for the first time, which was quite cool. I can ask it to give me videos of website articles and it does! This was going to tie into a submission mechanism, which I could do technically, but it wasn't actually necessary for me to feed news in.
 
-It was really interesting running and managing a YouTube channel and seeing what it would take to organically grow it, it's been almost 6 months since I started the project and I only have half the subs I would need to monetize and because Short view time doesn't count, not enough hours by a long way, since 90% of my traffic is shorts.
+It was really interesting running and managing a YouTube channel and seeing what it would take to organically grow it, its been almost 6 months since I started the project and I only have half the subs I would need to monetize and because Short view time doesn't count, not enough hours by a long way, since 90% of my traffic is shorts.
 
 Even with over 1000 hours on record, only 100ish was not from Shorts, which is excluded.
 

@@ -22,7 +22,7 @@ Take a look at the code - [GitHub Repository](https://github.com/tonym128/axis_r
 
 ## The Vision: Redefining the Racing Line
 
-In most racers, the "line" is two-dimensional. In **Axis Rush**, it's a full 360-degree experience. By allowing players to jump between the **Interior** and **Exterior** of the cylindrical track, I wanted to create a game where spatial awareness is just as important as reflexes. 
+In most racers, the "line" is two-dimensional. In **Axis Rush**, its a full 360-degree experience. By allowing players to jump between the **Interior** and **Exterior** of the cylindrical track, I wanted to create a game where spatial awareness is just as important as reflexes. 
 
 Flipping to the inside gives you a tighter turn radius but limits your visibility, while the outside offers a grand view of the neon-soaked horizon but leaves you exposed.
 
@@ -32,7 +32,7 @@ Flipping to the inside gives you a tighter turn radius but limits your visibilit
 *   **Procedural Aesthetics:** Every texture in the game is baked at runtime using [TexGenJS](https://github.com/tonym128/texgen). I used natural language prompts like "neon circuit" and "carbon fiber" to generate GLSL-based textures, keeping the initial bundle size incredibly small.
 *   **High-Inertia Physics:** I implemented a "slippery" steering model with an angular velocity system. It feels less like driving a car and more like piloting a high-speed hovercraft with massive momentum.
 *   **9 Unique Pilots:** From the disgraced military pilot **Axel Rush** to the digital consciousness **Korvath**, each character has a back-story and a signature color that bleeds into their craft's neon trails.
-*   **Thumping Techno Engine:** The soundtrack isn't just a static MP3. It's a custom-coded Web Audio engine that generates procedural techno beats using oscillators and noise buffers, reacting to your speed.
+*   **Thumping Techno Engine:** The soundtrack isn't just a static MP3. its a custom-coded Web Audio engine that generates procedural techno beats using oscillators and noise buffers, reacting to your speed.
 
 ## Tech Deep Dive: Three.js and Post-Processing
 

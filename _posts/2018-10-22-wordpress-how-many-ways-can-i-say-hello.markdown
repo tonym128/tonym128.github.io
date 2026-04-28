@@ -254,7 +254,7 @@ Getting **Google Analytics** up was a good idea, mostly makes me cry, but a good
 
 
 
-The most fascinating time sink was **[AMP](https://www.ampproject.org/)**[ ](https://www.ampproject.org/)and getting that to work. It's a special technology developed by Google to make pages load really quickly. Similar to Facebook Instant Articles. 
+The most fascinating time sink was **[AMP](https://www.ampproject.org/)**[ ](https://www.ampproject.org/)and getting that to work. its a special technology developed by Google to make pages load really quickly. Similar to Facebook Instant Articles. 
 
 
 

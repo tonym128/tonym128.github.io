@@ -125,4 +125,4 @@ I found it great in that I was able to learn what it is like being on the other 
 
 If you can, I'd suggest giving it a go to see if you like it.
 
-It's a great way to get exposure to different people and parts of your company and build a new skill.
+its a great way to get exposure to different people and parts of your company and build a new skill.

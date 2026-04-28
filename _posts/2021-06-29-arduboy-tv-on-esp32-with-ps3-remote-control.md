@@ -86,7 +86,7 @@ I could have gone another route, and got an ESP32 with the PSRAM, most camera mo
 
 ### Nice Controls
 
-The choice I originally made was to go Bluetooth, it gets a few goals of mine in place, it's good controls, the hardware is built into the ESP32 (though some software hackery is needed) and since we're doing TV output, it'll give us some range to hit the couch while we play.
+The choice I originally made was to go Bluetooth, it gets a few goals of mine in place, its good controls, the hardware is built into the ESP32 (though some software hackery is needed) and since we're doing TV output, it'll give us some range to hit the couch while we play.
 
 I happen to have a derelict PS3 and 2 controllers for it, so after messing around with some original Bluetooth peripherals I decided to see about using these.
 
@@ -94,7 +94,7 @@ The PS3 controller is a fascinating case of almost there, technically it uses Bl
 
 Using this library <https://github.com/jvpernis/esp32-ps3>
 
-I hooked up my PS3 controller to my PC and set it's serial number using the SixAxisPair tool to 01:02:03:04:05:06 (very original I know!)
+I hooked up my PS3 controller to my PC and set its serial number using the SixAxisPair tool to 01:02:03:04:05:06 (very original I know!)
 
 I got it from here which this website, which seems legit ... <https://sixaxispairtool.en.lo4d.com/windows>
 
@@ -123,16 +123,16 @@ The actual process of getting it up and running was quite fun.
 
 Originally I tried with [Mr Blinky's library](https://github.com/MrBlinky/Arduboy-homemade-package)
 
-It's great and does the trick for a lot of different types of Arduboy's on different screens and different pin out for Arduino's. After a bunch of false starts, I found the ESP8266 conversion for [ESPBoy](https://www.espboy.com/)
+its great and does the trick for a lot of different types of Arduboy's on different screens and different pin out for Arduino's. After a bunch of false starts, I found the ESP8266 conversion for [ESPBoy](https://www.espboy.com/)
 
-Once I grabbed this, the first thing I do is always get it up and running on the hardware it's built for, so I grabbed an ESP8266, a compatible screen and breadboard it all and worked on it until I got it up and running (and then played some games for a while)
+Once I grabbed this, the first thing I do is always get it up and running on the hardware its built for, so I grabbed an ESP8266, a compatible screen and breadboard it all and worked on it until I got it up and running (and then played some games for a while)
 
 With this done, the next steps was to replace the processor, there were a lot of changes, but mostly removing and changing libraries. I'll list some highlights
 
 - PROGMEM isn't a thing on ESP32, remove references
 - avr/pgmspace.h has moved to pgmspace.h on ESP32
 - EEPROM isn't great and has to be worked
-- Tones didn't work, had to rework the code and it's still a bit hacky
+- Tones didn't work, had to rework the code and its still a bit hacky
 - Changed the controls to use the PS3 controller
 - Change the output code quite substantially to be threaded and output to the TV
 - Because of needing threading, I had to modify the code of every game!
@@ -147,33 +147,33 @@ With this done, the next steps was to replace the processor, there were a lot of
 
 **EEPROM** - I got this working well enough for during the game to have it stored, but in reality it needs a full blown implementation, I would love it know which game is running and store and EEPROM file on the SPIFFS partition, which is more like a file system and allows files, possibly a format which matched the game name and would store that particular games EEPROM in a files on the SPIFFS so it would never get overwritten. TBC
 
-**PS3 Controller hookup** - The PS3 library actually has a notify check which runs every so often and I just hooked this to store it's values in some global variables then I was able to use this in the Arduboy2Core::buttonsState procedure to set the values.
+**PS3 Controller hookup** - The PS3 library actually has a notify check which runs every so often and I just hooked this to store its values in some global variables then I was able to use this in the Arduboy2Core::buttonsState procedure to set the values.
 
-**TV Output** - The Arduboy has it's own framebuffer and I would have ideally have used this to avoid code duplication and copying, but it has a slightly weird format of horizontal stripes. The buffer mimics the way you write to the screen which is a couple horizontal pixels at a time, and this made it quite hard to work with for my TV output code, so I have a process that I put into Arduboy output code and instead of outputing to the screens, it prepares the buffers and handles the swapping of buffers with a lock. There is a thread running the whole time just doing the TV output using the currently set output buffer, which will pick up the changes whenever they're ready.
+**TV Output** - The Arduboy has its own framebuffer and I would have ideally have used this to avoid code duplication and copying, but it has a slightly weird format of horizontal stripes. The buffer mimics the way you write to the screen which is a couple horizontal pixels at a time, and this made it quite hard to work with for my TV output code, so I have a process that I put into Arduboy output code and instead of outputing to the screens, it prepares the buffers and handles the swapping of buffers with a lock. There is a thread running the whole time just doing the TV output using the currently set output buffer, which will pick up the changes whenever they're ready.
 
-Modify the code of every game - This was actually quite entertaining, since it's meant to be source compatible I wanted to find a way to modify every Arduboy game, I worked through quite a few solutions. But let me setup the premise first.
+Modify the code of every game - This was actually quite entertaining, since its meant to be source compatible I wanted to find a way to modify every Arduboy game, I worked through quite a few solutions. But let me setup the premise first.
 
-I needed to add the initialization code for the threading, the TV output code is very time sensitive for the NTSC signal it's generating, so I wanted that to have a whole core to itself. The Wifi and Bluetooth code also runs by default on the one core which is in use by default. This proved problematic for the TV output, so I wanted it on a different core.
+I needed to add the initialization code for the threading, the TV output code is very time sensitive for the NTSC signal its generating, so I wanted that to have a whole core to itself. The Wifi and Bluetooth code also runs by default on the one core which is in use by default. This proved problematic for the TV output, so I wanted it on a different core.
 
 ***First try*** - Modify the games manually this was a pain to do and wasn't maintainable or scalable for all the games.
 
-***Second try*** - Replace the main ino file with my own, while renaming the ino to mytvgame.cpp or some such, I was able to get away with this with one or two games, but then had a few problems for a few reasons. Ino files are like a global namespace and functions can be defined in any order you like (as if you specified them in an imported header) but when I programatically generated the header files I start encountering many more errors. Here's the single source file which actually was able to make headers from my Arduino INO file [makeheaders](https://fossil-scm.org/home/doc/trunk/tools/makeheaders.html) once they were copied into CPP files.
+***Second try*** - Replace the main ino file with my own, while renaming the ino to mytvgame.cpp or some such, I was able to get away with this with one or two games, but then had a few problems for a few reasons. Ino files are like a global namespace and functions can be defined in any order you like (as if you specified them in an imported header) but when I programmatically generated the header files I start encountering many more errors. Here's the single source file which actually was able to make headers from my Arduino INO file [makeheaders](https://fossil-scm.org/home/doc/trunk/tools/makeheaders.html) once they were copied into CPP files.
 
 ***Third try*** - Actually all I need is to rename the setup() and loop() to something else and make my own startup and loop methods which call those!
 
-I have been having a lot of fun with Python lately and decided to script it out in there. First things first, go through all the GAMES directories looking for a.ino file which matches the folder name (it's an Arduino IDE restriction I've never understood, but thanks!)
+I have been having a lot of fun with Python lately and decided to script it out in there. First things first, go through all the GAMES directories looking for a.ino file which matches the folder name (its an Arduino IDE restriction I've never understood, but thanks!)
 
 Once you've found the files, take a backup (always take a backup!). Then a copy to a file I'm willing to modify, I run a few changes
 
 ![](/images/2021/06/python_converter-opt.webp)
 
-In the end once it's done all the run of the mill changes, it creates a new ino file with my new setup and loop which calls the renamed game setup and loop methods once it's done it's stuff
+In the end once its done all the run of the mill changes, it creates a new ino file with my new setup and loop which calls the renamed game setup and loop methods once its done its stuff
 
 ![](/images/2021/06/game_loop-opt.webp)
 
 My setup runs the game setup code and sets up the thread for the game logic loop.
 
-I could do almost anything I wanted in here, currently it's just trying to do the Over The Air updates, but a flash menu could possibly be added later and if we had a SD card, you could have multiple games on the device
+I could do almost anything I wanted in here, currently its just trying to do the Over The Air updates, but a flash menu could possibly be added later and if we had a SD card, you could have multiple games on the device
 
 You will see the loop is just a delay method. It doesn't need to do anything the gameLogicLoop thread takes care of running the original loop code.
 
