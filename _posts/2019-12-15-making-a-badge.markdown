@@ -5,6 +5,10 @@ date: 2019-12-15 22:55:44+00:00
 layout: single
 title: "BSides Cape Town 2019 Making a badge"
 excerpt: "Detailing the firmware and hardware design behind the custom electronic badge for BSides Cape Town 2019."
+header:
+  teaser: /images/2019/11/esp32-opt.jpg
+  overlay_image: /images/2019/11/esp32-opt.jpg
+  overlay_filter: 0.5
 ---
 <video controls="controls" autoplay="autoplay" loop="loop" width="768" height="512">
 	<source src="/images/2019/11/badge_fire.mp4" type="video/mp4">

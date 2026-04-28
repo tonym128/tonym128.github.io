@@ -5,6 +5,10 @@ date: 2019-02-17 20:00:40+00:00
 layout: single
 title: "DefCon 26 There and back again"
 excerpt: "Recapping an unforgettable experience attending DefCon 26 and diving into the hacker community."
+header:
+  teaser: /images/2019/02/DefCon26-opt.jpg
+  overlay_image: /images/2019/02/DefCon26-opt.jpg
+  overlay_filter: 0.5
 ---
 ![](/images/2019/02/DefCon26-opt.jpg)DefCon 26
 

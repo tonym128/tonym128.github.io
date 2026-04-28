@@ -7,6 +7,10 @@ title: "What I learnt from interviewing over 50 people in a year"
 tags:
 - people
 excerpt: "Lessons learned and reflections from conducting over fifty technical interviews in a single year."
+header:
+  teaser: /images/2018/04/Puzzle-opt.jpg
+  overlay_image: /images/2018/04/Puzzle-opt.jpg
+  overlay_filter: 0.5
 ---
 I went from literally no interviewing experience to an experienced interviewer in the space of only a year.
 

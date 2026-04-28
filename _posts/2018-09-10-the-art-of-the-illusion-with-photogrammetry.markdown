@@ -14,6 +14,10 @@ tags:
 - photogrammetry
 - programming
 excerpt: "Discovering the magic of photogrammetry and how to translate real-world objects into digital 3D models."
+header:
+  teaser: /images/2018/09/horse.gif
+  overlay_image: /images/2018/09/horse.gif
+  overlay_filter: 0.5
 ---
 ##  The Problem 
 

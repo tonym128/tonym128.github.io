@@ -7,6 +7,10 @@ title: "Interviewing do's and don'ts"
 tags:
 - people
 excerpt: "A practical guide to the do's and don'ts of conducting effective technical interviews."
+header:
+  teaser: /images/2018/04/Checklist-opt.jpg
+  overlay_image: /images/2018/04/Checklist-opt.jpg
+  overlay_filter: 0.5
 ---
 This is a follow on to another blog I wrote, [What I learnt from interviewing 50 people in a year](/2018/04/10/what-i-learnt-from-interviewing-over-50-people-in-a-year/), to detail a bit more in depth some of the do's and don'ts that I found in interviewing and training interviewers.
 

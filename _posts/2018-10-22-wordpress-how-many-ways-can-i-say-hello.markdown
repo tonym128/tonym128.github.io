@@ -10,6 +10,10 @@ tags:
 - cloud
 - wordpress
 excerpt: "The surprisingly complex journey of setting up and customizing my first WordPress blog."
+header:
+  teaser: /images/2018/10/bitnamilogo-opt.jpg
+  overlay_image: /images/2018/10/bitnamilogo-opt.jpg
+  overlay_filter: 0.5
 ---
 I find it funny that I can write programs that can calculate risk on a share portfolio, do heavy math calculations on tiny hardware devices, help write programs that massive enterprise businesses use to stock take , but putting up my first WordPress blog, was just as massive en devour to get something I was happy with.
 

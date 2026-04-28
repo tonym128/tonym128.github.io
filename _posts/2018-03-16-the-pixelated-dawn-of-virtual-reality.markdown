@@ -7,6 +7,10 @@ title: "The pixelated dawn of virtual reality"
 tags:
 - vr
 excerpt: "A nostalgic look back at the early days of virtual reality and how modern technology revived the dream."
+header:
+  teaser: /images/2018/03/VR-Headline-opt.jpeg
+  overlay_image: /images/2018/03/VR-Headline-opt.jpeg
+  overlay_filter: 0.5
 ---
 ![](/images/2018/03/VR-Headline-opt.jpeg)
 

@@ -5,6 +5,10 @@ date: 2026-05-10 10:00:00+00:00
 title: "Sticks of Rage: Scaling Up to a 2D Brawler"
 layout: single
 excerpt: "How I took the engine from Stick Fighter and evolved it into a full-scale 2D brawler, complete with parallax backgrounds, swarming AI, and a new RPG-lite stat system."
+header:
+  teaser: /images/2026/05/10/frontscreen-opt.jpg
+  overlay_image: /images/2026/05/10/frontscreen-opt.jpg
+  overlay_filter: 0.5
 ---
 
 # Sticks of Rage: Scaling Up to a 2D Brawler

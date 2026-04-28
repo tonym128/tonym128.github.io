@@ -10,6 +10,10 @@ tags:
 - gpu
 - mining
 excerpt: "A deep dive into the technology and mechanics of cryptocurrency mining from the perspective of an eager techno-nerd."
+header:
+  teaser: /images/2018/01/blockchain-3041480_640-opt.jpg
+  overlay_image: /images/2018/01/blockchain-3041480_640-opt.jpg
+  overlay_filter: 0.5
 ---
 ![BitCoin](/images/2018/01/blockchain-3041480_640-opt.jpg){:class="img-responsive"}
 

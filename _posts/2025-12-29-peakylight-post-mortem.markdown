@@ -5,6 +5,10 @@ date: 2025-12-29 11:00:00+00:00
 title: "Peakylight: Post Mortem"
 layout: single
 excerpt: "A post-mortem on building the Peakylight web app, born from the need to find a sunny property in a valley."
+header:
+  teaser: /images/peakylight/main-interface-opt.jpg
+  overlay_image: /images/peakylight/main-interface-opt.jpg
+  overlay_filter: 0.5
 ---
 # Peakylight tldr; 
 

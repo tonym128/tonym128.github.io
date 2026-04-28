@@ -5,6 +5,10 @@ date: 2019-04-21 21:57:35+00:00
 layout: single
 title: "Building your own game console"
 excerpt: "The fun and challenging journey of designing and building a custom hardware game console."
+header:
+  teaser: /images/2019/04/Badge-opt.jpg
+  overlay_image: /images/2019/04/Badge-opt.jpg
+  overlay_filter: 0.5
 ---
 ## That's quite a sensationalist title!
 

@@ -5,6 +5,10 @@ date: 2023-08-20 10:22:41+00:00
 title: "It's Story Time, a Raspberry Pi journey of ML, publishing and podcasting"
 layout: single
 excerpt: "Automating a daily short story podcast using AI generation, text-to-speech, and a Raspberry Pi."
+header:
+  teaser: /images/2023/storytime/synopsis-opt.jpg
+  overlay_image: /images/2023/storytime/synopsis-opt.jpg
+  overlay_filter: 0.5
 ---
 # Table of Contents
 

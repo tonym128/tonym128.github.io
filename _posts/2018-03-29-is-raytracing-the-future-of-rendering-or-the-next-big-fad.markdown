@@ -10,6 +10,10 @@ tags:
 - graphics
 - programming
 excerpt: "Examining the resurgence of ray tracing technology and its potential to revolutionize real-time rendering."
+header:
+  teaser: /images/2019/08/motorcycle-1581945_960_720-opt.jpg
+  overlay_image: /images/2019/08/motorcycle-1581945_960_720-opt.jpg
+  overlay_filter: 0.5
 ---
 I was surprised that [Ray tracing](https://en.wikipedia.org/wiki/Ray_tracing_(graphics)) made a massive resurgence at [GDC 2018](https://gdconf.com/).
 

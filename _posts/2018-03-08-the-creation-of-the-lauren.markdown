@@ -9,6 +9,10 @@ tags:
 - github
 - programming
 excerpt: "How I built a custom automation tool named Lauren to eliminate tedious manual work in content publishing."
+header:
+  teaser: /images/2018/03/Lauren-opt.jpg
+  overlay_image: /images/2018/03/Lauren-opt.jpg
+  overlay_filter: 0.5
 ---
 ![](/images/2018/03/Lauren-opt.jpg)
 

@@ -5,6 +5,10 @@ date: 2021-06-29 20:15:47+00:00
 layout: single
 title: "Arduboy TV on ESP32 with PS3 Remote Control"
 excerpt: "Creating a minimal-effort Arduboy game console using an ESP32 and a PS3 remote control."
+header:
+  teaser: /images/2021/06/esp32_arduboy-opt.webp
+  overlay_image: /images/2021/06/esp32_arduboy-opt.webp
+  overlay_filter: 0.5
 ---
 # Table of Contents
 
@@ -105,7 +109,7 @@ Now where are my games!
 <a name="games">
 
 # Assortment of games to play
-The Arduboy has brought me a world of fun up to this point already, from it being the first real hardware I put on a breadboard and then soldered onto a protoboard and building my own ESP32 version and finally doing a TV out version now. I'm very happy with the amount of fun I've had an in and around this eco-system. I even built a game I'm quite proud of Game Plug ArduRacer https://community.arduboy.com/t/arduracer-a-trackmania-type-time-trial-game/8850 , it has smooth scrolling, a zoom in start line and 10 levels as features!
+The Arduboy has brought me a world of fun up to this point already, from it being the first real hardware I put on a breadboard and then soldered onto a protoboard and building my own ESP32 version and finally doing a TV out version now. I'm very happy with the amount of fun I've had an in and around this eco-system. I even built a game I'm quite proud of Game Plug [ArduRacer](https://community.arduboy.com/t/arduracer-a-trackmania-type-time-trial-game/8850), it has smooth scrolling, a zoom in start line and 10 levels as features!
 
 ![](/images/2021/06/arduracer1-opt.webp)
 
@@ -117,11 +121,9 @@ An early console prototype (wrong chip, but I promise I had a pretty similar Ard
 
 The actual process of getting it up and running was quite fun.
 
-Originally I tried with Mr Blinky's library
+Originally I tried with [Mr Blinky's library](https://github.com/MrBlinky/Arduboy-homemade-package)
 
-https://github.com/MrBlinky/Arduboy-homemade-package
-
-It's great and does the trick for a lot of different types of Arduboy's on different screens and different pin out for Arduino's. After a bunch of false starts, I found the ESP8266 conversion for ESPBoy https://www.espboy.com/
+It's great and does the trick for a lot of different types of Arduboy's on different screens and different pin out for Arduino's. After a bunch of false starts, I found the ESP8266 conversion for [ESPBoy](https://www.espboy.com/)
 
 Once I grabbed this, the first thing I do is always get it up and running on the hardware it's built for, so I grabbed an ESP8266, a compatible screen and breadboard it all and worked on it until I got it up and running (and then played some games for a while)
 
@@ -155,7 +157,7 @@ I needed to add the initialization code for the threading, the TV output code is
 
 ***First try*** - Modify the games manually this was a pain to do and wasn't maintainable or scalable for all the games.
 
-***Second try*** - Replace the main ino file with my own, while renaming the ino to mytvgame.cpp or some such, I was able to get away with this with one or two games, but then had a few problems for a few reasons. Ino files are like a global namespace and functions can be defined in any order you like (as if you specified them in an imported header) but when I programatically generated the header files I start encountering many more errors. Here's the single source file which actually was able to make headers from my Arduino INO file https://fossil-scm.org/home/doc/trunk/tools/makeheaders.html once they were copied into CPP files.
+***Second try*** - Replace the main ino file with my own, while renaming the ino to mytvgame.cpp or some such, I was able to get away with this with one or two games, but then had a few problems for a few reasons. Ino files are like a global namespace and functions can be defined in any order you like (as if you specified them in an imported header) but when I programatically generated the header files I start encountering many more errors. Here's the single source file which actually was able to make headers from my Arduino INO file [makeheaders](https://fossil-scm.org/home/doc/trunk/tools/makeheaders.html) once they were copied into CPP files.
 
 ***Third try*** - Actually all I need is to rename the setup() and loop() to something else and make my own startup and loop methods which call those!
 

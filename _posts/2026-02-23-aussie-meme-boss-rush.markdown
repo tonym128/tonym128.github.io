@@ -5,6 +5,10 @@ date: 2026-02-22 10:00:00+00:00
 title: "Aussie Meme Boss Rush: Vibe Coding the Great Cyber-Outback"
 layout: single
 excerpt: "Behind the scenes of Aussie Meme Boss Rush, a neon-drenched 3D web shooter built using Vibe Coding."
+header:
+  teaser: /images/2026/02/23/aussie-meme-rush-opt.jpg
+  overlay_image: /images/2026/02/23/aussie-meme-rush-opt.jpg
+  overlay_filter: 0.5
 ---
 # Aussie Meme Boss Rush tldr; 
 

@@ -10,6 +10,10 @@ tags:
 - tensorflow
 - tesnsorflow
 excerpt: "Exploring the accessible but controversial world of FaceSwap technology and the rise of deepfakes."
+header:
+  teaser: /images/2018/02/FaceMask-opt.jpg
+  overlay_image: /images/2018/02/FaceMask-opt.jpg
+  overlay_filter: 0.5
 ---
 ## What is FaceSwap ?
 ![](/images/2018/02/FaceMask-opt.jpg)

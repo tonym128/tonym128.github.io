@@ -5,6 +5,10 @@ date: 2026-03-17 10:00:00+00:00
 title: "Axis Rush: High-Speed Cylindrical Racing in Three.js"
 layout: single
 excerpt: "Releasing Axis Rush, a futuristic 3D arcade racer built with Three.js featuring cylindrical tracks."
+header:
+  teaser: /images/axis-rush/axis-rush-opt.jpg
+  overlay_image: /images/axis-rush/axis-rush-opt.jpg
+  overlay_filter: 0.5
 ---
 # Axis Rush tldr; 
 

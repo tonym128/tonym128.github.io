@@ -9,6 +9,10 @@ tags:
 - hardware
 - iot
 excerpt: "An introduction to the ESP8266 chip and its incredible potential for building custom IoT devices."
+header:
+  teaser: /images/2018/03/ESP-01-opt.jpg
+  overlay_image: /images/2018/03/ESP-01-opt.jpg
+  overlay_filter: 0.5
 ---
 # The start of something small
 

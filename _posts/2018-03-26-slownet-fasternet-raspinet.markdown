@@ -8,6 +8,10 @@ tags:
 - hacking
 - raspberry pi
 excerpt: "Diagnosing home network issues caused by cloud uploads and taking back control of internet bandwidth."
+header:
+  teaser: /images/2019/08/2000px-Google_Photos_icon.svg-opt.jpg
+  overlay_image: /images/2019/08/2000px-Google_Photos_icon.svg-opt.jpg
+  overlay_filter: 0.5
 ---
 ## The problem
 

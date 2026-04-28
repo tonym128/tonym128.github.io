@@ -5,6 +5,10 @@ date: 2026-05-01 10:00:00+00:00
 title: "Stick Fighter: Fighting the Arduboy’s Constraints"
 layout: single
 excerpt: "The story behind building a 2D fighting game for the Arduboy. Tackling bone systems, tight memory limits, and the art of constraint-based game design."
+header:
+  teaser: /images/2026/05/01/start-opt.jpg
+  overlay_image: /images/2026/05/01/start-opt.jpg
+  overlay_filter: 0.5
 ---
 
 # Stick Fighter: Fighting the Arduboy’s Constraints
