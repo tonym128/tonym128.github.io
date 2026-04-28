@@ -16,11 +16,11 @@ There was [Tron](https://en.wikipedia.org/wiki/Tron), [Lawnmower Man](https://en
 
 Games like [Dactyl Nightmare](https://www.arcade-history.com/?n=dactyl-nightmare&page=detail&id=12493) that inspired me to believe it was the next level of reality that I had to be a part of, how could we live without this.
 
-![Tron poster.jpg](/images/2019/08/220px-Tron_poster.jpg)![Lawnmower Man.jpg](/images/2019/08/220px-Lawnmower_Man.jpg)
+![Tron poster.jpg](/images/2019/08/220px-Tron_poster-opt.jpg)![Lawnmower Man.jpg](/images/2019/08/220px-Lawnmower_Man-opt.jpg)
 
 ![Image result](/images/2019/08/img_5d5ffbee36b91-opt.jpg)
 
-![Hackersposter.jpg](/images/2019/08/220px-Hackersposter.jpg)![](/images/2019/08/2239309-virtuality.jpg)
+![Hackersposter.jpg](/images/2019/08/220px-Hackersposter-opt.jpg)![](/images/2019/08/2239309-virtuality-opt.jpg)
 
 Then is just died overnight, no one talked about it anymore and it was gone from the zeitgeist for years, living in small niches of people building custom hardware.
 
@@ -52,15 +52,15 @@ Virtual reality has come a very far way in a very short time. From it's renaissa
 
 ![Image result for google daydream](/images/2019/08/daydream-view-fog-opt.jpg)
 
-![Image result for samsung vr](/images/2019/08/img_5d5ffbf576029.jpg)
+![Image result for samsung vr](/images/2019/08/img_5d5ffbf576029-opt.jpg)
 
 **And at the high end** we have a lot of options as well. There is the [Oculus Rift ](https://www.oculus.com/rift/)and [HTC Vive](https://www.vive.com/us/product/vive-virtual-reality-system/) and [Playstation VR](https://www.playstation.com/en-za/explore/playstation-vr/).
 
-![Image result for playstation vr](/images/2019/08/cee08908-4b1b-429c-8918-4746f98740ad_1.fa199fa28b0ff7d7e8249137bf74fd3b.jpg)
+![Image result for playstation vr](/images/2019/08/cee08908-4b1b-429c-8918-4746f98740ad_1.fa199fa28b0ff7d7e8249137bf74fd3b-opt.jpg)
 
-![Image result for oculus rift](/images/2019/08/VR005OR_169286_800x800.jpg)
+![Image result for oculus rift](/images/2019/08/VR005OR_169286_800x800-opt.jpg)
 
-![Image result for htc vive](/images/2019/08/AB88337_6.jpg)
+![Image result for htc vive](/images/2019/08/AB88337_6-opt.jpg)
 
 Giving a very high quality image and the high end experience people always thought they wanted.
 
@@ -106,7 +106,7 @@ This would extend to then include high end feature like hand controllers, high r
 
 The tracking on all the current gen headsets is Outside In, which requires additional hardware and sensor setup, the HTC Vive uses passive sensors, while the Oculus and PSVR use active sensors which require talking to the base hardware.  The next extension is to build all of this into the hardware itself, which would allow for greater freedom with the VR headset. This is called inside out tracking. Resulting in a lot more freedom.
 
-![](/images/2019/08/22080851_131068777547360_6405041164671516672_n.jpg)
+![](/images/2019/08/22080851_131068777547360_6405041164671516672_n-opt.jpg)
 
 
 ### But what can you do with it ?

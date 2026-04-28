@@ -14,7 +14,7 @@ Take a look at the demo page - [Live Demo](https://tonym128.github.io/axis_rush/
 
 Take a look at the code - [GitHub Repository](https://github.com/tonym128/axis_rush)
 
-![Axis Rush main menu showing a futuristic racing craft on a cylindrical track](/images/axis-rush/axis-rush.jpg "Axis Rush Main Menu")
+![Axis Rush main menu showing a futuristic racing craft on a cylindrical track](/images/axis-rush/axis-rush-opt.jpg "Axis Rush Main Menu")
 
 ## The Vision: Redefining the Racing Line
 

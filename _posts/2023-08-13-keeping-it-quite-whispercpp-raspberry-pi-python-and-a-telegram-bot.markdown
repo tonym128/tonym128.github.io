@@ -4,6 +4,10 @@ comments: False
 date: 2023-08-13 12:14:41+00:00
 title: "Shhh, keep quiet! Whisper.cpp, Raspberry Pi, Python and a Telegram bot"
 layout: single
+header:
+  teaser: /images/2026/04/whisper-cpp-opt.jpg
+  overlay_image: /images/2026/04/whisper-cpp-opt.jpg
+  overlay_filter: 0.5
 excerpt: "Building a Telegram bot with Whisper.cpp and a Raspberry Pi to automatically transcribe voice notes."
 ---
 # Table of Contents

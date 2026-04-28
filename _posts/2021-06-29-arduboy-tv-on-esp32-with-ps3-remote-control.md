@@ -18,7 +18,7 @@ excerpt: "Creating a minimal-effort Arduboy game console using an ESP32 and a PS
 
 # Synopsis
 
-![](/images/2021/06/esp32_arduboy.webp)
+![](/images/2021/06/esp32_arduboy-opt.webp)
 
 A simple games console for some fun, with some cheap components and minimal experience necessary to get going to make and play games.
 
@@ -46,7 +46,7 @@ KISS - Keep it simple stupid.
 Pretty much the only big product to purchase is this
 
 <http://www.lilygo.cn/prod_view.aspx?TypeId=50033&Id=1126&FId=t3:50033:3>
-![](/images/2021/06/ttgo.webp)
+![](/images/2021/06/ttgo-opt.webp)
 
 The TTGO T-Display ESP32, this board was actually cheaper than a lot of boards without a display at the time I bought it, but almost any ESP32 board will do.
 
@@ -77,9 +77,9 @@ Another interesting problem with generating a TV signal is that it requires very
 
 I could have gone another route, and got an ESP32 with the PSRAM, most camera modules have them as they chew up way more than 520kb quite often, though referring back to my original Cheap and Easy goal the 'bare' ESP32 without the extra ram is a lot easier to get hold of.
 
-![](/images/2021/06/ttgo_clipped.webp)
+![](/images/2021/06/ttgo_clipped-opt.webp)
 
-![](/images/2021/06/ttgo_soldered.webp)
+![](/images/2021/06/ttgo_soldered-opt.webp)
 
 ### Nice Controls
 
@@ -95,7 +95,7 @@ I hooked up my PS3 controller to my PC and set it's serial number using the SixA
 
 I got it from here which this website, which seems legit ... <https://sixaxispairtool.en.lo4d.com/windows>
 
-![](/images/2021/06/sixaxispair.webp)
+![](/images/2021/06/sixaxispair-opt.webp)
 
 One thing to be aware of when kicking off an ESP32 project with Wifi and Bluetooth is that the libraries are huge! You blast about 1Mb of your ROM just to get the BT and Wifi stack, I believe there are lighter ones available, but not that I could get working with Arduino.
 
@@ -108,13 +108,13 @@ Now where are my games!
 # Assortment of games to play
 The Arduboy has brought me a world of fun up to this point already, from it being the first real hardware I put on a breadboard and then soldered onto a protoboard and building my own ESP32 version and finally doing a TV out version now. I'm very happy with the amount of fun I've had an in and around this eco-system. I even built a game I'm quite proud of Game Plug ArduRacer https://community.arduboy.com/t/arduracer-a-trackmania-type-time-trial-game/8850 , it has smooth scrolling, a zoom in start line and 10 levels as features!
 
-![](/images/2021/06/arduracer1.webp)
+![](/images/2021/06/arduracer1-opt.webp)
 
-![](/images/2021/06/arduracer2.webp)
+![](/images/2021/06/arduracer2-opt.webp)
 
 An early console prototype (wrong chip, but I promise I had a pretty similar Arduino Pro Micro one with buttons).
 
-![](/images/2021/06/esp8266gameconsole.webp)
+![](/images/2021/06/esp8266gameconsole-opt.webp)
 
 The actual process of getting it up and running was quite fun.
 
@@ -138,7 +138,7 @@ With this done, the next steps was to replace the processor, there were a lot of
 
 **PROGMEM** - This was kinda easy, all you need to do is #define PROGMEM to mean nothing and et viola, done
 
-![](/images/2021/06/progmem.webp)
+![](/images/2021/06/progmem-opt.webp)
 
 **avr/pgmspace.h** - I was a bit lazy and did a full search and replace in Visual Studio Code over the whole folder, this took care of this quick quick
 
@@ -164,11 +164,11 @@ I have been having a lot of fun with Python lately and decided to script it out 
 
 Once you've found the files, take a backup (always take a backup!). Then a copy to a file I'm willing to modify, I run a few changes
 
-![](/images/2021/06/python_converter.webp)
+![](/images/2021/06/python_converter-opt.webp)
 
 In the end once it's done all the run of the mill changes, it creates a new ino file with my new setup and loop which calls the renamed game setup and loop methods once it's done it's stuff
 
-![](/images/2021/06/game_loop.webp)
+![](/images/2021/06/game_loop-opt.webp)
 
 My setup runs the game setup code and sets up the thread for the game logic loop.
 

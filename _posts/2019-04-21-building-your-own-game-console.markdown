@@ -8,7 +8,7 @@ excerpt: "The fun and challenging journey of designing and building a custom har
 ---
 ## That's quite a sensationalist title!
 
-![](/images/2019/04/Badge.jpg)
+![](/images/2019/04/Badge-opt.jpg)
 
 I didn't honestly set out to build a console, but it was a fun journey and I thought it would be great to share. There's a couple learnings I would like to pass on and a couple hopes and dreams I have for the future.
 
@@ -276,7 +276,7 @@ After this I moved onto the protoboard version with a Wemos D1 Mini which was ni
 
 
 
-![](/images/2019/04/Badge-1.jpg)Speakers on the back... sometimes.  
+![](/images/2019/04/Badge-1-opt.jpg)Speakers on the back... sometimes.  
 
 
 

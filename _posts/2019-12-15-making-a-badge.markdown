@@ -47,7 +47,7 @@ The components are
 - 1.3 Inch 240x240 IPS Display
 	- This display was a real find, it's price and resolution are not easy to come by, one of the challenges in the project was actually pushing out all those pixels, we couldn't actually do full 16 bit colour, which the screen supports, because of the framebuffer it would have required. I do feel the 256 colour palette has some charm to it though.
 
-![](/images/2019/11/badge_pcb.jpg)
+![](/images/2019/11/badge_pcb-opt.jpg)
 - Custom PCB
 	- The PCB is designed to fit all the components (Charging circuit, USB, battery power) as well as the touch buttons
 
@@ -55,7 +55,7 @@ The components are
 - A 18650 Battery
 	- This is considered the most standard battery in the world, it's the same one as is used in Teslas! So you can feel a bit like a part of the future, just having one of these in your possession, I think it's a 2800mah battery, but time will tell, literally on the day :)
 	
-![](/images/2019/11/custom3dcase.jpg)
+![](/images/2019/11/custom3dcase-opt.jpg)
 - 3D Printed case 
 	- I've always noted how people are sometimes reticent about touching the badges, really getting their hands into it and playing with it. Having the case will hopefully address that, as well as hopefully give the badge a much more finished product feel.
 
@@ -77,7 +77,7 @@ mend anyone who is interested, give this a go, it's not untenable and unreachabl
 ## Firmware
 The badge firmware started on a whim after talking to Mike ([Elastic Ninja](https://twitter.com/elasticninja)) about it on and off for a couple months, I had a firmware for similar hardware and it worked with a screen, I figured how hard could it be to port and write some custom code for. It turns out, relatively straight forwards to start, but in the end massively time consuming to finish :).
 
-![](/images/2019/11/Badge.jpg)
+![](/images/2019/11/Badge-opt.jpg)
 
 I had written the [ESP8266 Game On engine](https://www.hackster.io/tmamacos/building-your-own-game-console-esp8266-and-ssd1306-34f9e7) for the similarly named ESP8266 with a black and white SSD1306 screen. Since I had written it to run on Windows, Linux, Web browser and the hardware itself, I figured writing one more version of it, wouldn't be that hard. I got the initial version up (black and white) on the ESP32 in about a day. That was the bit that sucked me in completely, after that I was hooked.
 

@@ -25,7 +25,7 @@ There are many different ways of doing this and processes for it. There is a way
 
 There is [cel shading](https://en.wikipedia.org/wiki/Cel_shading) which is the idea of taking an image and transforming it into something that looks more two dimensional and flat.
 
-![Toon-shader](/images/2018/09/Toon-shader.jpg)
+![Toon-shader](/images/2018/09/Toon-shader-opt.jpg)
 
 Of all of them, the most magical to me has always been [photogrammetry](https://en.wikipedia.org/wiki/Photogrammetry).
 
@@ -60,7 +60,7 @@ I took my ~200 photo's of a statue in Cannizaro Park of [Dianna and the Fawn](ht
 
 
 
-![Photosynth2011Synth](/images/2018/09/Photosynth2011Synth.jpg) PhotoSynth 
+![Photosynth2011Synth](/images/2018/09/Photosynth2011Synth-opt.jpg) PhotoSynth 
 
 
 
@@ -84,7 +84,7 @@ The problem was with this service gone, there was no easy way for me to take my 
 
 
 
-![Cannizaro Park 023](/images/2018/09/Cannizaro-Park-023.jpg) Diana and the Fawn 
+![Cannizaro Park 023](/images/2018/09/Cannizaro-Park-023-opt.jpg) Diana and the Fawn 
 
 
 
@@ -170,7 +170,7 @@ Loading my ~200  images into Meshroom with default setting and hitting go result
 
 
 
-![photos.jpg](/images/2018/09/photos.jpg) A small sub section of the images
+![photos.jpg](/images/2018/09/photos-opt.jpg) A small sub section of the images
 
 
 
@@ -269,7 +269,7 @@ And the texture look wasn't looking too bad either
 
 
 
-![Textured.JPG](/images/2018/09/Textured.jpg) Textured in Blender
+![Textured.JPG](/images/2018/09/Textured-opt.jpg) Textured in Blender
 
 
 
@@ -285,7 +285,7 @@ Unfortunately my final rendered output was looking like it was in need of a bit 
 
 
 
-![Dianna 1.JPG](/images/2018/09/Dianna-1.jpg) A very cement look and a lot of additional scenery
+![Dianna 1.JPG](/images/2018/09/Dianna-1-opt.jpg) A very cement look and a lot of additional scenery
 
 
 

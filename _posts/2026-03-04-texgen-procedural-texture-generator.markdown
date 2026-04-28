@@ -4,6 +4,10 @@ comments: False
 date: 2026-03-04 10:00:00+00:00
 title: "TexGen: Procedural Texture Generation for the Web"
 layout: single
+header:
+  teaser: /images/2026/04/texgen-opt.jpg
+  overlay_image: /images/2026/04/texgen-opt.jpg
+  overlay_filter: 0.5
 excerpt: "Creating TexGen, a lightweight JavaScript library for generating procedural GLSL textures on the fly."
 ---
 # TexGen tldr; 

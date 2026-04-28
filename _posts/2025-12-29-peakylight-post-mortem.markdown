@@ -34,13 +34,13 @@ Since I have very little experience with working with geospatial data, I started
 
 ## Attempt 0: Google it.
 
-![Google it doesn't cut it](/images/2025/12/29/thinkingconfused.jpg "Google it doesn't cut it")
+![Google it doesn't cut it](/images/2025/12/29/thinkingconfused-opt.jpg "Google it doesn't cut it")
 
 This failed due to no one supplying that information for free. There was definitely paid for services and data, and even some free data sources, but they wouldn't provide the answer without a lot of data-wrangling.
 
 ## Attempt 1: Attempt to data-wrangle it
 
-![Cannot compute](/images/2025/12/29/thinkingfail.jpg "Cannot compute")
+![Cannot compute](/images/2025/12/29/thinkingfail-opt.jpg "Cannot compute")
 
 The next idea was to get the data and work it out in Excel.
 
@@ -48,24 +48,24 @@ I quickly abandoned this after looking at some geospatial files and working out 
 
 ## Attempt 2: Ask an AI for an answer. 
 
-![Sorry Dave, I cannot do that](/images/2025/12/29/sorrydave.jpg "Sorry Dave, I Cannot Do that")
+![Sorry Dave, I cannot do that](/images/2025/12/29/sorrydave-opt.jpg "Sorry Dave, I Cannot Do that")
 
 It wasn't as simple as that as the AI didn't have context on the GPS location which I wanted to know about and wasn't going to actually run code to figure it out, the best it might do it query it's big LLM knowledgebase or use MCP for some external tooling calls, but nothing internally or externally was able to answer the question for it or me.
 
 ## Attempt 3: Local running cli tool to do the calc. 
 
-![Thinking Fail](/images/2025/12/29/wizardslow.jpg "Thinking Fail")
+![Thinking Fail](/images/2025/12/29/wizardslow-opt.jpg "Thinking Fail")
 
 Initially I thought that I could solve this by just running it on my pc for specific co-ordinates using all my obtained data and having it number crunch. I got some working solutions early on, but it all ran very slowly due to having to query many external api's and websites for specific daylight times. Even introducing a caching layer it would get rate throttled and slow down to a crawl. Every date or location change resulted in new data requests, a new calculation and many hours of waiting for numbers.
 
 ## Attempt 4: Write a website to do it for anywhere. 
 
-![Wizard controlling the stars](/images/2025/12/29/attempt4.jpg "Wizard controlling the stars")
+![Wizard controlling the stars](/images/2025/12/29/attempt4-opt.jpg "Wizard controlling the stars")
 
 Make it WebGL and show it in 3d, use the 3d terrain and astronomical data to plot everything and work out how much light you're losing to mountains. Oh and on top of that get some road and houses maps data to give context to it when looking. Generate reports for year round calculations. Finally don't hit other peoples webservers too heavily. How hard could it be ?
 
 ## Solution 1: 
-![Wizard controlling the stars](/images/2025/12/29/wizardstars.jpg "Wizard controlling the stars")
+![Wizard controlling the stars](/images/2025/12/29/wizardstars-opt.jpg "Wizard controlling the stars")
 
 Using just a few prompts I had a website using free geospatial information to display a terrain map with heights and an overlay of mapping data. 
 
@@ -79,7 +79,7 @@ I also did a lot of refactoring near the end of the project to break up the mono
 
 ## Things I was very happy with
 
-![Happy Things](/images/2025/12/29/happy.jpg "Happy things")
+![Happy Things](/images/2025/12/29/happy-opt.jpg "Happy things")
 
 I was very happy with the final project and one of the goals I have on a normal project is to be able to share something I found useful with the world, share the code, share the learnings and I have accomplished all of that in the code base and here.
 
@@ -87,7 +87,7 @@ Another goal I have had in recent times is to see what I can do with plain html 
 
 ## Things I wasn’t very happy with
 
-![Sad Things](/images/2025/12/29/sad.jpg "Sad Things")
+![Sad Things](/images/2025/12/29/sad-opt.jpg "Sad Things")
 
 Thankfully that’s quite short on this project, there were only two things that I wish were better. There is a bit of an issue with the underside of the world from the source data where there are some spikes downwards, I put a clamp on the values and this mostly sorted it out.
 
@@ -95,7 +95,7 @@ The other issue which I never found a solution to was getting seamless stitching
 
 ## Where to from here.
 
-![I for one welcome our new AI overlords](/images/2025/12/29/newaioverlords.jpg "I for one welcome our new AI overlords")
+![I for one welcome our new AI overlords](/images/2025/12/29/newaioverlords-opt.jpg "I for one welcome our new AI overlords")
 
 I was very happy to get to the point where I had a website that could finally answer my question, I was also very excited to share it in a way that people could use it.
 

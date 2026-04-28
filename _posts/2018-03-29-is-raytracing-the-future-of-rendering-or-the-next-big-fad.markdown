@@ -102,7 +102,7 @@ Accurate light and shadow representation in a scene has long been one of the ten
 
 I can remember seeing the real time lighting in [Doom 3](https://en.wikipedia.org/wiki/Doom_3) and barely being able to believe it was all running in real time on my own PC.
 
-[![](/images/2019/08/Doom3shadows2.jpg)](https://en.wikipedia.org/wiki/Doom_3)
+[![](/images/2019/08/Doom3shadows2-opt.jpg)](https://en.wikipedia.org/wiki/Doom_3)
 
 The comparisons made were always to animated movies by Pixar and when could we have that level of detail in our games. When movies like Toy Story were made they were taking hours rather than milliseconds to calculate frames.
 

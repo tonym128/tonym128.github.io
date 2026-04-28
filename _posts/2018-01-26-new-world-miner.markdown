@@ -11,7 +11,7 @@ tags:
 - mining
 excerpt: "A deep dive into the technology and mechanics of cryptocurrency mining from the perspective of an eager techno-nerd."
 ---
-![BitCoin](/images/2018/01/blockchain-3041480_640.jpg){:class="img-responsive"}
+![BitCoin](/images/2018/01/blockchain-3041480_640-opt.jpg){:class="img-responsive"}
 
 I'm a self confessed techno nerd, I find almost everything to do with  computers fascinating from reading every technology news source on the web on a daily basis to Kickstarting insane technologies, it's actually a surprise to me that I never had the urge to learn about the 'seedy underworld' of crypto.
 

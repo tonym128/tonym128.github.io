@@ -72,9 +72,9 @@ I decided to write a Windows desktop application, this was an easy choice as I w
 
 Using [C#](https://en.wikipedia.org/wiki/C_Sharp_(programming_language)) and [Visual Studio](https://en.wikipedia.org/wiki/Microsoft_Visual_Studio) by Microsoft.
 
-![](/images/2018/03/c-sharp.jpg)
+![](/images/2018/03/c-sharp-opt.jpg)
 
-![](/images/2018/03/Visual-Studio.jpg)
+![](/images/2018/03/Visual-Studio-opt.jpg)
 
 
 ## Solve the Problem

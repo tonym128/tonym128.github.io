@@ -4,6 +4,10 @@ comments: False
 date: 2026-03-08 10:00:00+00:00
 title: "triangleVision: Real-time Geometric Video Abstraction"
 layout: single
+header:
+  teaser: /images/2026/04/triangle-opt.jpg
+  overlay_image: /images/2026/04/triangle-opt.jpg
+  overlay_filter: 0.5
 excerpt: "Building a high-performance web tool that transforms video feeds into stylized, real-time triangle meshes."
 ---
 # triangleVision tldr; 

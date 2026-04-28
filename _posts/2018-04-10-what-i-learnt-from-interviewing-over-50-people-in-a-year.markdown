@@ -30,7 +30,7 @@ I think I was more scared than the person I was interviewing, I'd been at my job
 
 The most surreal part of the interview was when the candidate asked me if I liked working here and the best I could do was look around and then said the people here seem very nice.
 
-![](/images/2018/04/Algebra.jpg)
+![](/images/2018/04/Algebra-opt.jpg)
 
 
 ## What was my last interview like
@@ -53,7 +53,7 @@ It was also a great way to get exposure to different divisions in the company (H
 It was rewarding and fun to work in a different area to my normal day to day work as well, giving me something to look forwards to and break the normal days grind, while still providing a lot of value to the company.
 
 
-## ![](/images/2018/04/Checklist-1.jpg)
+## ![](/images/2018/04/Checklist-1-opt.jpg)
 
 
 
@@ -86,7 +86,7 @@ It was rewarding and fun to work in a different area to my normal day to day wor
 [See here for the expanded list](/2018/04/10/interviewing-dos-and-donts/)
 
 
-# ![](/images/2018/04/Dont-1.jpg)
+# ![](/images/2018/04/Dont-1-opt.jpg)
 
 
 

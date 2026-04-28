@@ -4,6 +4,10 @@ comments: False
 date: 2026-04-25 10:00:00+00:00
 title: "Debugging the Novel: How I Built a 9-Book Cyberpunk Series with AI"
 layout: single
+header:
+  teaser: /images/2026/04/debugging-opt.jpg
+  overlay_image: /images/2026/04/debugging-opt.jpg
+  overlay_filter: 0.5
 excerpt: "How a weekend experiment turned into building a nine-book cyberpunk series using AI and LLMs."
 ---
 # Debugging the Novel: How I Built a 9-Book Cyberpunk Series with AI

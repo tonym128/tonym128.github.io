@@ -11,7 +11,7 @@ excerpt: "A practical guide to the do's and don'ts of conducting effective techn
 This is a follow on to another blog I wrote, [What I learnt from interviewing 50 people in a year](/2018/04/10/what-i-learnt-from-interviewing-over-50-people-in-a-year/), to detail a bit more in depth some of the do's and don'ts that I found in interviewing and training interviewers.
 
 
-## ![](/images/2018/04/Checklist.jpg)
+## ![](/images/2018/04/Checklist-opt.jpg)
 
 
 
@@ -19,7 +19,7 @@ This is a follow on to another blog I wrote, [What I learnt from interviewing 50
 # Do
 
 
-![](/images/2018/04/Prepare.jpg)
+![](/images/2018/04/Prepare-opt.jpg)
 
 
 ### Prepare
@@ -28,7 +28,7 @@ This is a follow on to another blog I wrote, [What I learnt from interviewing 50
 Know your subject and questions. If it's an interactive question where you are asking them to do something, you should definitely have done it yourself first and also try to find out all the possible solutions you can. This means you can help guide candidates as well as try to avoid them going down dead ends, by nudging them when necessary.
 
 
-### ![](/images/2018/04/Know-what-youre-trying-to-achieve.jpg)
+### ![](/images/2018/04/Know-what-youre-trying-to-achieve-opt.jpg)
 
 
 
@@ -39,7 +39,7 @@ Know your subject and questions. If it's an interactive question where you are a
 This is probably the biggest piece of advice I could give. I think it's extremely important to have goals while interviewing and go for them, if you're blindly letting the interview go it can be a very meandering experience and depending on who you are interviewing this could go well, or go very wrong. Some people need to be coaxed into opening up and this is easier to do when you have objectives.
 
 
-### ![](/images/2018/04/Interview-on-behalf-of-your-company.jpg)
+### ![](/images/2018/04/Interview-on-behalf-of-your-company-opt.jpg)
 
 
 
@@ -50,7 +50,7 @@ This is probably the biggest piece of advice I could give. I think it's extremel
 You're not actually deciding if you would hire this person or not, you're deciding if they would suit your company or not and if they would provide benefit, I found this usually lined up with whether I would hire them or not, but there were subtle differences in who I would personally hire and who would suit the company best.
 
 
-### ![](/images/2018/04/Time-management.jpg)
+### ![](/images/2018/04/Time-management-opt.jpg)
 
 
 
@@ -80,7 +80,7 @@ I found a good template for taking notes after an interview invaluable, it helpe
 You should try to push the person you're interviewing to learn about them and how they deal with hard problems and questions, but there is no reason you should be doing anything to make them unduly uncomfortable. I firmly believe that no matter what an interview can be a great experience for both parties with a good preparation and a little effort on the interviewers part.
 
 
-# ![](/images/2018/04/Dont.jpg)
+# ![](/images/2018/04/Dont-opt.jpg)
 
 
 
@@ -90,7 +90,7 @@ You should try to push the person you're interviewing to learn about them and ho
 
 
 
-### ![](/images/2018/04/Lie.jpg)
+### ![](/images/2018/04/Lie-opt.jpg)
 
 
 
@@ -112,7 +112,7 @@ You should never say anything untrue, we all want to portray the best sides of o
 This almost goes without saying, but since I've seen it happen it does bear mentioning, you're welcome to share some of your companies failings but this should never be in a bad light.
 
 
-### ![](/images/2018/04/Be-flippant.jpg)
+### ![](/images/2018/04/Be-flippant-opt.jpg)
 
 
 
@@ -123,7 +123,7 @@ This almost goes without saying, but since I've seen it happen it does bear ment
 This is something great to do doing and something worth doing well, no matter how experienced you are, this is an important task and you should take it seriously.
 
 
-### ![](/images/2018/04/Judge-Candidates-Against-Each-Other.jpg)
+### ![](/images/2018/04/Judge-Candidates-Against-Each-Other-opt.jpg)
 
 
 

@@ -2,8 +2,12 @@
 author: tonym128
 comments: False
 date: 2021-08-25 23:15:47+00:00
-layout: single
 title: "The Time I Uploaded 3000 videos to YouTube"
+layout: single
+header:
+  teaser: /images/2021/08/1-metrics-overview-opt.jpg
+  overlay_image: /images/2021/08/1-metrics-overview-opt.jpg
+  overlay_filter: 0.5
 excerpt: "The story of an automation project that generated and uploaded 3,000 videos to YouTube in six months."
 ---
 # Table of Contents
@@ -38,7 +42,7 @@ I had an idea about automation and news. I had a simple premise that I could pro
 Here is the channel I built
 
 <https://www.youtube.com/c/TonyTechnology>
-![](/images/2021/08/the-channel2.jpg)
+![](/images/2021/08/the-channel2-opt.jpg)
 
 A popular video early on which made me think the project had more legs
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7IvZ7SmWLNk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -61,7 +65,7 @@ Or [Skip to What I got wrong](#wrong)
 Initially I was looking at HackerNews and thought it would be great to highlight some of their articles, I quickly found an API that they allow access to and was able to grab some interesting articles. After the initial work on this, I built an RSS reader which was able to iterate through the articles and create the video. On the back of this, I found the Google Search Alerts, which are able to create RSS feeds for searches, which was great for finding content dynamically from around the web based around a search term.
 
 <https://github.com/HackerNews/API>
-![](/images/2021/08/hacker-news2.jpg)
+![](/images/2021/08/hacker-news2-opt.jpg)
 
 <https://en.wikipedia.org/wiki/RSS>
 ![](/images/2021/08/rss2-opt.jpg)
@@ -122,7 +126,7 @@ I honestly still laugh at the horror of that above audio clip everytime I listen
 I found some amazing research papers which let me generate a video of a person talking from a static image and an audio file. I think it looked amazing and added quite a lot of dynamic appeal to my videos, though the final consensus from 3000 videos and over 100,000 views was that I should remove it as it was in the uncanny valley, her one eye was always shut and it distracted from the comments. That is a profanity free, very short, summary of the comments I got about my ML speaking face!
 
 The AI generated face, which was then animated by the ML algorithm to the audio
-![](/images/2021/08/female1.jpg)
+![](/images/2021/08/female1-opt.jpg)
 
 Talking head in action (same video as earlier)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/7IvZ7SmWLNk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -144,11 +148,11 @@ The glue code around everything ended up being mostly about breaking up the proj
 
 # What did I get wrong
 
-![](/images/2021/08/sqlite.jpg)
+![](/images/2021/08/sqlite-opt.jpg)
 
 I think the toughest bits were the things I didn't do upfront and having to retrofit them later, things that stuck out were adding in a database later and trying to decouple the steps which were inherently tied into certain files existing on disk. The database seemed like overkill initially, but once I was processing 50 videos a day it became an intricate part of the process of monitoring and avoiding duplication.
 
-![](/images/2021/08/logging.jpg)
+![](/images/2021/08/logging-opt.jpg)
 
 That leads into monitoring itself, where I felt I had some failings initially, it's something I thought I could wing my way through, but as always I was wrong, every bug ends up being 10 times harder to debug without logging, I'll excuse myself slightly since it's a personal project, but a small slap on the wrist to remember next time.
 
@@ -164,16 +168,16 @@ Dockerise upfront, I love local development, but keeping parity with a remote bu
 
 Well I did manage to get over 500 subscribers and upload over 3000 videos to YouTube. I'm going to put those under the WIN! category for a small personal project.
 
-![](/images/2021/08/pivot.jpeg)
+![](/images/2021/08/pivot-opt.jpg)
 
 I had a successful pivot before even going live, just after I started the project YouTube Shorts was just kicking off, which actually fitted the project really well and I decided to generate single short videos.
 
-![](/images/2021/08/python.jpg)
+![](/images/2021/08/python-opt.jpg)
 ![](/images/2021/08/fastapi-opt.jpg)
 
 This was the first time I wrote a relatively large Python application and I decided to use FastAPI to drive it. FastAPI is amazing, and it was so much fun to work with. I will definitely be using it on future projects. It was easy, intuitive and worked great out of the box, I can see myself writing services using FastAPI for strict domain boundaries and trying to build out functionality in independant pieces I may re-use in the future.
 
-![](/images/2021/08/little-boxes.jpg)
+![](/images/2021/08/little-boxes-opt.jpg)
 
 Breaking up the project into snippets and loosely coupling them made things more mentally manageable early on and moved faster later on.
 For instance I added features later to skip certain websites, because they never resulted in good scrolling videos *cough* Twitter and BBC *cough*
@@ -203,11 +207,11 @@ The shorts don't really make people stick around that long, I swear I get swiped
 
 YouTube API's are great feature wise, but very restrictive with point allocations, you can only upload very few videos a day with the API and it was quite pedantic about making me sign in almost every time I used it, so while I got it working, I did give up on it soon in, due to the amount of videos I wanted to upload daily. I was at one point doing manual uploads, then name matching my videos to update the titles and descriptions, because it used less points per call, it really felt a bit draconian.
 
-![](/images/2021/08/please-sir-some-more.jpg)
+![](/images/2021/08/please-sir-some-more-opt.jpg)
 
 I can say that I got really good at dragging and dropping 15 videos at a time into the YouTube upload and then slamming through titles and descriptions, that was me being a cog for the machine for a long portion of the project. After the initial couple hundred videos I was curious about increasing subscription rates and for a long time I was putting on End Cards with a subscription button and a popular article, eventually I swapped my channel watermark for a subscription button and that really made the uploads quicker and easier to manage.
 
-![](/images/2021/08/manual-labour2.jpg)
+![](/images/2021/08/manual-labour2-opt.jpg)
 
 <a name="hits">
 

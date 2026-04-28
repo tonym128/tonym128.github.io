@@ -15,7 +15,7 @@ excerpt: "An introduction to the ESP8266 chip and its incredible potential for b
 
 I've always had a dream of learning electronics and I've had a [ESP8266](https://en.wikipedia.org/wiki/ESP8266) sitting around on my desk for a quite a while now.
 
-![By Sparkfun Electronics](/images/2018/03/ESP-01.jpg) 
+![By Sparkfun Electronics](/images/2018/03/ESP-01-opt.jpg) 
 
 This board is a marvel of technology, originally it was designed as a WiFi chip, but it was made so well and flexibly, that hackers learnt that you could program this small chip to do wonderful amazing low power things via the serial port using just the [AT command set](https://en.wikipedia.org/wiki/Hayes_command_set), which is how they used to talk to modems, way back when.
 
@@ -83,7 +83,7 @@ Now that I have an ESP8266 up and running and doing something useful, what more 
 There's some hardware like the [Sonoff Basic  ](http://sonoff.itead.cc/en/products/sonoff/sonoff-basic)
 which can let you switch electrical switches on and off using a simple programmable interface.
 
-![](/images/2018/03/Sonoff.jpg) 
+![](/images/2018/03/Sonoff-opt.jpg) 
 
 Getting the whole house hooked up to be controlled from a mobile phone is something that I find fascinating, control sound, appliances, moods, lighting.
 

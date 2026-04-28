@@ -4,6 +4,10 @@ comments: False
 date: 2025-12-07 10:00:00+00:00
 title: "Peakylight: Chasing Shadows and Finding the True Sunrise in 3D"
 layout: single
+header:
+  teaser: /images/peakylight/main-interface-opt.jpg
+  overlay_image: /images/peakylight/main-interface-opt.jpg
+  overlay_filter: 0.5
 excerpt: "Introducing Peakylight, an interactive 3D map tool that visualizes terrain shadows and actual sunlight hours."
 ---
 ### Disclaimer

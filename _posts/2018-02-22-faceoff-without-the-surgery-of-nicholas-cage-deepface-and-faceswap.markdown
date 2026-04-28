@@ -12,7 +12,7 @@ tags:
 excerpt: "Exploring the accessible but controversial world of FaceSwap technology and the rise of deepfakes."
 ---
 ## What is FaceSwap ?
-![](/images/2018/02/FaceMask.jpg)
+![](/images/2018/02/FaceMask-opt.jpg)
 
 FaceSwap is a technology used for taking one face and swapping it with another in an image or video. What makes this news ? All the tools are available for anyone to use now!
 

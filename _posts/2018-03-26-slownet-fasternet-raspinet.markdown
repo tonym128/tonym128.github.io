@@ -32,7 +32,7 @@ Back to the cons! No internet for quite a substantial portion of time until vide
 
 I wanted internet all the time, I didn't want to manually have to throttle all connections on the network, install software on each device to do the same.
 
-![Image result for slow internet meme](/images/2019/08/slow-internet_o_1592157.jpg)
+![Image result for slow internet meme](/images/2019/08/slow-internet_o_1592157-opt.jpg)
 
 I wanted something to automatically take care of an issue I couldn't solve inside the Google Photo's app. I had an idea that I could setup a device which would automatically share the bandwidth fairly between all our users and programs fairly.
 
@@ -44,7 +44,7 @@ The [Raspberry Pi](https://www.raspberrypi.org/products/) is an awesome piece of
 
 A brief investigation into the Raspberry Pi 3 showed that you can run it in a [Access Point](https://en.wikipedia.org/wiki/Wireless_access_point) mode, and with the Ethernet wired into the network, the rest would be software.
 
-![Image result](/images/2019/08/linksys_wap54g-400-56a1ad223df78cf7726cf853.jpg)
+![Image result](/images/2019/08/linksys_wap54g-400-56a1ad223df78cf7726cf853-opt.jpg)
 
 The initial problem was to setup the Pi as a WiFi router, which is quite well documented on the web, I followed this [guide](https://frillip.com/using-your-raspberry-pi-3-as-a-wifi-access-point-with-hostapd/).
 
@@ -107,7 +107,7 @@ This actually accomplished everything I wanted, but there were a few things that
 
 Back to cat memes!
 
-![Image result for cat soul starve](/images/2019/08/51b4802111d0f287b1fa7c914e3e8fe0.jpg)
+![Image result for cat soul starve](/images/2019/08/51b4802111d0f287b1fa7c914e3e8fe0-opt.jpg)
 
-![Related image](/images/2019/08/img_5d5ffbe3d1d61.jpg)
+![Related image](/images/2019/08/img_5d5ffbe3d1d61-opt.jpg)
 

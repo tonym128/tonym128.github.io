@@ -403,7 +403,7 @@ We were VERY succesful in handing out the coin challenge tokens and all 1000 tok
 
 I spent a ton of time, co-ordinating with people to either help them solve the challenge or to show them how to use their prize and also fixing badges, we had a couple failures, but wasn't too bad. ElasticNinja was able to work magic with the broken badges! I was good at replacing batteries too :P
 
-![](/images/2019/02/Can-you-see-the-fear-in-my-eye.jpg)
+![](/images/2019/02/Can-you-see-the-fear-in-my-eye-opt.jpg)
 
 This was the one photo of me actually at DefCon, I was hacking away at 5 badges and an official photographer grabbed this photo of me
 
