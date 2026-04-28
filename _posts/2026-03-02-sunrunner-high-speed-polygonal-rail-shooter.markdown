@@ -6,8 +6,8 @@ title: "Sun Runner: High-Speed Polygonal Rail Shooting in the Browser"
 layout: single
 excerpt: "Developing Sun Runner, a high-speed polygonal rail shooter contained entirely within a single HTML file."
 header:
-  teaser: /images/big_computer-opt.jpg
-  overlay_image: /images/big_computer-opt.jpg
+  teaser: /images/2026/02/23/sunrunner.jpg
+  overlay_image: /images/2026/02/23/sunrunner.jpg
   overlay_filter: 0.5
 ---
 # Sun Runner tldr; 
