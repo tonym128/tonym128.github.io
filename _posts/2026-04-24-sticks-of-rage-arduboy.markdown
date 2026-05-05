@@ -19,6 +19,10 @@ After the success of *Stick Fighter*, I found myself deeply attached to its core
 
 The result is **Sticks of Rage**, an evolution of the *Stick Fighter* tech stack that transformed a 1v1 fighter into a chaotic, side-scrolling beat 'em up.
 
+View its game page and play it online [here](https://community.arduboy.com/t/sticks-of-rage/13420)
+
+Take a look at the source code [here](https://github.com/tonym128/sticksofrage)
+
 ## Technology Reuse: The "Stick Engine"
 
 ![Fighter Select](/images/2026/05/10/fighter-opt.jpg)
