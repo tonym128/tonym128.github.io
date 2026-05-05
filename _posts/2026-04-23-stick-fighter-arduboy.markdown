@@ -1,7 +1,7 @@
 ---
 author: tonym128
 comments: False
-date: 2026-05-01 10:00:00+00:00
+date: 2026-04-23 10:00:00+00:00
 title: "Stick Fighter: Fighting the Arduboy’s Constraints"
 layout: single
 excerpt: "The story behind building a 2D fighting game for the Arduboy. Tackling bone systems, tight memory limits, and the art of constraint-based game design."

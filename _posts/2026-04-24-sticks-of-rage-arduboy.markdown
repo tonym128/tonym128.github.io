@@ -1,7 +1,7 @@
 ---
 author: tonym128
 comments: False
-date: 2026-05-10 10:00:00+00:00
+date: 2026-04-24 10:00:00+00:00
 title: "Sticks of Rage: Scaling Up to a 2D Brawler"
 layout: single
 excerpt: "How I took the engine from Stick Fighter and evolved it into a full-scale 2D brawler, complete with parallax backgrounds, swarming AI, and a new RPG-lite stat system."
