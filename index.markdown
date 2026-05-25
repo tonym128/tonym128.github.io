@@ -8,6 +8,13 @@ header:
 excerpt: "Hi, I’m Tony. I’m a software engineer, and this is my digital workshop for technical and creative experiments."
 
 feature_row:
+  - image_path: /images/2026/05/25/SovereignS3ncPoster-opt.jpg
+    alt: "SovereignS3nc"
+    title: "SovereignS3nc"
+    excerpt: "How far can you go with just S3 and zero hosted compute? Pushing the limits of sovereign networks with SovereignS3nc."
+    url: "/2026/05/25/sovereigns3nc-building-a-decentralized-network-without-a-backend.html"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
   - image_path: /images/2026/04/debugging-opt.jpg
     alt: "Debugging the Novel"
     title: "Debugging the Novel"
@@ -34,13 +41,6 @@ feature_row:
     title: "TexGen"
     excerpt: "Creating TexGen, a lightweight JavaScript library for generating procedural GLSL textures on the fly."
     url: "/2026/03/04/texgen-procedural-texture-generator.html"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-  - image_path: /images/2026/04/triangle-opt.jpg
-    alt: "triangleVision"
-    title: "triangleVision"
-    excerpt: "Building a high-performance web tool that transforms video feeds into stylized, real-time triangle meshes."
-    url: "/2026/03/08/trianglevision-real-time-geometric-video-abstraction.html"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: /images/2021/08/1-metrics-overview-opt.jpg
