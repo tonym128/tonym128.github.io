@@ -1,7 +1,7 @@
 ---
 author: tonym128
 comments: False
-date: 2026-06-22 12:00:00+10:00
+date: 2026-06-21 12:00:00+10:00
 title: "Promptyly: Vibe Coding Local Apps with Git and Hot-Reloading"
 layout: single
 excerpt: "A post-mortem and review of Promptyly, a CLI and local daemon that turns natural language prompts into fully functional, local, version-controlled web apps."
