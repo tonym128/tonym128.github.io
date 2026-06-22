@@ -65,6 +65,9 @@ We serve all apps concurrently on a single port (`6071`) at `http://localhost:60
 ### 4. Zero-Config State API
 Instead of spinning up a backend (Node, Go, Supabase) for every tiny utility app, Promptyly hosts a built-in JSON database endpoint at `_promptyly/api/db` that maps to `.promptyly/db.json` in the app's folder. The frontend can read and write state simply using standard client-side `fetch` calls.
 
+### 5. Local CLI, Remote Serving & Built-in Tunnelling
+Promptyly operates as a local CLI communicating with a background service/hosted daemon (running locally on port `6071`). For publishing and exploring other developers' creations, Promptyly connects to a remote registry server hosting a public website on port `6072` (the Sharing Registry). If you want to share a local app with a remote user without publishing it publicly first, Promptyly provides built-in Cloudflare Tunneling to securely expose the local instance via a public URL. The tunneling architecture is modular, meaning it can be easily configured to use alternatives like **ngrok** or **DynDNS**.
+
 ---
 
 ## The Learnings
@@ -113,4 +116,4 @@ Right now, Promptyly edits single files sequentially. The next step is introduci
 
 I also want to introduce native multi-page routing templates and a standard authentication helper to secure shared registry apps out of the box.
 
-If you want to play around with it or deploy your own local registry, check out the [Promptyly GitHub](https://github.com/tonym128/promptyly)!
+If you want to play around with it, deployment is simplified: you can host the pre-built Docker container for the server/registry and install the local CLI to interact with it. Check out the [Promptyly GitHub](https://github.com/tonym128/promptyly) to get started!
