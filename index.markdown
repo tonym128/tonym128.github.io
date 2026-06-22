@@ -8,6 +8,13 @@ header:
 excerpt: "Hi, I’m Tony. I’m a software engineer, and this is my digital workshop for technical and creative experiments."
 
 feature_row:
+  - image_path: /images/2026/06/promptyly-teaser-opt.jpg
+    alt: "Promptyly"
+    title: "Promptyly"
+    excerpt: "A post-mortem and review of Promptyly, a CLI and local daemon that turns natural language prompts into fully functional, local, version-controlled web apps."
+    url: "/2026/06/21/promptyly-prompt-driven-single-page-apps-with-git-and-hot-reload.html"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
   - image_path: /images/2026/05/25/SovereignS3ncPoster-opt.jpg
     alt: "SovereignS3nc"
     title: "SovereignS3nc"
@@ -48,6 +55,20 @@ feature_row:
     title: "The Time I Uploaded 3000 videos to YouTube"
     excerpt: "The story of an automation project that generated and uploaded 3,000 videos to YouTube in six months."
     url: "/2021/08/25/the-time-i-uploaded-3000-videos-to-youtube.html"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /images/2026/05/01/start-opt.jpg
+    alt: "Stick Fighter"
+    title: "Stick Fighter"
+    excerpt: "The story behind building a 2D fighting game for the Arduboy. Tackling bone systems, tight memory limits, and the art of constraint-based game design."
+    url: "/2026/04/23/stick-fighter-arduboy.html"
+    btn_label: "Read More"
+    btn_class: "btn--primary"
+  - image_path: /images/2019/04/Badge-opt.jpg
+    alt: "Building your own game console"
+    title: "Building your own game console"
+    excerpt: "The fun and challenging journey of designing and building a custom hardware game console."
+    url: "/2019/04/21/building-your-own-game-console.html"
     btn_label: "Read More"
     btn_class: "btn--primary"
 ---
