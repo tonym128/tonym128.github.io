@@ -17,7 +17,7 @@ header:
 
 I built a cross-platform command-line tool and local server that lets you turn prompts into single-page web applications instantly. They run locally, they have automatic Git version control, hot reloading, a built-in state database, and can be easily shared or published.
 
-Take a look at the code - [Code](https://github.com/tonym128/promptyly)
+Take a look at the code - [Code](https://github.com/tonym128/promptyly) or watch the [Intro Video](https://youtu.be/iRDXM13fzwc)
 
 After going deep into AI-driven generation and building things like [Peakylight](/_posts/2025-12-29-peakylight-post-mortem.markdown), I realized that the loop of typing prompts into a browser chat window, copy-pasting code into a local file, and refreshing the page was driving me crazy.
 
