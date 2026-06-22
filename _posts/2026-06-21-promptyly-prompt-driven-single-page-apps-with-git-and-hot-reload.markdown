@@ -23,6 +23,8 @@ After going deep into AI-driven generation and building things like [Peakylight]
 
 So, I decided to build a developer tool to make vibe coding feel truly native.
 
+> **Special Thanks:** A huge thank you to **Mr Bob** for his beta testing and ideation!
+
 ---
 
 ## The Problem: The Copy-Paste Loop of Doom
